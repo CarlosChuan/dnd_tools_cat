@@ -1,7 +1,7 @@
 {
 	"Aarakocra": {
 		"_special": "book-EE/EGtW",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 3,
 			"maxage": 20,
@@ -10,16 +10,16 @@
 			"baseweight": 70,
 			"weightmod": "1d4",
 			"_other": {
-				"Plumage": {
+				"Plomatge": {
 					"_special": "gendersort",
-					"Male": [
-						"Red",
-						"Orange",
-						"Yellow"
+					"Masculí": [
+						"Vermell",
+						"Taronja",
+						"Groc"
 					],
-					"Female": [
-						"Brown",
-						"Gray"
+					"Femení": [
+						"Marró",
+						"Gris"
 					]
 				}
 			}
@@ -27,17 +27,17 @@
 	},
 	"Aasimar": {
 		"_special": "book-DMG/EGtW/VGtM",
-		"Subraces and Variants": {
-			"Subrace": [
-				"Protector Aasimar",
-				"Scourge Aasimar",
-				"Fallen Aasimar"
+		"Subracies i Variants": {
+			"Subraça": [
+				"Aasimar Protector",
+				"Aasimar de l'Azot",
+				"Aasimar Caigut"
 			],
-			"Human Heritage": {
+			"Herència Humana": {
 				"_special": "halfethnicity"
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 120,
@@ -46,36 +46,36 @@
 			"baseweight": 110,
 			"weightmod": "2d4",
 			"_other": {
-				"Eyes": [
-					"White",
-					"Gold",
-					"Gray",
-					"Topaz"
+				"Ulls": [
+					"Blanc",
+					"Daurat",
+					"Gris",
+					"Topazi"
 				],
-				"Skin": [
-					"Pale",
-					"Fair",
-					"Tan",
-					"Light Brown",
-					"Brown",
-					"Dark Brown",
-					"Emerald",
-					"Gold",
-					"Silver",
-					"Emerald",
-					"Gold",
-					"Silver"
+				"Pell": [
+					"Pàl·lid",
+					"Clar",
+					"Bronzejat",
+					"Marró Clar",
+					"Marró",
+					"Marró Fosc",
+					"Esmeralda",
+					"Daurat",
+					"Argentat",
+					"Esmeralda",
+					"Daurat",
+					"Argentat"
 				],
-				"Hair": [
-					"Black",
-					"Brown",
-					"Blond",
-					"Silver",
-					"Red"
+				"Cabell": [
+					"Negre",
+					"Marró",
+					"Ros",
+					"Argentat",
+					"Pelirroig"
 				]
 			}
 		},
-		"Guide Name": [
+		"Nom de la Guia": [
 			"Tadriel",
 			"Myllandra",
 			"Seraphina",
@@ -83,18 +83,18 @@
 			"Mykiel",
 			"Valandras"
 		],
-		"Guide Nature": [
-			"Bookish and lecturing",
-			"Compassionate and hopeful",
-			"Practical and lighthearted",
-			"Fierce and vengeful",
-			"Stern and judgmental",
-			"Kind and parental"
+		"Naturalesa de la Guia": [
+			"Erudit i sermonejador",
+			"Compassiu i esperançat",
+			"Pràctic i alegre",
+			"Feroç i venjatiu",
+			"Sever i crític",
+			"Amable i protector"
 		]
 	},
 	"Bugbear": {
 		"_special": "book-EBR/EGtW/MR",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 12,
 			"maxage": 60,
@@ -103,30 +103,30 @@
 			"baseweight": 200,
 			"weightmod": "2d6",
 			"_other": {
-				"Eyes": [
-					"Yellow",
-					"Orange",
-					"Red",
-					"Brown",
-					"Greenish-white"
+				"Ulls": [
+					"Groc",
+					"Taronja",
+					"Vermell",
+					"Marró",
+					"Blanc verdós"
 				],
-				"Skin": [
-					"Yellow",
-					"Reddish-brown"
+				"Pell": [
+					"Groc",
+					"Marró vermellós"
 				],
-				"Hair": [
-					"Brown",
-					"Red"
+				"Cabell": [
+					"Marró",
+					"Vermell"
 				]
 			}
 		},
-		"Monstrous Origin": {
+		"Origen Monstruós": {
 			"_special": "monstrousorigin"
 		}
 	},
 	"Centaur": {
 		"_special": "book-GGtR/MOoT",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 60,
@@ -135,35 +135,35 @@
 			"baseweight": 600,
 			"weightmod": "2d12",
 			"_other": {
-				"Eyes": [
-					"Brown",
-					"Hazel",
-					"Green",
-					"Blue",
-					"Gray"
+				"Ulls": [
+					"Marró",
+					"Avellana",
+					"Verd",
+					"Blau",
+					"Gris"
 				],
-				"Skin": [
-					"Pale",
-					"Fair",
-					"Tan",
-					"Light Brown",
-					"Brown",
-					"Dark Brown"
+				"Pell": [
+					"Pàl·lid",
+					"Clar",
+					"Bronzejat",
+					"Marró Clar",
+					"Marró",
+					"Marró Fosc"
 				],
-				"Hair": [
-					"Black",
-					"Brown",
-					"Blond",
-					"Auburn",
-					"Red",
-					"Gray/White"
+				"Cabell": [
+					"Negre",
+					"Marró",
+					"Ros",
+					"Caoba",
+					"Pelirroig",
+					"Gris/Blanc"
 				]
 			}
 		}
 	},
 	"Changeling": {
 		"_special": "book-EBR",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 11,
 			"maxage": 60,
@@ -172,55 +172,93 @@
 			"baseweight": 115,
 			"weightmod": "2d4",
 			"_other": {
-				"Skin": [
-					"Pale",
-					"Light Gray"
+				"Pell": [
+					"Pàl·lid",
+					"Gris Clar"
 				],
-				"Hair": [
-					"Silver",
-					"Platinum",
-					"Blonde"
+				"Cabell": [
+					"Argentat",
+					"Platí",
+					"Ros"
 				]
 			}
 		}
 	},
 	"Dhampir": {
 		"_special": "book-UA",
-		"Dhampir Hunger": [
-			"Blood",
-			"Flesh or raw meat",
-			"Cerebral spinal fluid",
-			"Esoteric humors",
-			"Psychic energy",
-			"A color from one’s appearance",
-			"Dreams",
-			"Life energy"
+		"Fam de Dhampir": [
+			"Sang",
+			"Carn o carn crua",
+			"Líquid cefaloraquidi",
+			"Humors esotèrics",
+			"Energia psíquica",
+			"Un color de l'aparença pròpia",
+			"Somnis",
+			"Energia vital"
 		],
-		"Dhampir Origin": [
-			"You are the reincarnation of an ancestor who was a vampiric tyrant.",
-			"Your pact with a predatory deity, fiend, fey, or spirit causes you to share their hunger.",
-			"You survived being attacked by a vampire but were forever changed.",
-			"A parasite inhabits your body. You indulge your hunger to sate it.",
-			"You loved an immortal and were willing to be transformed into a vampire to join them, but tragedy interrupted the transformation.",
-			"You are a diminished manifestation of an otherworldly being. Slaking your hunger hastens your renewal.",
-			"You don’t know your origins, but you were raised by vampires or other monsters.",
-			"A radical experiment changed your body, making you reliant on others for vital fluids."
+		"Origen de Dhampir": [
+			"Ets la reencarnació d'un avantpassat que va ser un tirà vampíric.",
+			"Ets el resultat d'un experiment científic.",
+			"Vas ser mossegat per un vampir.",
+			"Vas néixer d'un progenitor vampir.",
+			"El teu llinatge va ser maleït per un vampir.",
+			"Ets el supervivent d'un atac vampíric."
 		]
 	},
 	"Dragonborn": {
 		"_special": "book-PHB",
-		"Subraces and Variants": {
-			"Draconic Ancestry": [
-				"Black",
-				"Blue",
-				"Brass",
-				"Bronze",
-				"Copper",
-				"Gold",
-				"Green",
-				"Red",
-				"Silver",
-				"White"
+		"Subracies i Variants": {
+			"Ascendència Dracònica": [
+				{
+					"Color": "Negre",
+					"Tipus de Dany": "Àcid",
+					"Arma d'Alè": "Línia de 5 per 30 peus (salvació Destresa)"
+				},
+				{
+					"Color": "Blau",
+					"Tipus de Dany": "Llampec",
+					"Arma d'Alè": "Línia de 5 per 30 peus (salvació Destresa)"
+				},
+				{
+					"Color": "Llautó",
+					"Tipus de Dany": "Foc",
+					"Arma d'Alè": "Línia de 5 per 30 peus (salvació Destresa)"
+				},
+				{
+					"Color": "Bronze",
+					"Tipus de Dany": "Llampec",
+					"Arma d'Alè": "Línia de 5 per 30 peus (salvació Destresa)"
+				},
+				{
+					"Color": "Coure",
+					"Tipus de Dany": "Àcid",
+					"Arma d'Alè": "Línia de 5 per 30 peus (salvació Destresa)"
+				},
+				{
+					"Color": "Daurat",
+					"Tipus de Dany": "Foc",
+					"Arma d'Alè": "Con de 15 peus (salvació Destresa)"
+				},
+				{
+					"Color": "Verd",
+					"Tipus de Dany": "Verí",
+					"Arma d'Alè": "Con de 15 peus (salvació Constitució)"
+				},
+				{
+					"Color": "Vermell",
+					"Tipus de Dany": "Foc",
+					"Arma d'Alè": "Con de 15 peus (salvació Destresa)"
+				},
+				{
+					"Color": "Argentat",
+					"Tipus de Dany": "Fred",
+					"Arma d'Alè": "Con de 15 peus (salvació Constitució)"
+				},
+				{
+					"Color": "Blanc",
+					"Tipus de Dany": "Fred",
+					"Arma d'Alè": "Con de 15 peus (salvació Constitució)"
+				}
 			],
 			"Variant": {
 				"_special": "book-EGtW dragonbornvarianttype",
@@ -231,7 +269,7 @@
 				]
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 8,
 			"maxage": 50,
@@ -240,45 +278,45 @@
 			"baseweight": 175,
 			"weightmod": "2d6",
 			"_other": {
-				"Eyes": [
-					"Red",
-					"Gold"
+				"Ulls": [
+					"Vermell",
+					"Daurat"
 				],
-				"Scales": "See Ancestry"
+				"Escames": "Veure Ascendència"
 			}
 		},
-		"Childhood Nickname": [
-			"Climber",
-			"Earbender",
-			"Leaper",
-			"Pious",
-			"Shieldbiter",
-			"Zealous"
+		"Sobrenom d'Infància": [
+			"Escalador",
+			"Oïdor",
+			"Saltador",
+			"Pietós",
+			"Mossegaescuts",
+			"Fanàtic"
 		]
 	},
 	"Dwarf": {
 		"_special": "book-PHB subracesort",
-		"Subraces and Variants": {
-			"Subrace": {
+		"Subracies i Variants": {
+			"Subraça": {
 				"_special": "booksort",
 				"PHB": [
-					"Hill Dwarf",
-					"Mountain Dwarf"
+					"Nan de les Turons",
+					"Nan de les Muntanyes"
 				],
 				"MToF/SCAG": [
 					"Duergar"
 				]
 			},
-			"Dragonmark Variant": {
+			"Variant de Marca del Drac": {
 				"_special": "book-EBR dragonmarkvariant",
 				"_array": [
-					"Mark of Warding"
+					"Marca de Custòdia"
 				]
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "subracephyssort",
-			"Hill Dwarf": {
+			"Nan de les Turons": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 300,
@@ -287,26 +325,26 @@
 				"baseweight": 115,
 				"weightmod": "2d6",
 				"_other": {
-					"Eyes": [
-						"Brown",
-						"Hazel"
+					"Ulls": [
+						"Marró",
+						"Avellana"
 					],
-					"Skin": [
-						"Pale (red-tinged)",
-						"Fair (red-tinged)",
-						"Light Brown",
-						"Brown",
-						"Dark Brown"
+					"Pell": [
+						"Pàl·lid (tint rogenc)",
+						"Clar (tint rogenc)",
+						"Marró Clar",
+						"Marró",
+						"Marró Fosc"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Red",
-						"Reddish-brown"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Vermell",
+						"Marró Rogenc"
 					]
 				}
 			},
-			"Mountain Dwarf": {
+			"Nan de les Muntanyes": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 300,
@@ -315,22 +353,22 @@
 				"baseweight": 130,
 				"weightmod": "2d6",
 				"_other": {
-					"Eyes": [
-						"Brown",
-						"Hazel"
+					"Ulls": [
+						"Marró",
+						"Avellana"
 					],
-					"Skin": [
-						"Pale (red-tinged)",
-						"Fair (red-tinged)",
-						"Light Brown",
-						"Brown",
-						"Dark Brown"
+					"Pell": [
+						"Pàl·lid (tint rogenc)",
+						"Clar (tint rogenc)",
+						"Marró Clar",
+						"Marró",
+						"Marró Fosc"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Red",
-						"Reddish-brown"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Vermell",
+						"Marró Rogenc"
 					]
 				}
 			},
@@ -343,54 +381,59 @@
 				"baseweight": 130,
 				"weightmod": "2d4",
 				"_other": {
-					"Hair": [
-						"Bald",
-						"Bald",
-						"Bald",
-						"Gray"
+					"Cabell": [
+						"Calb",
+						"Calb",
+						"Calb",
+						"Gris"
 					]
 				}
 			}
-		}
+		},
+		"Competència amb Eines": [
+			"Eines de ferrer",
+			"Subministraments de cerveser",
+			"Eines de canter"
+		]
 	},
 	"Elf": {
 		"_special": "book-PHB subracesort",
-		"Subraces and Variants": {
-			"Subrace": {
+		"Subracies i Variants": {
+			"Subraça": {
 				"_special": "booksort",
 				"PHB": [
-					"High Elf",
-					"Wood Elf",
+					"Elf d'Alta Estirp",
+					"Elf del Bosc",
 					"Drow"
 				],
 				"EGtW": [
-					"Pallid Elf"
+					"Elf Pàl·lid"
 				],
 				"MToF": [
-					"Sea Elf",
+					"Elf del Mar",
 					"Shadar-kai"
 				],
 				"DMG/MToF": [
 					"Eladrin"
 				],
 				"EGtW/MToF": [
-					"Sea Elf"
+					"Elf del Mar"
 				],
 				"UA": [
 					"Avariel",
 					"Grugach"
 				]
 			},
-			"Dragonmark Variant": {
+			"Variant de Marca del Drac": {
 				"_special": "book-EBR dragonmarkvariant",
 				"_array": [
-					"Mark of Shadow"
+					"Marca d'Ombra"
 				]
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "subracephyssort",
-			"High Elf": {
+			"Elf d'Alta Estirp": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 500,
@@ -399,31 +442,31 @@
 				"baseweight": 90,
 				"weightmod": "1d4",
 				"_other": {
-					"Eyes": [
-						"Silver",
-						"Gold",
-						"Black",
-						"Gold-flecked Blue",
-						"Gold-flecked Green"
+					"Ulls": [
+						"Argentat",
+						"Daurat",
+						"Negre",
+						"Blau amb taquetes daurades",
+						"Verd amb taquetes daurades"
 					],
-					"Skin": [
+					"Pell": [
 						"Bronze",
-						"Alabaster",
-						"Blue-Tinged Alabaster"
+						"Alabastre",
+						"Alabastre amb tint blavós"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Blond",
-						"Auburn",
-						"Red",
-						"Silver-white",
-						"Blue",
-						"Copper"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Ros",
+						"Castany Rogenc",
+						"Vermell",
+						"Blanc Argentat",
+						"Blau",
+						"Coure"
 					]
 				}
 			},
-			"Wood Elf": {
+			"Elf del Bosc": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 500,
@@ -432,22 +475,22 @@
 				"baseweight": 100,
 				"weightmod": "1d4",
 				"_other": {
-					"Eyes": [
-						"Brown",
-						"Green",
-						"Hazel"
+					"Ulls": [
+						"Marró",
+						"Verd",
+						"Avellana"
 					],
-					"Skin": [
-						"Light Copper",
-						"Copper",
-						"Dark Copper",
-						"Greenish-copper"
+					"Pell": [
+						"Coure Clar",
+						"Coure",
+						"Coure Fosc",
+						"Coure Verdós"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Blond",
-						"Copper"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Ros",
+						"Coure"
 					]
 				}
 			},
@@ -460,16 +503,16 @@
 				"baseweight": 75,
 				"weightmod": "1d6",
 				"_other": {
-					"Eyes": [
-						"Pale Lilac",
-						"Pale Silver",
-						"Pale Pink",
-						"Pale Red",
-						"Pale Blue"
+					"Ulls": [
+						"Lila Pàl·lid",
+						"Argentat Pàl·lid",
+						"Rosa Pàl·lid",
+						"Vermell Pàl·lid",
+						"Blau Pàl·lid"
 					],
-					"Hair": [
-						"White",
-						"Pale Yellow"
+					"Cabell": [
+						"Blanc",
+						"Groc Pàl·lid"
 					]
 				}
 			},
@@ -482,27 +525,27 @@
 				"baseweight": 90,
 				"weightmod": "1d4",
 				"_other": {
-					"Eyes": [
-						"Blue",
-						"Violet",
-						"Green"
+					"Ulls": [
+						"Blau",
+						"Violeta",
+						"Verd"
 					],
-					"Skin": [
-						"Pale",
-						"Fair",
-						"Tan",
-						"Light Brown",
-						"Brown",
-						"Dark Brown"
+					"Pell": [
+						"Pàl·lid",
+						"Clar",
+						"Bronzejat",
+						"Marró Clar",
+						"Marró",
+						"Marró Fosc"
 					],
-					"Hair": [
-						"White",
-						"Silver",
-						"Pale Gold"
+					"Cabell": [
+						"Blanc",
+						"Argentat",
+						"Daurat Pàl·lid"
 					]
 				}
 			},
-			"Sea Elf": {
+			"Elf del Mar": {
 				"_special": "book-EGtW/MToF characteristics",
 				"minage": 13,
 				"maxage": 500,
@@ -511,20 +554,20 @@
 				"baseweight": 90,
 				"weightmod": "1d4",
 				"_other": {
-					"Eyes": [
-						"Blue",
-						"Gold",
-						"White-Silver"
+					"Ulls": [
+						"Blau",
+						"Daurat",
+						"Blanc Argentat"
 					],
-					"Skin": [
-						"Deep Green with brown stripes",
-						"Blue with white stripes"
+					"Pell": [
+						"Verd Profund amb ratlles marrons",
+						"Blau amb ratlles blanques"
 					],
-					"Hair": [
-						"Blue",
-						"Black",
-						"Silver",
-						"Red"
+					"Cabell": [
+						"Blau",
+						"Negre",
+						"Argentat",
+						"Vermell"
 					]
 				}
 			},
@@ -537,19 +580,19 @@
 				"baseweight": 90,
 				"weightmod": "1d4",
 				"_other": {
-					"Skin": [
-						"Alabaster",
-						"Light Gray",
-						"Gray",
-						"Dark Gray"
+					"Pell": [
+						"Alabastre",
+						"Gris Clar",
+						"Gris",
+						"Gris Fosc"
 					],
-					"Hair": [
-						"Gray",
-						"Black"
+					"Cabell": [
+						"Gris",
+						"Negre"
 					]
 				}
 			},
-			"Pallid Elf": {
+			"Elf Pàl·lid": {
 				"_special": "book-EGtW characteristics",
 				"minage": 13,
 				"maxage": 500,
@@ -558,16 +601,16 @@
 				"baseweight": 100,
 				"weightmod": "1d4",
 				"_other": {
-					"Eyes": [
-						"Brown",
-						"Green",
-						"Hazel"
+					"Ulls": [
+						"Marró",
+						"Verd",
+						"Avellana"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Blond",
-						"Copper"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Ros",
+						"Coure"
 					]
 				}
 			},
@@ -580,26 +623,26 @@
 				"baseweight": 90,
 				"weightmod": "1d4",
 				"_other": {
-					"Eyes": [
-						"Blue",
-						"Green",
-						"Purple"
+					"Ulls": [
+						"Blau",
+						"Verd",
+						"Porpra"
 					],
-					"Skin": [
-						"White",
-						"Pale"
+					"Pell": [
+						"Blanc",
+						"Pàl·lid"
 					],
-					"Hair": [
-						"Silver-white",
-						"Black"
+					"Cabell": [
+						"Blanc Argentat",
+						"Negre"
 					],
-					"Wing Color": [
-						"White",
-						"White",
-						"White",
-						"Black",
-						"Brown",
-						"Speckled"
+					"Color de les Ales": [
+						"Blanc",
+						"Blanc",
+						"Blanc",
+						"Negre",
+						"Marró",
+						"Tacat"
 					]
 				}
 			},
@@ -612,22 +655,22 @@
 				"baseweight": 75,
 				"weightmod": "1d6",
 				"_other": {
-					"Eyes": [
-						"Brown",
-						"Green",
-						"Hazel"
+					"Ulls": [
+						"Marró",
+						"Verd",
+						"Avellana"
 					],
-					"Skin": [
-						"Light Copper",
-						"Copper",
-						"Dark Copper",
-						"Greenish-copper"
+					"Pell": [
+						"Coure Clar",
+						"Coure",
+						"Coure Fosc",
+						"Coure Verdós"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Blond",
-						"Copper"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Ros",
+						"Coure"
 					]
 				}
 			}
@@ -635,7 +678,7 @@
 	},
 	"Firbolg": {
 		"_special": "book-EGtW/VGtM",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 20,
 			"maxage": 400,
@@ -644,39 +687,39 @@
 			"baseweight": 175,
 			"weightmod": "2d6",
 			"_other": {
-				"Hair": [
-					"Blonde",
-					"Red"
+				"Cabell": [
+					"Ros",
+					"Vermell"
 				]
 			}
 		},
-		"Reason for Adventuring": [
-			"Outcast for murder",
-			"Outcast for severely damaging home territory",
-			"Clan slain by invading humanoids",
-			"Clan slain by a dragon or demon",
-			"Separated from the tribe and lost",
-			"Homeland destroyed by natural disaster",
-			"Personal quest ordained by omens",
-			"Dispatched on a quest by tribe leaders"
+		"Raó per Aventurar-se": [
+			"Exiliat per assassinat",
+			"Exiliat per danyar greument el territori natal",
+			"El clan va ser assassinat per humanoides invasors",
+			"El clan va ser assassinat per un drac o dimoni",
+			"Separat de la tribu i perdut",
+			"La terra natal destruïda per un desastre natural",
+			"Missió personal ordenada per presagis",
+			"Enviat en una missió pels líders de la tribu"
 		]
 	},
 	"Genasi": {
 		"_special": "book-EE/EGtW subracesort",
-		"Subraces and Variants": {
-			"Subrace": [
-				"Air Genasi",
-				"Earth Genasi",
-				"Fire Genasi",
-				"Water Genasi"
+		"Subracies i Variants": {
+			"Subraça": [
+				"Genasi d'Aire",
+				"Genasi de Terra",
+				"Genasi de Foc",
+				"Genasi d'Aigua"
 			],
-			"Human Heritage": {
+			"Herència Humana": {
 				"_special": "halfethnicity"
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "subracephyssort",
-			"Air Genasi": {
+			"Genasi d'Aire": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 100,
@@ -685,21 +728,21 @@
 				"baseweight": 110,
 				"weightmod": "2d4",
 				"_other": {
-					"Voice": [
+					"Veu": [
 						null,
-						"Breathy, with a faint echo"
+						"Suau, amb un lleuger ressò"
 					],
-					"Other Traits": [
+					"Altres Trets": [
 						null,
 						null,
 						null,
 						null,
-						"Odd patterns on flesh",
-						"Crystals growing from scalp"
+						"Patrons estranys a la pell",
+						"Cristalls creixent del cuir cabellut"
 					]
 				}
 			},
-			"Earth Genasi": {
+			"Genasi de Terra": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 100,
@@ -708,40 +751,40 @@
 				"baseweight": 110,
 				"weightmod": "2d4",
 				"_other": {
-					"Eyes": [
-						"Brown",
-						"Hazel",
-						"Orange",
-						"Blue",
-						"Earthlike"
+					"Ulls": [
+						"Marró",
+						"Avellana",
+						"Taronja",
+						"Blau",
+						"Com la terra"
 					],
-					"Skin Color": [
-						"Brown",
-						"Deep Brown",
-						"Black"
+					"Color de la Pell": [
+						"Marró",
+						"Marró Profund",
+						"Negre"
 					],
-					"Skin Type": [
+					"Tipus de Pell": [
 						"Normal",
-						"Dirty",
-						"Polished",
-						"Metallic",
-						"Rusty iron",
-						"Rough hide",
-						"Covered in crystal",
-						"Fissures in flesh"
+						"Brut",
+						"Polit",
+						"Metàl·lic",
+						"Ferro Rovellat",
+						"Pell Rugosa",
+						"Cobert de cristall",
+						"Fissures a la carn"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Earthlike"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Com la terra"
 					],
-					"Voice": [
+					"Veu": [
 						"Normal",
-						"Low and gravelly"
+						"Baixa i gravetat"
 					]
 				}
 			},
-			"Fire Genasi": {
+			"Genasi de Foc": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 100,
@@ -750,26 +793,26 @@
 				"baseweight": 110,
 				"weightmod": "2d4",
 				"_other": {
-					"Skin": [
-						"Flaming Red",
-						"Coal-black",
-						"Ash-gray"
+					"Pell": [
+						"Vermell Flamejant",
+						"Negre com el carbó",
+						"Gris Cendra"
 					],
-					"Hair": [
-						"Red",
-						"Fire"
+					"Cabell": [
+						"Vermell",
+						"Foc"
 					],
-					"Voice": [
+					"Veu": [
 						null,
-						"Crackling flames"
+						"Flames crepitants"
 					],
-					"Other Traits": [
+					"Altres Trets": [
 						null,
-						"Brimstone smell"
+						"Olor a sofre"
 					]
 				}
 			},
-			"Water Genasi": {
+			"Genasi d'Aigua": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 100,
@@ -778,23 +821,23 @@
 				"baseweight": 110,
 				"weightmod": "2d4",
 				"_other": {
-					"Eyes": [
-						"Blue",
-						"Black",
-						"Blue-black"
+					"Ulls": [
+						"Blau",
+						"Negre",
+						"Blau Negrós"
 					],
-					"Skin": [
-						"Blue",
-						"Green"
+					"Pell": [
+						"Blau",
+						"Verd"
 					],
-					"Voice": [
+					"Veu": [
 						null,
-						"Whalesong undertones",
-						"Trickling stream undertones"
+						"Subtons de cant de balena",
+						"Subtons de rierol que flueix"
 					],
-					"Other Traits": [
+					"Altres Trets": [
 						null,
-						"Floating Hair"
+						"Cabell Flotant"
 					]
 				}
 			}
@@ -802,13 +845,13 @@
 	},
 	"Gith": {
 		"_special": "book-MToF subracesort",
-		"Subraces and Variants": {
-			"Subrace": [
+		"Subracies i Variants": {
+			"Subraça": [
 				"Githyanki",
 				"Githzerai"
 			]
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "subracephyssort",
 			"Githyanki": {
 				"_special": "characteristics",
@@ -819,14 +862,14 @@
 				"baseweight": 100,
 				"weightmod": "2d4",
 				"_other": {
-					"Skin": [
-						"Green",
-						"Yellow",
-						"Orange",
-						"Spotted brown"
+					"Pell": [
+						"Verd",
+						"Groc",
+						"Taronja",
+						"Marró Tacat"
 					],
-					"Note on age": [
-						"While githyanki bodies live for about a century, they are ageless while on the astral plane."
+					"Nota sobre l'edat": [
+						"Mentre els cossos dels githyanki viuen uns cent anys, no envelleixen mentre es troben al pla astral."
 					]
 				}
 			},
@@ -839,11 +882,11 @@
 				"baseweight": 90,
 				"weightmod": "1d4",
 				"_other": {
-					"Skin": [
-						"Green",
-						"Yellow",
-						"Orange",
-						"Spotted brown"
+					"Pell": [
+						"Verd",
+						"Groc",
+						"Taronja",
+						"Marró Tacat"
 					]
 				}
 			}
@@ -851,27 +894,27 @@
 	},
 	"Gnome": {
 		"_special": "book-PHB subracesort",
-		"Subraces and Variants": {
-			"Subrace": {
+		"Subracies i Variants": {
+			"Subraça": {
 				"_special": "booksort",
 				"PHB": [
-					"Forest Gnome",
-					"Rock Gnome"
+					"Gnom del Bosc",
+					"Gnom de Roca"
 				],
 				"EE/MToF/SCAG": [
-					"Deep Gnome"
+					"Gnom Profund"
 				],
-				"Dragonmark Variant": {
+				"Variant de Marca del Drac": {
 					"_special": "book-EBR dragonmarkvariant",
 					"_array": [
-						"Mark of Scribing"
+						"Marca d'Escriptura"
 					]
 				}
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "subracephyssort",
-			"Forest Gnome": {
+			"Gnom del Bosc": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 350,
@@ -880,26 +923,26 @@
 				"baseweight": 35,
 				"weightmod": "1",
 				"_other": {
-					"Eyes": [
-						"Glittering Black",
-						"Glittering Blue"
+					"Ulls": [
+						"Negre Brillant",
+						"Blau Brillant"
 					],
-					"Skin": [
-						"Ruddy Tan",
-						"Woody Brown",
-						"Rocky Gray"
+					"Pell": [
+						"Bronzejat Rogenc",
+						"Marró Fusteri",
+						"Gris Rocós"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Blond",
-						"Auburn",
-						"Red",
-						"Gray/White"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Ros",
+						"Castany Rogenc",
+						"Vermell",
+						"Gris/Blanc"
 					]
 				}
 			},
-			"Rock Gnome": {
+			"Gnom de Roca": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 350,
@@ -908,26 +951,26 @@
 				"baseweight": 35,
 				"weightmod": "1",
 				"_other": {
-					"Eyes": [
-						"Glittering Black",
-						"Glittering Blue"
+					"Ulls": [
+						"Negre Brillant",
+						"Blau Brillant"
 					],
-					"Skin": [
-						"Ruddy Tan",
-						"Woody Brown",
-						"Rocky Gray"
+					"Pell": [
+						"Bronzejat Rogenc",
+						"Marró Fusteri",
+						"Gris Rocós"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Blond",
-						"Auburn",
-						"Red",
-						"Gray/White"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Ros",
+						"Castany Rogenc",
+						"Vermell",
+						"Gris/Blanc"
 					]
 				}
 			},
-			"Deep Gnome": {
+			"Gnom Profund": {
 				"_special": "book-EE/MToF/SCAG characteristics",
 				"minage": 13,
 				"maxage": 150,
@@ -936,22 +979,22 @@
 				"baseweight": 90,
 				"weightmod": "1d6",
 				"_other": {
-					"Eyes": [
-						"Gray",
-						"Black"
+					"Ulls": [
+						"Gris",
+						"Negre"
 					],
-					"Skin": [
-						"Gray",
-						"Brown",
-						"Dun"
+					"Pell": [
+						"Gris",
+						"Marró",
+						"Terrós"
 					],
-					"Hair": {
+					"Cabell": {
 						"_special": "gendersort",
-						"Male": [
-							"Bald"
+						"Masculí": [
+							"Calb"
 						],
-						"Female": [
-							"Gray"
+						"Femení": [
+							"Gris"
 						]
 					}
 				}
@@ -960,7 +1003,7 @@
 	},
 	"Goblin": {
 		"_special": "book-EBR/EGtW/GGtR/MR",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 6,
 			"maxage": 45,
@@ -969,25 +1012,25 @@
 			"baseweight": 35,
 			"weightmod": "1",
 			"_other": {
-				"Eyes": [
-					"Yellow",
-					"Orange",
-					"Red"
+				"Ulls": [
+					"Groc",
+					"Taronja",
+					"Vermell"
 				],
-				"Skin": [
-					"Yellow",
-					"Orange",
-					"Red"
+				"Pell": [
+					"Groc",
+					"Taronja",
+					"Vermell"
 				]
 			}
 		},
-		"Monstrous Origin": {
+		"Origen Monstruós": {
 			"_special": "monstrousorigin"
 		}
 	},
 	"Goliath": {
 		"_special": "book-EE/EGtW/VGtM",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 60,
@@ -996,23 +1039,23 @@
 			"baseweight": 200,
 			"weightmod": "2d6",
 			"_other": {
-				"Eyes": [
-					"Blue",
-					"Green"
+				"Ulls": [
+					"Blau",
+					"Verd"
 				],
-				"Skin": [
-					"Gray",
-					"Brown"
+				"Pell": [
+					"Gris",
+					"Marró"
 				],
-				"Hair": {
+				"Cabell": {
 					"_special": "gendersort",
-					"Male": [
-						"Bald"
+					"Masculí": [
+						"Calb"
 					],
-					"Female": [
-						"Black",
-						"Dark Brown",
-						"Dark Gray"
+					"Femení": [
+						"Negre",
+						"Marró Fosc",
+						"Gris Fosc"
 					]
 				}
 			}
@@ -1020,7 +1063,7 @@
 	},
 	"Grung": {
 		"_special": "book-Other",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 1,
 			"maxage": 40,
@@ -1029,45 +1072,45 @@
 			"baseweight": 35,
 			"weightmod": "1",
 			"_other": {
-				"Skin": [
-					"Green",
-					"Blue",
-					"Purple",
-					"Red",
-					"Orange",
-					"Gold"
+				"Pell": [
+					"Verd",
+					"Blau",
+					"Porpra",
+					"Vermell",
+					"Taronja",
+					"Daurat"
 				]
 			}
 		},
-		"Monstrous Origin": {
+		"Origen Monstruós": {
 			"_special": "monstrousorigin"
 		}
 	},
 	"Halfling": {
 		"_special": "book-PHB",
-		"Subraces and Variants": {
-			"Subrace": {
+		"Subracies i Variants": {
+			"Subraça": {
 				"_special": "booksort",
 				"PHB": [
-					"Lightfoot Halfling",
-					"Stout Halfling"
+					"Halfling Lleuger",
+					"Halfling Robust"
 				],
 				"EGtW": [
-					"Lotusden Halfling"
+					"Halfling del Lotusden"
 				],
 				"SCAG": [
-					"Ghostwise Halfling"
+					"Halfling Fantasmal"
 				]
 			},
-			"Dragonmark Variant": {
+			"Variant de Marca del Drac": {
 				"_special": "book-EBR dragonmarkvariant",
 				"_array": [
-					"Mark of Healing",
-					"Mark of Hospitality"
+					"Marca de Curació",
+					"Marca d'Hospitalitat"
 				]
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 150,
@@ -1076,45 +1119,45 @@
 			"baseweight": 35,
 			"weightmod": "1",
 			"_other": {
-				"Eyes": [
-					"Brown",
-					"Hazel"
+				"Ulls": [
+					"Marró",
+					"Avellana"
 				],
-				"Skin": [
-					"Ruddy-cast pale",
-					"Ruddy-cast fair",
-					"Tan"
+				"Pell": [
+					"Pàl·lid rogenc",
+					"Clar rogenc",
+					"Bronzejat"
 				],
-				"Hair": [
-					"Brown",
-					"Sandy Brown"
+				"Cabell": [
+					"Marró",
+					"Marró Sorra"
 				]
 			}
 		}
 	},
 	"Half-Elf": {
 		"_special": "book-PHB subracesort-Elven_Ancestry",
-		"Subraces and Variants": {
-			"Elven Ancestry": [
-				"Wood Elf",
-				"High Elf",
+		"Subracies i Variants": {
+			"Ascendència Èlfica": [
+				"Elf del Bosc",
+				"Elf d'Alta Estirp",
 				"Drow",
-				"Aquatic Elf"
+				"Elf Aquàtic"
 			],
-			"Dragonmark Variant": {
+			"Variant de Marca del Drac": {
 				"_special": "book-EBR dragonmarkvariant",
 				"_array": [
-					"Mark of Detection",
-					"Mark of Storm"
+					"Marca de Detecció",
+					"Marca de la Tempesta"
 				]
 			},
-			"Human Heritage": {
+			"Herència Humana": {
 				"_special": "halfethnicity"
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "halfelfvariantphys",
-			"Wood Elf": {
+			"Elf del Bosc": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 180,
@@ -1123,37 +1166,37 @@
 				"baseweight": 110,
 				"weightmod": "2d4",
 				"_other": {
-					"Eyes": [
-						"Brown",
-						"Hazel",
-						"Green",
-						"Blue",
-						"Gray"
+					"Ulls": [
+						"Marró",
+						"Avellana",
+						"Verd",
+						"Blau",
+						"Gris"
 					],
-					"Skin": [
-						"Pale",
-						"Fair",
-						"Tan",
-						"Light Brown",
-						"Brown",
-						"Dark Brown",
-						"Light Copper",
-						"Copper",
-						"Dark Copper",
-						"Greenish-copper"
+					"Pell": [
+						"Pàl·lid",
+						"Clar",
+						"Bronzejat",
+						"Marró Clar",
+						"Marró",
+						"Marró Fosc",
+						"Coure Clar",
+						"Coure",
+						"Coure Fosc",
+						"Coure Verdós"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Blond",
-						"Auburn",
-						"Red",
-						"Gray/White",
-						"Copper"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Ros",
+						"Castany Rogenc",
+						"Vermell",
+						"Gris/Blanc",
+						"Coure"
 					]
 				}
 			},
-			"High Elf": {
+			"Elf d'Alta Estirp": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 180,
@@ -1162,36 +1205,36 @@
 				"baseweight": 110,
 				"weightmod": "2d4",
 				"_other": {
-					"Eyes": [
-						"Brown",
-						"Hazel",
-						"Green",
-						"Blue",
-						"Gray",
-						"Silver",
-						"Gold",
-						"Black",
-						"Gold-flecked Blue",
-						"Gold-flecked Green"
+					"Ulls": [
+						"Marró",
+						"Avellana",
+						"Verd",
+						"Blau",
+						"Gris",
+						"Argentat",
+						"Daurat",
+						"Negre",
+						"Blau amb taquetes daurades",
+						"Verd amb taquetes daurades"
 					],
-					"Skin": [
-						"Pale",
-						"Fair",
-						"Tan",
-						"Light Brown",
-						"Brown",
-						"Dark Brown",
+					"Pell": [
+						"Pàl·lid",
+						"Clar",
+						"Bronzejat",
+						"Marró Clar",
+						"Marró",
+						"Marró Fosc",
 						"Bronze",
-						"Alabaster",
-						"Blue-Tinged Alabaster"
+						"Alabastre",
+						"Alabastre amb tint blavós"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Blond",
-						"Auburn",
-						"Red",
-						"Gray/White"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Ros",
+						"Castany Rogenc",
+						"Vermell",
+						"Gris/Blanc"
 					]
 				}
 			},
@@ -1204,40 +1247,40 @@
 				"baseweight": 110,
 				"weightmod": "2d4",
 				"_other": {
-					"Eyes": [
-						"Brown",
-						"Hazel",
-						"Green",
-						"Blue",
-						"Gray",
-						"Pale Lilac",
-						"Pale Silver",
-						"Pale Pink",
-						"Pale Red",
-						"Pale Blue"
+					"Ulls": [
+						"Marró",
+						"Avellana",
+						"Verd",
+						"Blau",
+						"Gris",
+						"Lila Pàl·lid",
+						"Argentat Pàl·lid",
+						"Rosa Pàl·lid",
+						"Vermell Pàl·lid",
+						"Blau Pàl·lid"
 					],
-					"Skin": [
-						"Pale",
-						"Fair",
-						"Tan",
-						"Light Brown",
-						"Brown",
-						"Dark Brown",
-						"Obsidian Black"
+					"Pell": [
+						"Pàl·lid",
+						"Clar",
+						"Bronzejat",
+						"Marró Clar",
+						"Marró",
+						"Marró Fosc",
+						"Negre Obsidiana"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Blond",
-						"Auburn",
-						"Red",
-						"Gray",
-						"White",
-						"Pale Yellow"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Ros",
+						"Castany Rogenc",
+						"Vermell",
+						"Gris",
+						"Blanc",
+						"Groc Pàl·lid"
 					]
 				}
 			},
-			"Aquatic Elf": {
+			"Elf Aquàtic": {
 				"_special": "characteristics",
 				"minage": 13,
 				"maxage": 180,
@@ -1246,34 +1289,34 @@
 				"baseweight": 110,
 				"weightmod": "2d4",
 				"_other": {
-					"Eyes": [
-						"Brown",
-						"Hazel",
-						"Green",
-						"Blue",
-						"Gray",
-						"Gold",
-						"White-Silver"
+					"Ulls": [
+						"Marró",
+						"Avellana",
+						"Verd",
+						"Blau",
+						"Gris",
+						"Daurat",
+						"Blanc Argentat"
 					],
-					"Skin": [
-						"Pale",
-						"Fair",
-						"Tan",
-						"Light Brown",
-						"Brown",
-						"Dark Brown",
-						"Deep Green with brown stripes",
-						"Blue with white stripes"
+					"Pell": [
+						"Pàl·lid",
+						"Clar",
+						"Bronzejat",
+						"Marró Clar",
+						"Marró",
+						"Marró Fosc",
+						"Verd Profund amb ratlles marrons",
+						"Blau amb ratlles blanques"
 					],
-					"Hair": [
-						"Black",
-						"Brown",
-						"Blond",
-						"Auburn",
-						"Red",
-						"Gray/White",
-						"Blue",
-						"Silver"
+					"Cabell": [
+						"Negre",
+						"Marró",
+						"Ros",
+						"Castany Rogenc",
+						"Vermell",
+						"Gris/Blanc",
+						"Blau",
+						"Argentat"
 					]
 				}
 			}
@@ -1281,18 +1324,18 @@
 	},
 	"Half-Orc": {
 		"_special": "book-PHB",
-		"Subraces and Variants": {
-			"Human Heritage": {
+		"Subracies i Variants": {
+			"Herència Humana": {
 				"_special": "halfethnicity"
 			},
-			"Dragonmark Variant": {
+			"Variant de Marca del Drac": {
 				"_special": "book-EBR dragonmarkvariant",
 				"_array": [
-					"Mark of Finding"
+					"Marca de Localització"
 				]
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 10,
 			"maxage": 55,
@@ -1301,40 +1344,40 @@
 			"baseweight": 140,
 			"weightmod": "2d6",
 			"_other": {
-				"Eyes": [
-					"Red",
-					"Gray"
+				"Ulls": [
+					"Vermell",
+					"Gris"
 				],
-				"Skin": [
-					"Gray",
-					"Greenish-gray",
-					"Purplish-gray",
-					"Bluish-gray"
+				"Pell": [
+					"Gris",
+					"Gris Verdós",
+					"Gris Porpra",
+					"Gris Blavós"
 				],
-				"Hair": [
-					"Black",
-					"Dark Brown",
-					"Gray/White"
+				"Cabell": [
+					"Negre",
+					"Marró Fosc",
+					"Gris/Blanc"
 				]
 			}
 		}
 	},
 	"Hexblood": {
 		"_special": "book-UA",
-		"Hexblood Origins": [
-			"Seeking a child, your parent made a bargain with a hag. You are the result of that arrangement.",
-			"Fey kidnappers swapped you and your parents’ child.",
-			"A coven of hags lost one of their members. You were created to replace the lost hag.",
-			"You were cursed as a child. A deal with the spirits of the forest transformed you into a hexblood, now free of the curse.",
-			"You began life as a fey creature, but an accident or crime changed you and forced you from your home.",
-			"A slighted druid transformed youand bound you to live only so long as a sacred tree bears fruit.",
-			"You made a deal with a hag, but they twisted your words and transformed you.",
-			"You are a child of the wilds. Animals and mysterious whispers were the only family you ever knew."
+		"Orígens de Hexblood": [
+			"Buscant un fill, el teu progenitor va fer un tracte amb una bruixa. Tu ets el resultat d'aquest acord.",
+			"Rapinyadors feèrics et van intercanviar amb el fill dels teus pares.",
+			"Un coven de bruixes va perdre un dels seus membres. Et van crear per substituir la bruixa perduda.",
+			"Vas ser maleït de petit. Un tracte amb els esperits del bosc et va transformar en un hexblood, ara lliure de la maledicció.",
+			"Vas començar la vida com una criatura feèrica, però un accident o crim et va canviar i et va forçar a abandonar la teva llar.",
+			"Un druida agraviat et va transformar i et va lligar a viure només mentre un arbre sagrat donés fruit.",
+			"Vas fer un tracte amb una bruixa, però ella va torçar les teves paraules i et va transformar.",
+			"Ets un fill de la natura salvatge. Els animals i els misteriosos xiuxiueigs eren l'única família que mai has conegut."
 		]
 	},
 	"Hobgoblin": {
 		"_special": "book-EBR/EGtW/MR",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 60,
@@ -1343,61 +1386,61 @@
 			"baseweight": 110,
 			"weightmod": "2d4",
 			"_other": {
-				"Eyes": [
-					"Yellow",
-					"Orange",
-					"Red"
+				"Ulls": [
+					"Groc",
+					"Taronja",
+					"Vermell"
 				],
-				"Skin": [
-					"Orange",
-					"Reddish-brown"
+				"Pell": [
+					"Taronja",
+					"Marró Rogenc"
 				],
-				"Hair": [
-					"Dark Brown",
-					"Dark Gray",
-					"Orange",
-					"Red"
+				"Cabell": [
+					"Marró Fosc",
+					"Gris Fosc",
+					"Taronja",
+					"Vermell"
 				]
 			}
 		},
-		"Monstrous Origin": {
+		"Origen Monstruós": {
 			"_special": "monstrousorigin"
 		}
 	},
 	"Human": {
 		"_special": "book-PHB",
-		"Subraces and Variants": {
-			"Ethnicity": {
+		"Subracies i Variants": {
+			"Ètnia": {
 				"_special": "humanethnicity",
 				"PHB": [
-					"Calishite",
+					"Calishita",
 					"Chondathan",
 					"Damaran",
 					"Illuskan",
 					"Mulan",
 					"Rashemi",
 					"Shou",
-					"Tethyrian",
+					"Tethyrià",
 					"Turami"
 				],
 				"Real": [
-					"Arabic",
-					"Celtic",
-					"Chinese",
-					"Egyptian",
-					"English",
-					"French",
-					"German",
-					"Greek",
-					"Indian",
-					"Japanese",
-					"Mesoamerican",
-					"Niger-Congo",
-					"Norse",
-					"Polynesian",
-					"Roman",
-					"Slavic",
-					"Spanish"
+					"Àrab",
+					"Celta",
+					"Xinès",
+					"Egipci",
+					"Anglès",
+					"Francès",
+					"Alemany",
+					"Grec",
+					"Indi",
+					"Japonès",
+					"Mesoamericà",
+					"Níger-Congo",
+					"Nòrdic",
+					"Polinesi",
+					"Romà",
+					"Eslau",
+					"Espanyol"
 				],
 				"SCAG": [
 					"Arkaiun",
@@ -1412,18 +1455,18 @@
 					"Ulutiun"
 				]
 			},
-			"Dragonmark Variant": {
+			"Variant de Marca del Drac": {
 				"_special": "book-EBR dragonmarkvariant",
 				"_array": [
-					"Mark of Finding",
-					"Mark of Handling",
-					"Mark of Making",
-					"Mark of Passage",
-					"Mark of Sentinel"
+					"Marca de Localització",
+					"Marca de Maneig",
+					"Marca de Fabricació",
+					"Marca de Passatge",
+					"Marca de Sentinella"
 				]
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 60,
@@ -1432,40 +1475,40 @@
 			"baseweight": 110,
 			"weightmod": "2d4",
 			"_other": {
-				"Eyes": [
-					"Brown",
-					"Hazel",
-					"Green",
-					"Blue",
-					"Gray"
+				"Ulls": [
+					"Marró",
+					"Avellana",
+					"Verd",
+					"Blau",
+					"Gris"
 				],
-				"Skin": [
-					"Pale",
-					"Fair",
-					"Tan",
-					"Light Brown",
-					"Brown",
-					"Dark Brown"
+				"Pell": [
+					"Pàl·lid",
+					"Clar",
+					"Bronzejat",
+					"Marró Clar",
+					"Marró",
+					"Marró Fosc"
 				],
-				"Hair": [
-					"Black",
-					"Brown",
-					"Blond",
-					"Auburn",
-					"Red",
-					"Gray/White"
+				"Cabell": [
+					"Negre",
+					"Marró",
+					"Ros",
+					"Castany Rogenc",
+					"Vermell",
+					"Gris/Blanc"
 				]
 			}
 		}
 	},
 	"Kalashtar": {
 		"_special": "book-EBR",
-		"Subraces and Variants": {
-			"Human Heritage": {
+		"Subracies i Variants": {
+			"Herència Humana": {
 				"_special": "halfethnicity"
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 60,
@@ -1474,47 +1517,47 @@
 			"baseweight": 110,
 			"weightmod": "2d4",
 			"_other": {
-				"Eyes": [
-					"Brown",
-					"Hazel",
-					"Green",
-					"Blue",
-					"Gray"
+				"Ulls": [
+					"Marró",
+					"Avellana",
+					"Verd",
+					"Blau",
+					"Gris"
 				],
-				"Skin": [
-					"Pale",
-					"Fair",
-					"Tan",
-					"Light Brown",
-					"Brown",
-					"Dark Brown"
+				"Pell": [
+					"Pàl·lid",
+					"Clar",
+					"Bronzejat",
+					"Marró Clar",
+					"Marró",
+					"Marró Fosc"
 				],
-				"Hair": [
-					"Black",
-					"Brown",
-					"Blond",
-					"Auburn",
-					"Red",
-					"Gray/White"
+				"Cabell": [
+					"Negre",
+					"Marró",
+					"Ros",
+					"Castany Rogenc",
+					"Vermell",
+					"Gris/Blanc"
 				]
 			}
 		},
-		"Kalashtar Quirk": [
-			"You try to understand the motives and feelings of your enemies.",
-			"You prefer using telepathy over speaking aloud.",
-			"You feel a strong drive to protect the innocent.",
-			"You apply dream logic to mundane situations.",
-			"You discuss thi ngs out loud with your quori spirit.",
-			"You suppress your emotions and rely on logic.",
-			"You are strongly influenced by the emotions of those around you.",
-			"You prefer to find nonviolent solutions to problems whenever possible.",
-			"You are driven by a warrior spirit and will fight for any noble cause.",
-			"You are obsessed with Dreaming Dark conspiracies."
+		"Peculiaritat del Kalashtar": [
+			"Intentes comprendre els motius i sentiments dels teus enemics.",
+			"Prefereixes usar la telepatia en lloc de parlar en veu alta.",
+			"Sents una forta necessitat de protegir els innocents.",
+			"Apliques la lògica dels somnis a les situacions mundanes.",
+			"Parles en veu alta amb el teu esperit quori.",
+			"Suprimeixes les teves emocions i et recolzes en la lògica.",
+			"Estàs fortament influenciat per les emocions dels que t'envolten.",
+			"Prefereixes trobar solucions no violentes als problemes sempre que sigui possible.",
+			"Estàs impulsat per un esperit guerrer i lluitaràs per qualsevol causa noble.",
+			"Estàs obsessionat amb les conspiracions de la Foscor dels Somnis."
 		]
 	},
 	"Kenku": {
 		"_special": "book-EGtW/VGtM",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 9,
 			"maxage": 50,
@@ -1527,7 +1570,7 @@
 	},
 	"Kobold": {
 		"_special": "book-MR",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 4,
 			"maxage": 60,
@@ -1536,34 +1579,34 @@
 			"baseweight": 25,
 			"weightmod": "1",
 			"_other": {
-				"Eyes": [
-					"Burnt Orange",
-					"Red"
+				"Ulls": [
+					"Taronja Cremat",
+					"Vermell"
 				],
-				"Scales": [
-					"Black",
-					"Blue",
-					"Brown",
-					"Gray",
-					"Green",
-					"Orange",
-					"Orange-brown",
-					"Red",
-					"Red-brown",
-					"Tan",
-					"White",
-					"Multicolored",
-					"Multicolored"
+				"Escames": [
+					"Negre",
+					"Blau",
+					"Marró",
+					"Gris",
+					"Verd",
+					"Taronja",
+					"Taronja Marronós",
+					"Vermell",
+					"Vermell Marronós",
+					"Bronzejat",
+					"Blanc",
+					"Multicolor",
+					"Multicolor"
 				]
 			}
 		},
-		"Monstrous Origin": {
+		"Origen Monstruós": {
 			"_special": "monstrousorigin"
 		}
 	},
 	"Leonin": {
 		"_special": "book-MOoT",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 60,
@@ -1576,7 +1619,7 @@
 	},
 	"Lizardfolk": {
 		"_special": "book-VGtM",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 10,
 			"maxage": 45,
@@ -1585,28 +1628,28 @@
 			"baseweight": 120,
 			"weightmod": "2d6",
 			"_other": {
-				"Scales": [
-					"Green",
-					"Black",
-					"Gray",
-					"Brown"
+				"Escames": [
+					"Verd",
+					"Negre",
+					"Gris",
+					"Marró"
 				]
 			}
 		},
-		"Lizardfolk Quirk": [
-			"You hate waste and see no reason not to scavenge fallen enemies. Fingers are tasty and portable!",
-			"You sleep best while mostly submerged in water.",
-			"Money is meaningless to you.",
-			"You think there are only two species of humanoid: lizardfolk and meat",
-			"You have learned to laugh. You use this talent in response to all emotional situations, to better fit in with your comrades.",
-			"You still don't understand how metaphors work. That doesn't stop you from using them at every opportunity.",
-			"You appreciate the soft humanoids who realize they need chain mail and swords to match the gifts you were born with.",
-			"You enjoy eating your food while it's still wriggling."
+		"Peculiaritat del Lizardfolk": [
+			"Odies el malbaratament i no veus cap raó per no aprofitar els enemics caiguts. Els dits són saborosos i fàcils de portar!",
+			"Dorms millor mentre estàs majoritàriament submergit en l'aigua.",
+			"Els diners no tenen sentit per a tu.",
+			"Creus que només hi ha dues espècies d'humanoides: lizardfolk i carn.",
+			"Has après a riure. Utilitzes aquest talent en resposta a totes les situacions emocionals, per encaixar millor amb els teus camarades.",
+			"Encara no entens com funcionen les metàfores. Això no t'impedeix utilitzar-les en cada oportunitat.",
+			"Aprecies els humanoides tous que s'adonen que necessiten cota de malla i espases per igualar els dons amb els quals vas néixer.",
+			"Gaudeixes menjant el teu menjar mentre encara es retorça."
 		]
 	},
 	"Locathah": {
 		"_special": "book-Other",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 7,
 			"maxage": 70,
@@ -1615,24 +1658,24 @@
 			"baseweight": 130,
 			"weightmod": "1d4",
 			"_other": {
-				"Eyes": [
-					"Black",
-					"White"
+				"Ulls": [
+					"Negre",
+					"Blanc"
 				],
-				"Skin": [
-					"Kelp Green",
-					"Mud Brown",
-					"Mud Green",
-					"Olive Green",
-					"Seaweed Green",
-					"Venom Green"
+				"Pell": [
+					"Verd Algues",
+					"Marró Fang",
+					"Verd Fang",
+					"Verd Oliva",
+					"Verd Algues Marines",
+					"Verd Verí"
 				]
 			}
 		}
 	},
 	"Loxodon": {
 		"_special": "book-GGtR",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 400,
@@ -1645,7 +1688,7 @@
 	},
 	"Minotaur": {
 		"_special": "book-GGtR/MOoT",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 120,
@@ -1654,27 +1697,27 @@
 			"baseweight": 175,
 			"weightmod": "2d6",
 			"_other": {
-				"Eyes": [
-					"Black",
-					"Dark Yellow"
+				"Ulls": [
+					"Negre",
+					"Groc Fosc"
 				],
-				"Skin": [
-					"Black",
-					"Brown",
-					"White"
+				"Pell": [
+					"Negre",
+					"Marró",
+					"Blanc"
 				],
-				"Hair": [
-					"Black",
-					"Brown",
-					"White",
-					"Red"
+				"Cabell": [
+					"Negre",
+					"Marró",
+					"Blanc",
+					"Vermell"
 				]
 			}
 		}
 	},
 	"Orc": {
 		"_special": "book-EBR/EGtW/MR",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 9,
 			"maxage": 40,
@@ -1683,47 +1726,43 @@
 			"baseweight": 175,
 			"weightmod": "2d6",
 			"_other": {
-				"Eyes": [
-					"Red",
-					"Gray"
+				"Ulls": [
+					"Vermell",
+					"Gris"
 				],
-				"Skin": [
-					"Gray",
-					"Purplish-Gray",
-					"Bluish-Gray"
+				"Pell": [
+					"Gris",
+					"Gris Porpra",
+					"Gris Blavós"
 				]
 			}
 		},
-		"Monstrous Origin": {
+		"Origen Monstruós": {
 			"_special": "monstrousorigin"
 		}
 	},
 	"Reborn": {
 		"_special": "book-UA",
-		"Lost Memories": [
-			"You recall a physically painful moment. What mark or scar on your body does it relate to?",
-			"A memory causes you to shed a tear. Is it a bitter or cheerful memory? Does recalling it make you feel the same way?",
-			"You recall a childhood memory. What about that event or who you were still influences you?",
-			"A memory brings with it the voice of someone once close to you. How do they advise you?",
-			"You recall enjoying something that you can’t stand doing now. What is it? Why don’t you like it now?",
-			"A memory carries a vivid smell or sensation. What are you going to do to recreate that experience?",
-			"You faintly remember a place that couldn’t possibly exist. What is this vision? How does it make you feel?",
-			"You experience a memory you’re certain isn’t your own. How does it seem unnatural? Could it be a glimpse of a past nightmare or something worse?"
+		"Significat de l'esvaniment": [
+			"Recordes un moment d'una gran alegria.",
+			"Recordes un moment d'una gran por.",
+			"Recordes un moment d'una gran pèrdua.",
+			"Recordes un moment d'una gran ràbia.",
+			"Recordes un moment d'una gran pau.",
+			"Recordes un moment d'una gran confusió."
 		],
-		"Reborn Origins": [
-			"You were magically resurrected but something went wrong.",
-			"Stitches bind your body’s mismatched pieces, and your memories come from multiple different lives.",
-			"After clawing free from your grave, you realized you have no memories except for a single name.",
-			"You were a necromancer’s undead servant for years. One day, your consciousness returned.",
-			"You awoke in an abandoned laboratory alongside complex designs for clockwork organs.",
-			"You were released after being petrified for generations. Your memories have faded, though, and your body is not what it once was.",
-			"Your body hosts a possessing spirit that shares its memories and replaces your missing appendages with phantasmal limbs.",
-			"In public, you pass as an unremarkable individual, but you can feel the itchy straw stuffing inside you."
+		"Orígens de Reborn": [
+			"Vas ser part d'un experiment que pretenia generar vida d'alguna manera a partir de la mort.",
+			"Vas ser part d'un experiment que pretenia generar vida d'alguna manera a partir de la mort.",
+			"Vas ser part d'un experiment que pretenia generar vida d'alguna manera a partir de la mort.",
+			"Vas ser part d'un experiment que pretenia generar vida d'alguna manera a partir de la mort.",
+			"Vas morir, però la teva voluntat de viure era tan forta que vas tornar.",
+			"Vas morir, però la teva voluntat de viure era tan forta que vas tornar."
 		]
 	},
 	"Satyr": {
 		"_special": "book-MOoT",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 60,
@@ -1732,43 +1771,43 @@
 			"baseweight": 100,
 			"weightmod": "2d4",
 			"_other": {
-				"Eyes": [
-					"Brown",
-					"Hazel",
-					"Green",
-					"Blue",
-					"Gray"
+				"Ulls": [
+					"Marró",
+					"Avellana",
+					"Verd",
+					"Blau",
+					"Gris"
 				],
-				"Skin": [
-					"Pale",
-					"Fair",
-					"Tan",
-					"Light Brown",
-					"Brown",
-					"Dark Brown"
+				"Pell": [
+					"Pàl·lid",
+					"Clar",
+					"Bronzejat",
+					"Marró Clar",
+					"Marró",
+					"Marró Fosc"
 				],
-				"Hair": [
-					"Black",
-					"Brown",
-					"Blond",
-					"Auburn",
-					"Red",
-					"Gray/White"
+				"Cabell": [
+					"Negre",
+					"Marró",
+					"Ros",
+					"Castany Rogenc",
+					"Vermell",
+					"Gris/Blanc"
 				]
 			}
 		}
 	},
 	"Shifter": {
 		"_special": "book-EBR",
-		"Subraces and Variants": {
-			"Subrace": [
+		"Subracies i Variants": {
+			"Subraça": [
 				"Beasthide",
 				"Longtooth",
 				"Swiftstride",
 				"Wildhunt"
 			]
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 7,
 			"maxage": 50,
@@ -1777,35 +1816,35 @@
 			"baseweight": 90,
 			"weightmod": "2d4",
 			"_other": {
-				"Eyes": [
-					"Brown",
-					"Hazel",
-					"Green",
-					"Blue",
-					"Gray"
+				"Ulls": [
+					"Marró",
+					"Avellana",
+					"Verd",
+					"Blau",
+					"Gris"
 				],
-				"Skin": [
-					"Pale",
-					"Fair",
-					"Tan",
-					"Light Brown",
-					"Brown",
-					"Dark Brown"
+				"Pell": [
+					"Pàl·lid",
+					"Clar",
+					"Bronzejat",
+					"Marró Clar",
+					"Marró",
+					"Marró Fosc"
 				],
-				"Hair": [
-					"Black",
-					"Brown",
-					"Blond",
-					"Auburn",
-					"Red",
-					"Gray/White"
+				"Cabell": [
+					"Negre",
+					"Marró",
+					"Ros",
+					"Castany Rogenc",
+					"Vermell",
+					"Gris/Blanc"
 				]
 			}
 		}
 	},
 	"Simic Hybrid": {
 		"_special": "book-GGtR",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 50,
@@ -1815,20 +1854,20 @@
 			"weightmod": "2d4",
 			"_other": {}
 		},
-		"Animal Enhancement": [
-			"Manta Glide",
-			"Nimble Climber",
-			"Underwater Adaptation"
+		"Millora Animal": [
+			"Planament de Manta",
+			"Escalador Àgil",
+			"Adaptació Subaquàtica"
 		],
-		"Advanced Animal Enhancement": [
-			"Acid Spit",
-			"Carapace",
-			"Grappling Appendages"
+		"Millora Animal Avançada": [
+			"Escupir Àcid",
+			"Carapax",
+			"Apèndixs d'Agafada"
 		]
 	},
 	"Tabaxi": {
 		"_special": "book-EGtW/VGtM",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 60,
@@ -1837,80 +1876,74 @@
 			"baseweight": 90,
 			"weightmod": "2d4",
 			"_other": {
-				"Eyes": [
-					"Green",
-					"Yellow"
+				"Ulls": [
+					"Verd",
+					"Groc"
 				],
-				"Hair": [
-					"Yellow",
-					"Orange",
-					"Red"
+				"Cabell": [
+					"Groc",
+					"Taronja",
+					"Vermell"
 				]
 			}
 		},
-		"Tabaxi Obsession": [
-			"A god or planar entity",
-			"A monster",
-			"A lost civilization",
-			"A wizard's secrets",
-			"A mundane item",
-			"A magic item",
-			"A location",
-			"A legend or tale"
+		"Obsessió Tabaxi": [
+			"Un déu o entitat planar",
+			"Un monstre",
+			"Una civilització perduda",
+			"Els secrets d'un mag",
+			"Un objecte mundà",
+			"Un lloc",
+			"Una llegenda o conte"
 		],
-		"Tabaxi Quirk": [
-			"You miss your tropical home and complain endlessly about the freezing weather, even in summer.",
-			"You never wear the same outfit twice, unless you absolutely must.",
-			"You have a minor phobia of water and hate getting wet.",
-			"Your tail always betrays your inner thoughts.",
-			"You purr loudly when you are happy.",
-			"You keep a small ball of yarn in your hand, which you constantly fidget with.",
-			"You are always in debt, since you spend your gold on lavish parties and gifts for friends.",
-			"When talking about something you're obsessed with, you speak quickly and never pause and others can't understand you.",
-			"You are a font of random trivia from the lore and stories you have discovered.",
-			"You can't help but pocket interesting objects you come across. "
+		"Peculiaritat del Tabaxi": [
+			"Enyores la teva llar tropical i et queixes constantment del temps gèlid, fins i tot a l'estiu.",
+			"Mai et quedes en un lloc durant molt de temps si pots evitar-ho.",
+			"La teva feina és una font de tants coneixements que no recordes quasi res més.",
+			"Ets una font de curiositats aleatòries de l'erudició i les històries que has descobert.",
+			"No pots evitar quedar-te objectes interessants amb els quals et trobes."
 		]
 	},
 	"Tiefling": {
 		"_special": "book-PHB",
-		"Subraces and Variants": {
-			"Subrace": {
+		"Subracies i Variants": {
+			"Subraça": {
 				"_special": "booksort",
 				"PHB": [
-					"Asmodeous Tiefling"
+					"Tiefling d'Asmodeu"
 				],
 				"MToF": [
-					"Baalzebul Tiefling",
-					"Dispater Tiefling",
-					"Fierna Tiefling",
-					"Glasya Tiefling",
-					"Levistus Tiefling",
-					"Mammon Tiefling",
-					"Mephistopheles Tiefling",
-					"Zariel Tiefling"
+					"Tiefling de Baalzebul",
+					"Tiefling de Dispater",
+					"Tiefling de Fierna",
+					"Tiefling de Glasya",
+					"Tiefling de Levistus",
+					"Tiefling de Mammon",
+					"Tiefling de Mefistòfels",
+					"Tiefling de Zariel"
 				],
 				"UA": [
-					"Abyssal Tiefling"
+					"Tiefling Abissal"
 				]
 			},
 			"Variant": {
 				"_special": "book-SCAG tieflingvarianttype",
 				"_array": [
 					null,
-					"Devil's Tongue",
-					"Hellfire",
-					"Winged",
+					"Llengua del Diable",
+					"Foc Infernal",
+					"Alat",
 					"Feral",
-					"Feral, Devil's Tongue",
-					"Feral, Hellfire",
-					"Feral, Winged"
+					"Feral, Llengua del Diable",
+					"Feral, Foc Infernal",
+					"Feral, Alat"
 				]
 			},
-			"Human Heritage": {
+			"Herència Humana": {
 				"_special": "halfethnicity"
 			}
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 65,
@@ -1919,58 +1952,51 @@
 			"baseweight": 110,
 			"weightmod": "2d4",
 			"_other": {
-				"Eyes": [
-					"Black",
-					"Red",
-					"White",
-					"Silver",
-					"Gold"
+				"Ulls": [
+					"Negre",
+					"Vermell",
+					"Blanc",
+					"Argentat",
+					"Daurat"
 				],
-				"Skin": [
-					"Pale",
-					"Fair",
-					"Tan",
-					"Light Brown",
-					"Brown",
-					"Dark Brown",
-					"Light Red",
-					"Red",
-					"Dark Red",
-					"Light Red",
-					"Red",
-					"Dark Red"
+				"Pell": [
+					"Pàl·lid",
+					"Clar",
+					"Bronzejat",
+					"Marró Clar",
+					"Marró",
+					"Marró Fosc",
+					"Vermell Clar",
+					"Vermell",
+					"Vermell Fosc",
+					"Vermell Clar",
+					"Vermell",
+					"Vermell Fosc"
 				],
-				"Hair": [
-					"Black",
-					"Brown",
-					"Dark Red",
-					"Dark Blue",
-					"Dark Purple"
+				"Cabell": [
+					"Negre",
+					"Marró",
+					"Vermell Fosc",
+					"Blau Fosc",
+					"Porpra Fosc"
 				],
-				"Horns": [
-					"Ram",
-					"Gazelle",
-					"Antelope",
-					"Bull",
-					"Ibex",
-					"Bison",
-					"One Broken"
+				"Banyes": [
+					"Moltó",
+					"Gasela",
+					"Antílop",
+					"Brau",
+					"Cabra Muntesa",
+					"Bisó",
+					"Una Trencada"
 				],
-				"Other Traits": {
+				"Altres Traços": {
 					"_special": "tieflingappearance",
-					"_array": [
-						"Small horns",
-						"Fangs or sharp teeth",
-						"Forked tongue",
-						"Catlike eyes",
-						"Six fingers on each hand",
-						"Goat-like legs",
-						"Cloven hooves",
-						"Forked tail",
-						"Leathery or scaly skin",
-						"Red or dark blue skin",
-						"Cast no shadow or reflection",
-						"Exude a smell of brimstone"
+					"Aparença": [
+						"Petit corns",
+						"Ulls d'un sol color",
+						"Ulls que brillen en la foscor",
+						"Olor a sofre",
+						"No deixa ombra o reflex"
 					]
 				}
 			}
@@ -1978,7 +2004,7 @@
 	},
 	"Tortle": {
 		"_special": "book-EGtW/Other",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 11,
 			"maxage": 40,
@@ -1987,23 +2013,23 @@
 			"baseweight": 400,
 			"weightmod": "2d4",
 			"_other": {
-				"Eyes": [
-					"Green",
-					"Blue",
-					"Brown",
-					"Black"
+				"Ulls": [
+					"Verd",
+					"Blau",
+					"Marró",
+					"Negre"
 				],
-				"Skin/Shell": [
-					"Olive-Green",
-					"Blue-Green",
-					"Brown"
+				"Pell/Closca": [
+					"Verd Oliva",
+					"Verd Blavós",
+					"Marró"
 				]
 			}
 		}
 	},
 	"Triton": {
 		"_special": "book-VGtM/MOoT",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 150,
@@ -2012,34 +2038,31 @@
 			"baseweight": 90,
 			"weightmod": "2d4",
 			"_other": {
-				"Eyes": [
-					"Black",
-					"White",
-					"Green",
-					"Blue"
+				"Ulls": [
+					"Negre",
+					"Blanc",
+					"Verd",
+					"Blau"
 				],
-				"Skin": [
-					"Silver",
-					"Silver-Blue"
+				"Pell": [
+					"Argentat",
+					"Argentat Blavós"
 				],
-				"Hair": [
-					"Deep Blue",
-					"Green-Blue"
+				"Cabell": [
+					"Blau Profund",
+					"Verd Blavós"
 				]
 			}
 		},
-		"Triton Quirk": [
-			"You phrase requests as orders that you expect to be obeyed.",
-			"You are quick to boast of the greatness of your civilization.",
-			"You learned an antiquated version of Common and drop 'thee' and 'thou' into your speech.",
-			"You assume that people are telling you the truth about local customs and expectations.",
-			"The surface world is a wondrous place, and you catalog all its details in a journal.",
-			"You mistakenly assume that surface folk know about and are impressed by your people's history. "
+		"Peculiaritat del Tritó": [
+			"Ets molt orgullós i et creus superior als altres.",
+			"El món de la superfície és un lloc meravellós, i en catalogues tots els detalls en un diari.",
+			"Assumeixes erròniament que la gent de la superfície coneix i està impressionada per la història del teu poble."
 		]
 	},
 	"Vedalken": {
 		"_special": "book-GGtR",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 30,
 			"maxage": 400,
@@ -2052,7 +2075,7 @@
 	},
 	"Verdan": {
 		"_special": "book-AI",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 16,
 			"maxage": 150,
@@ -2065,14 +2088,14 @@
 	},
 	"Warforged": {
 		"_special": "book-EBR",
-		"Subraces and Variants": {
-			"Subrace": [
+		"Subracies i Variants": {
+			"Subraça": [
 				"Envoy",
 				"Juggernaut",
 				"Skirmisher"
 			]
 		},
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 2,
 			"maxage": 30,
@@ -2081,27 +2104,22 @@
 			"baseweight": 270,
 			"weightmod": "4",
 			"_other": {
-				"Composition": [
-					"Stone",
-					"Metal",
-					"Wood"
+				"Composició": [
+					"Pedra",
+					"Metall",
+					"Fusta"
 				]
 			}
 		},
-		"Warforged Quirk": [
-			"You analyze-out loud-the potential threat posed by every creature you meet.",
-			"You often misread emotional cues.",
-			"You are fiercely protective of your friends.",
-			"You try to apply wartime discipline to every situation.",
-			"You don't know how to filter your feelings and are prone to dramatic emotional outbursts.",
-			"You don't understand clothing beyond its utility and assume it denotes a person's function.",
-			"You are obsessed with your appearance and constantly polish and buff yourself.",
-			"War is the only thing that makes sense to you, and you're always looking for a fight."
+		"Peculiaritat del Warforged": [
+			"No parles, sino que fas una sèrie de sons mecànics per comunicar-te.",
+			"Ets obsessiu amb la teva aparença i et polies i abrilles constantment.",
+			"La guerra és l'única cosa que té sentit per a tu, i sempre busques una baralla."
 		]
 	},
 	"Yuan-Ti Pureblood": {
 		"_special": "book-MR",
-		"Physical Characteristics": {
+		"Característiques Físiques": {
 			"_special": "characteristics",
 			"minage": 13,
 			"maxage": 60,
@@ -2110,25 +2128,25 @@
 			"baseweight": 110,
 			"weightmod": "2d4",
 			"_other": {
-				"Skin": [
-					"Pale",
-					"Fair",
-					"Tan",
-					"Light Brown",
-					"Brown",
-					"Dark Brown"
+				"Pell": [
+					"Pàl·lid",
+					"Clar",
+					"Bronzejat",
+					"Marró Clar",
+					"Marró",
+					"Marró Fosc"
 				],
-				"Hair": [
-					"Black",
-					"Brown",
-					"Blond",
-					"Auburn",
-					"Red",
-					"Gray/White"
+				"Cabell": [
+					"Negre",
+					"Marró",
+					"Ros",
+					"Castany Rogenc",
+					"Vermell",
+					"Gris/Blanc"
 				]
 			}
 		},
-		"Monstrous Origin": {
+		"Origen Monstruós": {
 			"_special": "monstrousorigin"
 		}
 	}

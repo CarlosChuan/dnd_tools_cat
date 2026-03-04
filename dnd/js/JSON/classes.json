@@ -1,908 +1,908 @@
 {
 	"Artificer": {
 		"_special": "book-EBR/TCoE",
-		"Artificer Specialty": {
+		"Especialitat d'Artífex": {
 			"_special": "booksort",
 			"EBR/TCoE": [
-				"Alchemist",
-				"Artillerist",
-				"Battle Smith"
+				"Alquimista",
+				"Artiller",
+				"Ferrer de Batalla"
 			],
 			"TCoE": [
-				"Armorer"
+				"Armador"
 			]
 		}
 	},
 	"Barbarian": {
 		"_special": "book-PHB",
-		"Primal Path": {
+		"Camí Primari": {
 			"_special": "booksort",
 			"PHB": [
-				"Path of the Berserker",
-				"Path of the Totem Warrior"
+				"Camí del Berserker",
+				"Camí del Guerrer Totèmic"
 			],
 			"SCAG": [
-				"Path of the Battlerager"
+				"Camí del Battlerager"
 			],
 			"XGtE": [
-				"Path of the Ancestral Guardian",
-				"Path of the Storm Herald",
-				"Path of the Zealot"
+				"Camí del Guardià Ancestral",
+				"Camí de l'Herald de la Tempesta",
+				"Camí del Zelota"
 			],
 			"TCoE": [
-				"Path of the Beast",
-				"Path of Wild magic"
+				"Camí de la Bèstia",
+				"Camí de la Màgia Salvatge"
 			]
 		},
-		"Personality": {
-			"Personal Totem": [
-				"A tuft of fur from a solitary wolf that you befriended during a hunt",
-				"Three eagle feathers given to you by a wise shaman, who told you they would play a role in determining your fate",
-				"A necklace made from the claws of a young cave bear that you slew singlehandedly as a child",
-				"A small leather pouch holding three stones that represent your ancestors",
-				"A few small bones from the first beast you killed, tied together with colored wool",
-				"An egg-sized stone in the shape of your spirit animal that appeared one day in your belt pouch",
+		"Personalitat": {
+			"Tòtem Personal": [
+				"Un floc de pèl d'un llop solitari del qual et vas fer amic durant una caça",
+				"Tres plomes d'àguila que et va donar un xaman savi, que et va dir que jugarien un paper en el teu destí",
+				"Un collaret fet amb les urpes d'un cadell d'ós de les cavernes que vas matar tot sol quan eres nen",
+				"Una petita bossa de cuir amb tres pedres que representen els teus avantpassats",
+				"Uns quants ossos petits de la primera bèstia que vas matar, lligats amb llana de colors",
+				"Una pedra de la mida d'un ou amb la forma del teu animal espiritual que va aparèixer un dia a la teva bossa del cinturó",
 				null,
 				null,
 				null
 			],
-			"Tattoo": [
-				"The wings of an eagle are spread wide across your upper back.",
-				"Etched on the backs of your hands are the paws of a cave bear.",
-				"The symbols of your clan are displayed in viny patterns along your arms.",
-				"The antlers of an elk are inked across your back.",
-				"Images of your spirit animal are tattooed along your weapon arm and hand.",
-				"The eyes of a wolf are marked on your back to help you see and ward off evil spirits.",
+			"Tatuatge": [
+				"Les ales d'una àguila estan esteses per tota la part superior de l'esquena.",
+				"Gravades al dors de les mans hi ha les potes d'un ós de les cavernes.",
+				"Els símbols del teu clan es mostren en patrons de vinya al llarg dels teus braços.",
+				"Les banyes d'un ant estan tatuades a la teva esquena.",
+				"Imatges del teu animal espiritual estan tatuades al llarg del braç i la mà de l'arma.",
+				"Els ulls d'un llop estan marcats a la teva esquena per ajudar-te a veure i protegir-te dels mals esperits.",
 				null,
 				null,
 				null
 			],
-			"Superstition": [
-				"If you disturb the bones of the dead, you inherit all the troubles that plagued them in life.",
-				"Never trust a wizard. They're all devils in disguise, especially the friendly ones.",
-				"Dwarves have lost their spirits, and are almost like the undead. That's why they live underground.",
-				"Magical things bring trouble. Never sleep with a magic object within ten feet of you.",
-				"When you walk through a graveyard, be sure to wear silver, or a ghost might jump into your body.",
-				"If an elf looks you in the eyes, she's trying to read your thoughts.",
+			"Superstició": [
+				"Si molestes els ossos dels morts, heretes tots els problemes que els van assetjar en vida.",
+				"Mai confiïs en un mag. Tots són dimonis disfressats, especialment els que semblen amables.",
+				"Els nans han perdut els seus esperits, i són quasi com els no-morts. Per això viuen sota terra.",
+				"Les coses màgiques porten problemes. Mai dormis amb un objecte màgic a menys de deu peus de tu.",
+				"Quan caminis per un cementiri, assegura't de portar plata, o un fantasma podria saltar dins del teu cos.",
+				"Si una elfa et mira als ulls, està intentant llegir els teus pensaments.",
 				null,
 				null,
 				null
 			],
-			"Became a barbarian because": [
-				"My devotion to my people lifted me in battle, making me powerful and dangerous.",
-				"The spirits of my ancestors called on me to carry out a great task.",
-				"I lost control in battle one day, and it was as if something else was manipulating my body, forcing it to kill every foe I could reach.",
-				"I went on a spiritual journey to find myself and instead found a spirit animal to guide, protect, and inspire me.",
-				"I was struck by lightning and lived. Afterward, I found a new strength within me that let me push beyond my limitations.",
-				"My anger needed to be channeled into battle, or I risked becoming an indiscriminate killer."
+			"Et vas fer bàrbar perquè": [
+				"La meva devoció pel meu poble m'elevava en la batalla, fent-me poderós i perillós.",
+				"Els esperits dels meus avantpassats em van cridar per dur a terme una gran tasca.",
+				"Vaig perdre el control en la batalla un dia, i era com si algú més estigués manipulant el meu cos, obligant-lo a matar cada enemic que podia assolir.",
+				"Vaig anar en un viatge espiritual per trobar-me a mi mateix i en comptes d'això vaig trobar un animal espiritual per guiar-me, protegir-me i inspirar-me.",
+				"Em va caure un llamp i vaig sobreviure. Després, vaig trobar una nova força dins meu que em va permetre anar més enllà de les meves limitacions.",
+				"La meva ràbia necessitava ser canalitzada cap a la batalla, o m'arriscava a convertir-me en un assassí indiscriminat."
 			]
 		}
 	},
 	"Bard": {
 		"_special": "book-PHB",
-		"Bard College": {
+		"Col·legi de Bards": {
 			"_special": "booksort",
 			"PHB": [
-				"College of Lore",
-				"College of Valor"
+				"Col·legi del Saber",
+				"Col·legi del Valor"
 			],
 			"XGtE": [
-				"College of Glamour",
-				"College of Swords",
-				"College of Whispers"
+				"Col·legi del Glamour",
+				"Col·legi de les Espases",
+				"Col·legi dels Murmuris"
 			],
 			"TCoE": [
-				"College of Creation"
+				"Col·legi de la Creació"
 			],
 			"MOoT/TCoE": [
-				"College of Eloquence"
+				"Col·legi de l'Eloqüència"
 			],
 			"UA": [
-				"College of Satire",
-				"College of Spirits"
+				"Col·legi de la Sàtira",
+				"Col·legi dels Esperits"
 			]
 		},
-		"Personality": {
-			"Defining Works": [
-				"\"The Three Flambinis,\" a ribald song concerning mistaken identities and unfettered desire",
-				"\"Waltz of the Myconids,\" an upbeat tune that children in particular enjoy",
-				"\"Asmodeus's Golden Arse,\" a dramatic poem you claim was inspired by your personal visit to Avernus",
-				"\"The Pirates of Luskan,\" your firsthand account of being kidnapped by sea reavers as a child",
-				"\"A Hoop, Two Pigeons, and a Hell Hound,\" a subtle parody of an incompetent noble",
-				"\"A Fool in the Abyss,\" a comedic poem about a jester's travels among demons",
+		"Personalitat": {
+			"Obres Definitories": [
+				"\"Els Tres Flambinis,\" una cançó obscena sobre identitats equivocades i desig desenfrenat",
+				"\"El Vals dels Micònids,\" una melodia alegre que agrada especialment als nens",
+				"\"El Cul Daurat d'Asmodeu,\" un poema dramàtic que afirmes que va ser inspirat per la teva visita personal a l'Avern",
+				"\"Els Pirates de Luskan,\" el teu relat de primera mà sobre el teu segrest per part dels saquejadors del mar quan eres nen",
+				"\"Un Cèrcol, Dos Coloms i un Gos de l'Infern,\" una sàtira subtil d'un noble incompetent",
+				"\"Un Ximple a l'Abisme,\" un poema còmic sobre els viatges d'un bufó entre dimonis",
 				null,
 				null,
 				null
 			],
 			"Instrument": [
-				"A masterfully crafted halfling fiddle",
-				"A mithral horn made by elves",
-				"A zither made with drow spider silk",
-				"An orcish drum",
-				"A wooden bullywug croak box",
-				"A tinker's harp of gnomish design",
+				"Un violí d'hànfling mestrement fabricat",
+				"Una banya de mিতril feta per elfs",
+				"Una cítara feta amb seda d'aranya drow",
+				"Un tambor d'orc",
+				"Una caixa de rauc de bullywug de fusta",
+				"Una harpa de disseny gnom",
 				null,
 				null,
 				null
 			],
-			"Embarassment": [
-				"The time when your comedic song, \"Big Tom's Hijinks\"- which, by the way, you thought was brilliant- did not go over well with Big Tom",
-				"The matinee performance when a circus's owlbear got loose and terrorized the crowd",
-				"When your opening song was your enthusiastic but universally hated rendition of \"Song of the Froghemoth\"",
-				"The first and last public performance of \"Mirt, Man about Town\"",
-				"The time on stage when your wig caught fire and you threw it down- which set fire to the stage",
-				"When you sat on your lute by mistake during the final stanza of \"Starlight Serenade\"",
+			"Situació Vergonyosa": [
+				"La vegada que la teva cançó còmica, \"Les Trapelleries del Gran Tom\" - que, per cert, pensaves que era brillant - no va ser ben rebuda pel Gran Tom",
+				"L'actuació de tarda quan un mussol-ós de circ es va escapar i va aterroritzar el públic",
+				"Quan la teva cançó d'obertura va ser la teva entusiasta però universalment odiada versió de la \"Cançó del Froghemoth\"",
+				"La primera i última actuació pública de \"Mirt, l'Home de la Ciutat\"",
+				"La vegada a l'escenari quan la teva perruca es va prendre foc i la vas llençar a terra - cosa que va incendiar l'escenari",
+				"Quan vas seure a sobre del teu llaüt per error durant l'última estrofa de la \"Serenata sota la Llum de les Estrelles\"",
 				null,
 				null,
 				null
 			],
-			"Became a bard because": [
-				"I awakened my latent bardic abilities through trial and error.",
-				"I was a gifted performer and attracted the attention of a master bard who schooled me in the old techniques.",
-				"I joined a loose society of scholars and orators to learn new techniques of performance and magic.",
-				"I felt a calling to recount the deeds of champions and heroes, to bring them alive in song and story.",
-				"I joined one of the great colleges to learn old lore, the secrets of magic, and the art of performance.",
-				"I picked up a musical instrument one day and instantly discovered that I could play it."
+			"Et vas fer bard perquè": [
+				"Vaig despertar les meves habilitats bàrdiques latents mitjançant assaig i error.",
+				"Era un intèrpret dotat i vaig atreure l'atenció d'un mestre bard que em va ensenyar les tècniques antigues.",
+				"Em vaig unir a una societat de estudiosos i oradors per aprendre noves tècniques d'interpretació i màgia.",
+				"Vaig sentir la crida de relatar les gestes dels campions i herois, per fer-los viure en cançons i històries.",
+				"Em vaig unir a un dels grans col·legis per aprendre l'erudició antiga, els secrets de la màgia i l'art de la interpretació.",
+				"Vaig agafar un instrument musical un dia i vaig descobrir a l'instant que podia tocar-lo."
 			]
 		}
 	},
 	"Blood Hunter": {
 		"_special": "book-Other",
-		"Blood Hunter Order": [
-			"Order of the Ghostslayer",
-			"Order of the Lycan",
-			"Order of the Profane Soul",
-			"Order of the Mutant"
+		"Orde del Caçador de Sang": [
+			"Ordre del Caçafantasmes",
+			"Ordre del Licantrop",
+			"Ordre de l'Ànima Profana",
+			"Ordre del Mutant"
 		]
 	},
 	"Cleric": {
 		"_special": "book-PHB",
-		"Divine Domain": {
+		"Domini Diví": {
 			"_special": "booksort",
 			"PHB": [
-				"Knowledge Domain",
-				"Life Domain",
-				"Light Domain",
-				"Nature Domain",
-				"Tempest Domain",
-				"Trickery Domain",
-				"War Domain"
+				"Domini del Coneixement",
+				"Domini de la Vida",
+				"Domini de la Llum",
+				"Domini de la Natura",
+				"Domini de la Tempesta",
+				"Domini de l'Engany",
+				"Domini de la Guerra"
 			],
 			"DMG": [
-				"Death Domain"
+				"Domini de la Mort"
 			],
 			"SCAG": [
-				"Arcane Domain"
+				"Domini Arcà"
 			],
 			"XGtE": [
-				"Forge Domain",
-				"Grave Domain"
+				"Domini de la Forja",
+				"Domini de la Tomba"
 			],
 			"GGtR/TCoE": [
-				"Order Domain"
+				"Domini de l'Ordre"
 			],
 			"TCoE": [
-				"Peace Domain",
-				"Twilight Domain"
+				"Domini de la Pau",
+				"Domini del Crepuscle"
 			],
 			"UA": [
-				"City Domain",
-				"Protection Domain"
+				"Domini de la Ciutat",
+				"Domini de la Protecció"
 			]
 		},
-		"Personality": {
+		"Personalitat": {
 			"Temple": [
-				"Your temple is said to be the oldest surviving structure built to honor your god.",
-				"Acolytes of several like- minded deities all received instruction together in your temple.",
-				"You come from a temple famed for the brewery it operates. Some say you smell like one of its ales.",
-				"Your temple is a fortress and a proving ground that trains warrior-priests.",
-				"Your temple is a peaceful, humble place, filled with vegetable gardens and simple priests.",
-				"You served in a temple in the Outer Planes.",
+				"Es diu que el teu temple és l'estructura més antiga que existeix construïda per honrar el teu déu.",
+				"Acòlits de diverses deïtats afins van rebre instrucció conjuntament al teu temple.",
+				"Prové d'un temple famós per la cerveseria que gestiona. Alguns diuen que fas olor d'una de les seves cerveses.",
+				"El teu temple és una fortalesa i un camp de proves que entrena sacerdots guerrers.",
+				"El teu temple és un lloc tranquil i humil, ple d'horts i sacerdots senzills.",
+				"Has servit en un temple als Plans Exteriors.",
 				null,
 				null,
 				null
 			],
-			"Keepsake": [
-				"The finger bone of a saint",
-				"A metal-bound book that tells how to hunt and destroy infernal creatures",
-				"A pig's whistle that reminds you of your humble and beloved mentor",
-				"A braid of hair woven from the tail of a unicorn",
-				"A scroll that describes how best to rid the world of necromancers",
-				"A runestone said to be blessed by your god",
+			"Record": [
+				"L'os del dit d'un sant",
+				"Un llibre folrat de metall que explica com caçar i destruir criatures infernals",
+				"Un xiulet de porc que et recorda el teu estimat i humil mentor",
+				"Una trena de cabell teixit de la cua d'un unicorn",
+				"Un pergamí que descriu la millor manera d'alliberar el món dels nigromants",
+				"Una runa que es diu que va ser beneïda pel teu déu",
 				null,
 				null,
 				null
 			],
 			"Secret": [
-				"An imp offers you counsel. You try to ignore the creature, but sometimes its advice is helpful.",
-				"You believe that, in the final analysis, the gods are nothing more than ultrapowerful mortal creatures.",
-				"You acknowledge the power of the gods, but you think that most events are dictated by pure chance.",
-				"Even though you can work divine magic, you have never truly felt the presence of a divine essence within yourself.",
-				"You are plagued by nightmares that you believe are sent by your god as punishment for some unknown transgression.",
-				"In times of despair, you feel that you are but a plaything of the gods, and you resent their remoteness.",
+				"Un imp et ofereix consell. Intentes ignorar la criatura, però de vegades el seu consell és útil.",
+				"Creus que, en darrera anàlisi, els déus no són més que criatures mortals d'un poder descomunal.",
+				"Reconeixeixes el poder dels déus, però creus que la majoria dels esdeveniments els dicta el pur atzar.",
+				"Tot i que pots usar la màgia divina, mai no has sentit veritablement la presència d'una essència divina dins teu.",
+				"Et persegueixen malsons que creus que t'envia el teu déu com a càstig per alguna transgressió desconeguda.",
+				"En moments de desesperació, sents que no ets més que una joguina dels déus, i et molesta la seva distància.",
 				null,
 				null,
 				null
 			],
-			"Became a cleric because": [
-				"A supernatural being in service to the gods called me to become a divine agent in the world.",
-				"I saw the injustice and horror in the world and felt moved to take a stand against them.",
-				"My god gave me an unmistakable sign. I dropped everything to serve the divine.",
-				"Although I was always devout, it wasn't until I completed a pilgrimage that I knew my true calling.",
-				"I used to serve in my religion's bureaucracy but found I needed to work in the world, to bring the message of my faith to the darkest corners of the land.",
-				"I realize that my god works through me, and I do as commanded, even though I don't know why I was chosen to serve."
+			"Et vas fer clergue perquè": [
+				"Un ésser sobrenatural al servei dels déus em va cridar perquè fos un agent diví al món.",
+				"Vaig veure la injustícia i l'horror del món i em vaig sentir mogut a plantar-hi cara.",
+				"El meu déu em va donar un senyal inconfusible. Ho vaig deixar tot per servir el diví.",
+				"Malgrat que sempre vaig ser devot, no va ser fins que vaig completar una peregrinació que vaig conèixer la meva veritable vocació.",
+				"Solia servir a la burocràcia de la meva religió, però vaig veure que necessitava treballar al món, per portar el missatge de la meva fe als racons més foscos de la terra.",
+				"M'adono que el meu déu actua a través meu, i faig el que m'ordena, tot i que no sé per què em van escollir per servir."
 			]
 		}
 	},
 	"Druid": {
 		"_special": "book-PHB",
-		"Druid Circle": {
+		"Cercle Druídic": {
 			"_special": "booksort",
 			"PHB": [
-				"Circle of the Land",
-				"Circle of the Moon"
+				"Cercle de la Terra",
+				"Cercle de la Lluna"
 			],
 			"XGtE": [
-				"Circle of Dreams",
-				"Circle of the Shepherd"
+				"Cercle dels Somnis",
+				"Cercle del Pastor"
 			],
 			"TCoE": [
-				"Circle of Stars",
-				"Circle of Wildfire"
+				"Cercle de les Estrelles",
+				"Cercle del Foc Salvatge"
 			],
 			"GGtR/TCoE": [
-				"Circle of Spores"
+				"Cercle de les Espores"
 			],
 			"UA": [
-				"Circle of Twilight"
+				"Cercle del Crepuscle"
 			]
 		},
-		"Personality": {
-			"Treasured Item": [
-				"A twig from the meeting tree that stands in the middle of your village",
-				"A vial of water from the source of a sacred river",
-				"Special herbs tied together in a bundle",
-				"A small bronze bowl engraved with animal images",
-				"A rattle made from a dried gourd and holly berries",
-				"A miniature golden sickle handed down to you from your mentor",
+		"Personalitat": {
+			"Objecte Preuat": [
+				"Una branca de l'arbre de les reunions que hi ha al mig del teu poble",
+				"Un flascó d'aigua del naixement d'un riu sagrat",
+				"Herbes especials lligades en un manat",
+				"Un petit bol de bronze gravat amb imatges d'animals",
+				"Un sonaió fet amb una carbassa seca i baies d'agrifoli",
+				"Una petita falç daurada que et va transmetre el teu mentor",
 				null,
 				null,
 				null
 			],
-			"Guiding Aspect": [
-				"Yew trees remind you of renewing your mind and spirit, letting the old die and the new spring forth.",
-				"Oak trees represent strength and vitality. Meditating under an oak fills your body and mind with resolve and fortitude.",
-				"The river's endless flow reminds you of the great span of the world. You seek to act with the long-term interests of nature in mind.",
-				"The sea is a constant, churning cauldron of power and chaos. It reminds you that accepting change is necessary to sustain yourself in the world.",
-				"The birds in the sky are evidence that even the smallest creatures can survive if they remain above the fray.",
-				"As demonstrated by the actions of the wolf, an individual's strength is nothing compared to the power of the pack.",
+			"Aspecte Guia": [
+				"Els teixos et recorden la renovació de la ment i l'esperit, deixant morir el vell i brollar el nou.",
+				"Els roures representen la força i la vitalitat. Meditar sota un roure omple el teu cos i la teva ment de resolució i fortalesa.",
+				"El flux incessant del riu et recorda l'immens abast del món. Busques actuar tenint en compte els interessos a llarg termini de la natura.",
+				"El mar és un calderó constant, batent de poder i caos. Et recorda que acceptar el canvi és necessari per sostenir-te al món.",
+				"Els ocells al cel són prova que fins i tot les criatures més petites poden sobreviure si es mantenen per sobre de la refrega.",
+				"Com demostren les accions del llop, la força d'un individu no és res comparat amb el poder de la manada.",
 				null,
 				null,
 				null
 			],
 			"Mentor": [
-				"Your mentor was a wise treant who taught you to think in terms of years and decades rather than days or months.",
-				"You were tutored by a dryad who watched over a slumbering portal to the Abyss. During your training, you were tasked with watching for hidden threats to the world.",
-				"Your tutor always interacted with you in the form of a falcon. You never saw the tutor's humanoid form.",
-				"You were one of several youngsters who were mentored by an old druid, until one of your fellow pupils betrayed your group and killed your master.",
-				"Your mentor has appeared to you only in visions. You have yet to meet this person, and you are not sure such a person exists in mortal form.",
-				"Your mentor was a werebear who taught you to treat all living things with equal regard.",
+				"El teu mentor era un treant savi que et va ensenyar a pensar en termes d'anys i dècades en lloc de dies o mesos.",
+				"Et va instruir una dríada que vigilava un portal adormit cap a l'Abisme. Durant el teu entrenament, et van encarregar vigilar les amenaces ocultes al món.",
+				"El teu tutor sempre interactuava amb tu en forma de falcó. Mai vas veure la forma humanoide del tutor.",
+				"Eres un dels joves que un ancià druida va instruir, fins que un dels teus companys d'aprenentatge va trair el grup i va matar el teu mestre.",
+				"El teu mentor només se t'ha aparegut en visions. Encara no has conegut aquesta persona, i no estàs segur que existeixi en forma mortal.",
+				"El teu mentor era un ós licantrope que et va ensenyar a tractar tots els éssers vius amb la mateixa consideració.",
 				null,
 				null,
 				null
 			],
-			"Became a druid because": [
-				"I saw too much devastation in the wild places, too much of nature's splendor ruined by the despoilers. I joined a circle of druids to fight back against the enemies of nature.",
-				"I found a place among a group of druids after I fled a catastrophe.",
-				"I have always had an affinity for animals, so I explored my talent to see how I could best use it.",
-				"I befriended a druid and was moved by druidic teachings. I decided to follow my friend's guidance and give something back to the world.",
-				"While I was growing up, I saw spirits all around me- entities no one else could perceive. I sought out the druids to help me understand the visions and communicate with these beings.",
-				"I have always felt disgust for creatures of unnatural origin. For this reason, I immersed myself in the study of the druidic mysteries and became a champion of the natural order."
+			"Et vas fer druida perquè": [
+				"Vaig veure massa devastació als llocs salvatges, massa esplendors de la natura arruïnats pels depredadors. Em vaig unir a un cercle de druides per lluitar contra els enemics de la natura.",
+				"Vaig trobar el meu lloc en un grup de druides després de fugir d'una catàstrofe.",
+				"Sempre he tingut afinitat pels animals, de manera que vaig explorar el meu talent per veure com podria aprofitar-lo millor.",
+				"Em vaig fer amic d'un druida i les ensenyances druídiques em van commoure. Vaig decidir seguir la guia del meu amic i tornar alguna cosa al món.",
+				"Mentre creixia, veia esperits per tot arreu: entitats que ningú més podia percebre. Vaig buscar els druides per ajudar-me a entendre les visions i comunicar-me amb aquests éssers.",
+				"Sempre he sentit repulsió per les criatures d'origen no natural. Per aquesta raó, em vaig capbussar en l'estudi dels misteris druídics i em vaig convertir en campió de l'ordre natural."
 			]
 		}
 	},
 	"Fighter": {
 		"_special": "book-PHB",
-		"Martial Archetype": {
+		"Arquetip Marcial": {
 			"_special": "booksort",
 			"PHB": [
-				"Champion",
-				"Battle Master",
-				"Eldritch Knight"
+				"Campió",
+				"Mestre de Batalla",
+				"Cavaller Arcà"
 			],
 			"SCAG": [
-				"Banneret/Purple Dragon Knight"
+				"Banneret/Cavaller del Drac Porpra"
 			],
 			"XGtE": [
-				"Arcane Archer",
-				"Cavalier",
+				"Arquer Arcà",
+				"Cavaller",
 				"Samurai"
 			],
 			"TCoE": [
-				"Psi Warrior",
-				"Rune Knight"
+				"Guerrer Psi",
+				"Cavaller de Runes"
 			],
 			"EGtW": [
-				"Echo Knight"
+				"Cavaller Eco"
 			],
 			"UA": [
-				"Brute",
-				"Monster Hunter",
-				"Scout",
-				"Sharpshooter"
+				"Brut",
+				"Caçador de Monstres",
+				"Explorador",
+				"Franctirador"
 			]
 		},
-		"Personality": {
-			"Heraldic Sign": [
-				"A rampant gold dragon on a green field, representing valor and a quest for wealth",
-				"The fist of a storm giant clutching lightning before a storm cloud, symbolizing wrath and power",
-				"Crossed greatswords in front of a castle gate, signifying the defense of a city or kingdom",
-				"A skull with a dagger through it, representing the doom you bring your enemies",
-				"A phoenix in a ring of fire, an expression of an indomitable spirit",
-				"Three drops of blood beneath a horizontal sword blade on a black background, symbolizing three foes you have sworn to kill",
+		"Personalitat": {
+			"Senyal Heràldic": [
+				"Un drac daurat rampant sobre un camp verd, que representa el valor i la recerca de riqueses",
+				"El puny d'un gegant de tempesta agafant un llamp davant d'un núvol de tempesta, que simbolitza la ira i el poder",
+				"Dues espases creuades davant d'una porta de castell, que significa la defensa d'una ciutat o regne",
+				"Un crani amb un punyal travessat, que representa el destí que portes als teus enemics",
+				"Un fènix en un cercle de foc, expressió d'un esperit indomable",
+				"Tres gotes de sang sota una fulla d'espasa horitzontal sobre fons negre, que simbolitza tres enemics que has jurat matar",
 				null,
 				null,
 				null
 			],
 			"Instructor": [
-				"Gladiator. Your instructor was a slave who fought for freedom in the arena, or one who willingly chose the gladiator's life to earn money and fame.",
-				"Military. Your trainer served with a group of soldiers and knows much about working as a team.",
-				"City Watch. Crowd control and peacekeeping are your instructor's specialties",
-				"Tribal Warrior. Your instructor grew up in a tribe, where fighting for one's life was practically an everyday occurrence.",
-				"Street Fighter. Your trainer excels at urban combat combining close-quarters work with silence and efficiency.",
-				"Weapon Master. Your mentor helped you to become one with your chosen weapon, by imparting highly specialized knowledge of how to wield it most effectively.",
+				"Gladiador. El teu instructor era un esclau que lluitava per la llibertat a l'arena, o algú que va escollir voluntàriament la vida de gladiador per guanyar diners i fama.",
+				"Militar. El teu entrenador va servir amb un grup de soldats i sap molt sobre treballar en equip.",
+				"Guàrdia de la Ciutat. El control de multituds i el manteniment de la pau són les especialitats del teu instructor.",
+				"Guerrer Tribal. El teu instructor va créixer en una tribu, on lluitar per la pròpia vida era pràcticament un fet quotidià.",
+				"Lluitador de Carrer. El teu entrenador excel·leix en el combat urbà combinant el treball en espais reduïts amb el silenci i l'eficiència.",
+				"Mestre d'Armes. El teu mentor et va ajudar a convertir-te en un amb la teva arma escollida, transmetent-te un coneixement altament especialitzat de com brandar-la amb la màxima eficàcia.",
 				null,
 				null,
 				null
 			],
-			"Signature Style": [
-				"Elegant. You move with precise grace and total control, never using more energy than you need.",
-				"Brutal. Your attacks rain down like hammer blows, meant to splinter bone or send blood flying.",
-				"Cunning. You dart in to attack at just the right moment and use small-scale tactics to tilt the odds in your favor.",
-				"Effortless. You rarely perspire or display anything other than a stoic expression in battle.",
-				"Energetic. You sing and laugh during combat as your spirit soars. You are happiest when you have a foe in front of you and a weapon in hand.",
-				"Sinister. You scowl and sneer while fighting, and you enjoy mocking your foes as you defeat them.",
+			"Estil Característic": [
+				"Elegant. Et mous amb gràcia precisa i control total, sense usar mai més energia de la necessària.",
+				"Brutal. Els teus atacs cauen com cops de martell, pensats per esquerdar ossos o fer volar la sang.",
+				"Astut. T'llanses a atacar just en el moment adequat i uses tàctiques a petita escala per inclinar les probabilitats al teu favor.",
+				"Sense Esforç. Rarament transpires ni mostres res que no sigui una expressió estoica en combat.",
+				"Enèrgic. Cantes i rius durant el combat mentre el teu esperit s'eleva. Ets més feliç quan tens un enemic al davant i una arma a la mà.",
+				"Sinistre. Frunceixes el cec i faràs ganyotes mentre lluites, i gaudeixes burlant-te dels teus enemics quan els derrotas.",
 				null,
 				null,
 				null
 			],
-			"Became a fighter because": [
-				"I wanted to hone my combat skills, and so I joined a war college.",
-				"I squired for a knight who taught me how to fight, care for a steed, and conduct myself with honor. I decided to take up that path for myself.",
-				"Horrible monsters descended on my community, killing someone I loved. I took up arms to destroy those creatures and others of a similar nature.",
-				"I joined the army and learned how to fight as part of a group.",
-				"I grew up fighting, and I refined my talents by defending myself against people who crossed me.",
-				"I could always pick up just about any weapon and know how to use it effectively."
+			"Et vas fer guerrer perquè": [
+				"Volia perfeccionar les meves habilitats de combat, i per això em vaig unir a una escola de guerra.",
+				"Vaig ser escuder d'un cavaller que em va ensenyar a lluitar, cuidar un cavall i conduir-me amb honor. Vaig decidir seguir jo mateix aquell camí.",
+				"Uns monstres horribles van caure sobre la meva comunitat, matant algú que estimava. Vaig agafar les armes per destruir aquelles criatures i d'altres de naturalesa similar.",
+				"Em vaig enrolar a l'exèrcit i vaig aprendre a lluitar com a part d'un grup.",
+				"Vaig créixer lluitant, i vaig refinar els meus talents defensant-me de les persones que em creuaven.",
+				"Sempre he pogut agafar gairebé qualsevol arma i saber com usar-la eficaçment."
 			]
 		}
 	},
 	"Monk": {
 		"_special": "book-PHB",
-		"Monastic Tradition": {
+		"Tradició Monàstica": {
 			"_special": "booksort",
 			"PHB": [
-				"Way of the Open Hand",
-				"Way of Shadow",
-				"Way of the Four Elements"
+				"Camí de la Mà Oberta",
+				"Camí de les Ombres",
+				"Camí dels Quatre Elements"
 			],
 			"SCAG": [
-				"Way of the Long Death"
+				"Camí de la Mort Llarga"
 			],
 			"XGtE": [
-				"Way of the Drunken Master",
-				"Way of the Kensei"
+				"Camí del Mestre Ebri",
+				"Camí del Kensei"
 			],
 			"SCAG/XGtE": [
-				"Way of the Sun Soul"
+				"Camí de l'Ànima del Sol"
 			],
 			"TCoE": [
-				"Way of Mercy",
-				"Way of the Astral Self"
+				"Camí de la Misericòrdia",
+				"Camí del Jo Astral"
 			],
 			"UA": [
-				"Way of the Ascendant Dragon",
-				"Way of Tranquility"
+				"Camí del Drac Ascendent",
+				"Camí de la Tranquil·litat"
 			]
 		},
-		"Personality": {
-			"Monastery": [
-				"Your monastery is carved out of a mountainside where it looms over a treacherous pass.",
-				"Your monastery is high in the branches of an immense tree in the Feywild.",
-				"Your monastery was founded long ago by a cloud giant and is inside a cloud castle that can be reached only by flying.",
-				"Your monastery is built beside a volcanic system of hot springs, geysers, and sulfur pools. You regularly received visits from azer traders.",
-				"Your monastery was founded by gnomes and is an underground labyrinth oftunnels and rooms.",
-				"Your monastery was carved from an iceberg in the frozen reaches of the world.",
+		"Personalitat": {
+			"Monestir": [
+				"El teu monestir és excavat en un vessant de muntanya des d'on domina un pas perillós.",
+				"El teu monestir és alt entre les branques d'un arbre immens al Món Feèric.",
+				"El teu monestir va ser fundat fa molt de temps per un gegant de núvols i es troba dins d'un castell de núvols al qual només es pot arribar volant.",
+				"El teu monestir es troba al costat d'un sistema volcànic de fonts termals, guèisers i basses de sofre. Rebies regularment les visites de comerciants azer.",
+				"El teu monestir va ser fundat per gnoms i és un laberint subterrani de túnels i sales.",
+				"El teu monestir va ser tallat d'un iceberg a les regions gelades del món.",
 				null,
 				null,
 				null
 			],
-			"Monastic Icons": [
-				"Monkey. Quick reflexes and the ability to travel through the treetops are two of the reasons why your order admires the monkey.",
-				"Dragon Turtle. The monks of your seaside monastery venerate the dragon turtle, reciting ancient prayers and offering garlands of flowers to honor this living spirit of the sea.",
-				"Ki-rin. Your monastery sees its main purpose as watching over and protecting the land in the manner of the ki-rin.",
-				"Owlbear. The monks of your monastery revere a family of owlbears and have coexisted with them for generations.",
-				"Hydra. Your order singles out the hydra for its ability to unleash several attacks simultaneously.",
-				"Dragon. A dragon once laired within your monastery. Its influence remains long after its departure.",
+			"Icones Monàstiques": [
+				"Mico. Els reflexos ràpids i la capacitat de moure's per les copes dels arbres són dues de les raons per les quals el teu orde admira el mico.",
+				"Tortuga Drac. Els monjos del teu monestir costaner veneren la tortuga drac, recitant pregàries antigues i oferint garlands de flors per honrar aquest esperit viu del mar.",
+				"Ki-rin. El teu monestir veu la seva missió principal com vigilar i protegir la terra a la manera del ki-rin.",
+				"Ós-Mussol. Els monjos del teu monestir reverencien una família d'òs-mussol i han coexistit amb ells durant generacions.",
+				"Hidra. El teu orde destaca la hidra per la seva capacitat de llançar diversos atacs simultàniament.",
+				"Drac. Un drac va tenir el seu cau al teu monestir en altre temps. La seva influència persisteix molt temps després de la seva marxa.",
 				null,
 				null,
 				null
 			],
-			"Master": [
-				"Your master was a tyrant whom you had to defeat in single combat to complete your instruction.",
-				"Your master was kindly and taught you to pursue the cause of peace.",
-				"Your master was merciless in pushing you to your limits. You nearly lost an eye during one especially brutal practice session.",
-				"Your master seemed goodhearted while tutoring you, but betrayed your monastery in the end.",
-				"Your master was cold and distant. You suspect that the two of you might be related.",
-				"Your master was kind and generous, never critical of your progress. Nevertheless, you feel you never fully lived up to the expectations placed on you.",
+			"Mestre": [
+				"El teu mestre era un tirà que havies de derrotar en combat individual per completar la teva formació.",
+				"El teu mestre era bondadós i et va ensenyar a perseguir la causa de la pau.",
+				"El teu mestre era implacable en portar-te als teus límits. Gairebé vas perdre un ull durant una sessió de pràctica especialment brutal.",
+				"El teu mestre semblava de bon cor mentre t'instruïa, però al final va trair el teu monestir.",
+				"El teu mestre era fred i distant. Sospites que els dos podríeu estar emparentats.",
+				"El teu mestre era amable i generós, mai crític amb el teu progrés. No obstant això, sents que mai no vas estar del tot a l'altura de les expectatives dipositades en tu.",
 				null,
 				null,
 				null
 			],
-			"Became a monk because": [
-				"I was chosen to study at a secluded monastery. There, I was taught the fundamental techniques required to eventually master a tradition.",
-				"I sought instruction to gain a deeper understanding of existence and my place in the world.",
-				"I stumbled into a portal to the Shadowfell and took refuge in a strange monastery, where I learned how to defend myself against the forces of darkness.",
-				"I was overwhelmed with grief after losing someone close to me, and I sought the advice of philosophers to help me cope with my loss.",
-				"I could feel that a special sort of power lay within me, so I sought out those who could help me call it forth and master it.",
-				"I was wild and undisciplined as a youngster, but then I realized the error of my ways. I applied to a monastery and became a monk as a way to live a life of discipline."
+			"Et vas fer monjo perquè": [
+				"Em van escollir per estudiar en un monestir aïllat. Allà em van ensenyar les tècniques fonamentals necessàries per dominar finalment una tradició.",
+				"Vaig buscar instrucció per obtenir una comprensió més profunda de l'existència i del meu lloc al món.",
+				"Vaig caure accidentalment en un portal cap al Shadowfell i em vaig refugiar en un estrany monestir, on vaig aprendre a defensar-me de les forces de la foscor.",
+				"Estava aclaparat de dol per haver perdut algú proper a mi, i vaig buscar el consell de filòsofs per ajudar-me a superar la pèrdua.",
+				"Podia sentir que hi havia un poder especial dins meu, de manera que vaig buscar els qui podien ajudar-me a invocar-lo i dominar-lo.",
+				"Era salvatge i indisciplinat de jove, però aleshores em vaig adonar del meu error. Em vaig presentar a un monestir i em vaig fer monjo com a manera de viure una vida de disciplina."
 			]
 		}
 	},
 	"Mystic": {
 		"_special": "book-UA",
-		"Mystic Order": [
-			"Order of the Avatar",
-			"Order of the Awakened",
-			"Order of the Immortal",
-			"Order of the Nomad",
-			"Order of the Soul Knife",
-			"Order of the Wu Jen"
+		"Orde Místic": [
+			"Ordre de l'Avatar",
+			"Ordre del Despertat",
+			"Ordre de l'Immortal",
+			"Ordre del Nòmada",
+			"Ordre del Ganivet d'Ànima",
+			"Ordre del Wu Jen"
 		]
 	},
 	"Paladin": {
 		"_special": "book-PHB",
-		"Sacred Oath": {
+		"Jurament Sagrat": {
 			"_special": "booksort",
 			"PHB": [
-				"Oath of the Ancients",
-				"Oath of Devotion",
-				"Oath of Vengeance"
+				"Jurament dels Antics",
+				"Jurament de Devoció",
+				"Jurament de Venjança"
 			],
 			"DMG": [
-				"Oathbreaker"
+				"Trencajuraments"
 			],
 			"SCAG": [
-				"Oath of the Crown"
+				"Jurament de la Corona"
 			],
 			"XGtE": [
-				"Oath of Conquest",
-				"Oath of Redemption"
+				"Jurament de Conquesta",
+				"Jurament de Redempció"
 			],
 			"TCoE": [
-				"Oath of the Watchers"
+				"Jurament dels Vigilants"
 			],
 			"MOoT/TCoE": [
-				"Oath of Glory"
+				"Jurament de Glòria"
 			],
 			"UA": [
-				"Oath of Treachery"
+				"Jurament de Traïció"
 			]
 		},
-		"Personality": {
-			"Personal Goal": [
-				"Peace. You fight so that future generations will not have to.",
-				"Revenge. Your oath is the vehicle through which you will right an ancient wrong.",
-				"Duty. You will live up to what you have sworn to do or die trying.",
-				"Leadership. You will win a great battle that bards will sing about, and in so doing, you will become an example to inspire others.",
-				"Faith. You know your path is righteous, or else the gods would not have set you upon it.",
-				"Glory. You will lead the world into a grand new era, one that will be branded with your name.",
+		"Personalitat": {
+			"Objectiu Personal": [
+				"Pau. Lluites perquè les generacions futures no hagin de fer-ho.",
+				"Venjança. El teu jurament és el vehicle amb el qual rectificaràs un antic greuge.",
+				"Deure. Compleixes el que has jurat fer o mors intentant-ho.",
+				"Lideratge. Guanyaràs una gran batalla que els bards cantaran, i en fer-ho, et convertiràs en un exemple per inspirar els altres.",
+				"Fe. Saps que el teu camí és just, o els déus no t'hi haurien posat.",
+				"Glòria. Portaràs el món a una nova i gran era, una que portarà el teu nom.",
 				null,
 				null,
 				null
 			],
-			"Symbol": [
-				"A dragon, emblematic of your nobility in peace and your ferocity in combat",
-				"A clenched fist, because you are always ready to fight for your beliefs",
-				"An upraised open hand, indicating your preference for diplomacy over combat",
-				"A red heart, showing the world your commitment to justice",
-				"A black heart, signifying that emotions such as pity do not sway your dedication to your oath",
-				"An unblinking eye, meaning that you are ever alert to all threats against your cause",
+			"Símbol": [
+				"Un drac, emblema de la teva noblesa en la pau i la teva ferocitat en el combat",
+				"Un puny tancat, perquè sempre estàs a punt de lluitar per les teves creences",
+				"Una mà oberta alçada, que indica la teva preferència per la diplomàcia sobre el combat",
+				"Un cor vermell, que mostra al món el teu compromís amb la justícia",
+				"Un cor negre, que significa que les emocions com la pietat no desvien la teva dedicació al teu jurament",
+				"Un ull que no pestanyeja, que significa que estàs sempre alerta a totes les amenaces contra la teva causa",
 				null,
 				null,
 				null
 			],
-			"Nemesis": [
-				"A mighty orc war chief who threatens to overrun and destroy everything you hold sacred",
-				"A fiend or a celestial, the agent of a power of the Outer Planes, who has been charged with corrupting or redeeming you, as appropriate",
-				"A dragon whose servants dog your steps",
-				"A high priest who sees you as a misguided fool and wants you to abandon your religion",
-				"A rival paladin who trained with you but became an oathbreaker and holds you responsible",
-				"A vampire who has sworn revenge against all paladins after being defeated by one",
+			"Nèmesi": [
+				"Un poderós cap de guerra orc que amenaça de conquerir i destruir tot allò que consideres sagrat",
+				"Un dimoni o un celestial, l'agent d'un poder dels Plans Exteriors, que ha estat encarregat de corrompre't o redimir-te, segons escaigui",
+				"Un drac els servents del qual segueixen els teus passos",
+				"Un gran sacerdot que et veu com un ximple mal encaminat i vol que abandonis la teva religió",
+				"Un paladin rival que va entrenar amb tu però es va convertir en un trencajuraments i et considera responsable",
+				"Un vampir que ha jurat venjança contra tots els paladins després de ser derrotat per un",
 				null,
 				null,
 				null
 			],
-			"Temptation": [
-				"Fury. When your anger is roused, you have trouble thinking straight, and you fear you might do something you'll regret.",
-				"Pride. Your deeds are noteworthy, and no one takes note of them more often than you.",
-				"Lust. You can't resist an attractive face and a pleasant smile.",
-				"Envy. You are mindful of what some famous folk have accomplished, and you feel inadequate when your deeds don't compare to theirs.",
-				"Despair. You consider the great strength of the enemies you must defeat, and at times you see no way to achieve final victory.",
-				"Greed. Regardless of how much glory and treasure you amass, it's never enough for you.",
+			"Temptació": [
+				"Fúria. Quan t'envaeix la ràbia, et costa pensar amb claredat, i tems que puguis fer alguna cosa de la qual et penedeixes.",
+				"Orgull. Les teves gestes són dignes de nota, i ningú no les anota més sovint que tu.",
+				"Luxúria. No pots resistir una cara atractiva i un somriure agradable.",
+				"Enveja. Ets conscient del que han aconseguit alguns personatges famosos, i et sents inadequat quan les teves gestes no es comparen amb les seves.",
+				"Desesperació. Consideres la gran força dels enemics que has de derrotar, i de vegades no veus cap manera d'aconseguir la victòria final.",
+				"Avarícia. Independentment de quanta glòria i tresor acumules, mai no és suficient per a tu.",
 				null,
 				null,
 				null
 			],
-			"Became a paladin because": [
-				"A fantastical being appeared before me and called on me to undertake a holy quest.",
-				"One of my ancestors left a holy quest unfulfilled, so I intend to finish that work.",
-				"The world is a dark and terrible place. I decided to serve as a beacon of light shining out against the gathering shadows.",
-				"I served as a paladin's squire, learning all I needed to swear my own sacred oath.",
-				"Evil must be opposed on all fronts. I feel compelled to seek out wickedness and purge it from the world.",
-				"Becoming a paladin was a natural consequence of my unwavering faith. In taking my vows, I became the holy sword of my religion."
+			"Et vas fer paladin perquè": [
+				"Un ésser fantàstic se'm va aparèixer i em va cridar a emprendre una missió sagrada.",
+				"Un dels meus avantpassats va deixar una missió sagrada sense complir, de manera que tinc la intenció d'acabar aquella feina.",
+				"El món és un lloc fosc i terrible. Vaig decidir servir com a far de llum que brilla contra les ombres que s'acosten.",
+				"Vaig servir com a escuder d'un paladin, aprenent tot el que necessitava per fer els meus propis vots sagrats.",
+				"El mal s'ha de combatre en tots els fronts. Em sento empès a buscar la maldat i purgar-la del món.",
+				"Convertir-me en paladin va ser una conseqüència natural de la meva fe inquebrantable. En fer els meus vots, em vaig convertir en l'espasa sagrada de la meva religió."
 			]
 		}
 	},
 	"Ranger": {
 		"_special": "book-PHB",
-		"Ranger Archetype": {
+		"Arquetip de Ranger": {
 			"_special": "booksort",
 			"PHB": [
-				"Beast Master",
-				"Hunter"
+				"Mestre de Bèsties",
+				"Caçador"
 			],
 			"XGtE": [
-				"Gloom Stalker",
-				"Horizon Walker",
-				"Monster Slayer"
+				"Perseguidor de les Tenebres",
+				"Caminant de l'Horitzó",
+				"Caçador de Monstres"
 			],
 			"TCoE": [
-				"Fey Wanderer",
-				"Swarmkeeper"
+				"Errant dels Feèrics",
+				"Guardià de l'Eixam"
 			],
 			"UA": [
-				"Drakewarden",
-				"Primeval Guardian"
+				"Guardià del Drac",
+				"Guardià Primeval"
 			]
 		},
-		"Personality": {
-			"View of the World": [
-				"Towns and cities are the best places for those who can't survive on their own.",
-				"The advancement of civilization is the best way to thwart chaos, but its reach must be monitored.",
-				"Towns and cities are a necessary evil, but once the wilderness is purged of supernatural threats, we will need them no more.",
-				"Walls are for cowards, who huddle behind them while others do the work of making the world safe.",
-				"Visiting a town is not unpleasant, but after a few days I feel the irresistible call to return to the wild.",
-				"Cities breed weakness by isolating folk from the harsh lessons of the wild.",
+		"Personalitat": {
+			"Visió del Món": [
+				"Les viles i les ciutats són els millors llocs per a aquells que no poden sobreviure sols.",
+				"L'avenç de la civilització és la millor manera de frenar el caos, però el seu abast s'ha de vigilar.",
+				"Les viles i les ciutats són un mal necessari, però un cop el territori salvatge sigui purificat de les amenaces sobrenaturals, ja no les necessitarem.",
+				"Les muralles són per als covards, que s'hi arrapen mentre els altres fan la feina de fer el món segur.",
+				"Visitar una vila no és desagradable, però al cap de pocs dies sento la crida irresistible de tornar a la natura salvatge.",
+				"Les ciutats engendren la feblesa aïllant la gent de les dures lliçons de la natura salvatge.",
 				null,
 				null,
 				null
 			],
-			"Homeland": [
-				"You patrolled an ancient forest, darkened and corrupted by several crossings to the Shadowfell.",
-				"As part of a group of nomads, you acquired the skills for surviving in the desert.",
-				"Your early life in the Underdark prepared you for the challenges of combating its denizens.",
-				"You dwelled on the edge of a swamp, in an area imperiled by land creatures as well as aquatic ones.",
-				"Because you grew up among the peaks, finding the best path through the mountains is second nature to you.",
-				"You wandered the far north, learning how to protect yourself and prosper in a realm overrun by ice.",
+			"Terra Natal": [
+				"Patrullaves un bosc antic, enfosquit i corromput per diversos creuaments cap al Shadowfell.",
+				"Com a part d'un grup de nòmades, vas adquirir les habilitats per sobreviure al desert.",
+				"La teva primera infància al Inframon et va preparar per als reptes de combatre els seus habitants.",
+				"Vivies a la vora d'un aiguamoll, en una zona en perill per criatures terrestres i aquàtiques.",
+				"Com que vas créixer entre pics, trobar el millor camí per les muntanyes és per a tu quelcom natural.",
+				"Vas vagar pel llunyà nord, aprenent a protegir-te i prosperar en un regne aclaparat pel gel.",
 				null,
 				null,
 				null
 			],
-			"Sworn Enemy": [
-				"You seek revenge on nature's behalf for the great transgressions your foe has committed.",
-				"Your forebears or predecessors fought these creatures, and so shall you.",
-				"You bear no enmity toward your foe. You stalk such creatures as a hunter tracks down a wild animal.",
-				"You find your foe fascinating, and you collect books of tales and history concerning it.",
-				"You collect tokens of your fallen enemies to remind you of each kill.",
-				"You respect your chosen enemy, and you see your battles as a test of respective skills.",
+			"Enemic Jurat": [
+				"Busques venjança en nom de la natura per les grans transgressions que ha comès el teu enemic.",
+				"Els teus avantpassats o predecessors van lluitar contra aquestes criatures, i tu faràs el mateix.",
+				"No sents cap animositat envers el teu enemic. Rastreges aquestes criatures com un caçador segueix un animal salvatge.",
+				"Trobes el teu enemic fascinant, i col·lecciones llibres d'aventures i d'història sobre ell.",
+				"Col·lecciones records dels teus enemics caiguts per recordar cada assassinat.",
+				"Respectes el teu enemic escollit, i veus les teves batalles com una prova de les habilitats respectives.",
 				null,
 				null,
 				null
 			],
-			"Became a ranger because": [
-				"I found purpose while I honed my hunting skills by bringing down dangerous animals at the edge of civilization.",
-				"I always had a way with animals, able to calm them with a soothing word and a touch.",
-				"I suffer from terrible wanderlust, so being a ranger gave me a reason not to remain in one place for too long.",
-				"I have seen what happens when the monsters come out from the dark. I took it upon myself to become the first line of defense against the evils that lie beyond civilization's borders.",
-				"I met a grizzled ranger who taught me woodcraft and the secrets of the wild lands.",
-				"I served in an army, learning the precepts of my profession while blazing trails and scouting enemy encampments."
+			"Et vas fer ranger perquè": [
+				"Vaig trobar un propòsit mentre afinava les meves habilitats de caça abatent animals perillosos a la frontera de la civilització.",
+				"Sempre he tingut facilitat amb els animals, capaç de calmar-los amb una paraula suau i un toc.",
+				"Pateixo una terrible inquietud, de manera que ser un ranger em va donar una raó per no romandre massa temps en un lloc.",
+				"He vist el que passa quan els monstres surten de la foscor. Em vaig encarregar de ser la primera línia de defensa contra els mals que es troben més enllà de les fronteres de la civilització.",
+				"Em vaig trobar amb un ranger veterà que em va ensenyar l'art del bosc i els secrets de les terres salvatges.",
+				"Vaig servir en un exèrcit, aprenent els preceptes de la meva professió mentre obria camins i explorava campaments enemics."
 			]
 		}
 	},
 	"Rogue": {
 		"_special": "book-PHB",
-		"Roguish Archetype": {
+		"Arquetip Pícaro": {
 			"_special": "booksort",
 			"PHB": [
-				"Thief",
-				"Assassin",
-				"Arcane Trickster"
+				"Lladre",
+				"Assassí",
+				"Trampista Arcà"
 			],
 			"XGtE": [
-				"Inquisitive",
-				"Scout"
+				"Inquisitiu",
+				"Explorador"
 			],
 			"SCAG/XGtE": [
-				"Mastermind",
-				"Swashbuckler"
+				"Ment Mestra",
+				"Espadatxí"
 			],
 			"TCoE": [
-				"Phantom",
-				"Soulknife"
+				"Fantasma",
+				"Ganivet d'Ànima"
 			]
 		},
-		"Personality": {
-			"Guilty Pleasure": [
-				"Large gems",
-				"A smile from a pretty face",
-				"A new ring for your finger",
-				"The chance to deflate someone's ego",
-				"The finest food and drink",
-				"Adding to your collection of exotic coins",
+		"Personalitat": {
+			"Plaer Culpable": [
+				"Gemes grans",
+				"Un somriure d'una cara bonica",
+				"Un nou anell per al teu dit",
+				"L'oportunitat de desinflar l'ego d'algú",
+				"El menjar i la beguda més fins",
+				"Afegir a la teva col·lecció de monedes exòtiques",
 				null,
 				null,
 				null
 			],
-			"Adversary": [
-				"The pirate captain on whose ship you once served; what you call moving on, the captain calls mutiny",
-				"A master spy to whom you unwittingly fed bad information, which led to the assassination of the wrong target",
-				"The master of the local thieves' guild, who wants you to join the organization or leave town",
-				"An art collector who uses illegal means to acquire masterpieces",
-				"A fence who uses you as a messenger to set up illicit meetings",
-				"The proprietor of an illegal pit fighting arena where you once took bets",
+			"Adversari": [
+				"El capità pirata al vaixell del qual vas servir en altre temps; el que tu anomenes seguir endavant, el capità ho anomena motí",
+				"Un espia mestre a qui vas proporcionar inadvertidament informació falsa, la qual va portar a l'assassinat de la persona equivocada",
+				"El mestre del gremi local de lladres, que vol que t'uneixis a l'organització o marxis de la ciutat",
+				"Un col·leccionista d'art que usa mitjans il·legals per adquirir obres mestres",
+				"Un intermediari que t'usa com a missatger per concertar trobades il·lícites",
+				"El propietari d'una arena de lluita clandestina on en altre temps prenies apostes",
 				null,
 				null,
 				null
 			],
 			"Benefactor": [
-				"A smuggler kept you from getting caught but lost a valuable shipment in doing so. Now you owe that person an equally valuable favor.",
-				"The Beggar King has hidden you from your pursuers many times, in return for future considerations.",
-				"A magistrate once kept you out of jail in return for information on a powerful crime lord.",
-				"Your parents used their savings to bail you out of trouble in your younger days and are now destitute.",
-				"A dragon didn't eat you when it had a chance, and in return you promised to set aside choice pieces of treasure for it.",
-				"A druid once helped you out of a tight spot; now any random animal you see could be that benefactor, perhaps come to claim a return favor.",
+				"Un contrabandista et va evitar ser atrapat però va perdre un carregament valuós en fer-ho. Ara li deus a aquella persona un favor igual de valuós.",
+				"El Rei dels Captaires t'ha amagat dels teus perseguidors moltes vegades, a canvi de consideracions futures.",
+				"Un magistrat et va mantenir fora de la presó a canvi d'informació sobre un poderós senyor del crim.",
+				"Els teus pares van usar els seus estalvis per treure't de problemes en la teva joventut i ara estan a la ruïna.",
+				"Un drac no et va menjar quan va tenir l'ocasió, i a canvi li vas prometre guardar-li trossos de tresor escollits.",
+				"Un druida et va ajudar a sortir d'una situació difícil; ara qualsevol animal aleatori que vegis podria ser aquell benefactor, potser vingut a reclamar un favor a canvi.",
 				null,
 				null,
 				null
 			],
-			"Became a rogue because": [
-				"I've always been nimble and quick of wit, so I decided to use those talents to help me make my way in the world.",
-				"An assassin or a thief wronged me, so I focused my training on mastering the skills of my enemy to better combat foes of that sort.",
-				"An experienced rogue saw something in me and taught me several useful tricks.",
-				"I decided to turn my natural lucky streak into the basis of a career, though I still realize that improving my skills is essential.",
-				"I took up with a group of ruffians who showed me how to get what I want through sneakiness rather than direct confrontation.",
-				"I'm a sucker for a shiny bauble or a sack of coins, as long as I can get my hands on it without risking life and limb."
+			"Et vas fer pícaro perquè": [
+				"Sempre he sigut àgil i de pensament ràpid, de manera que vaig decidir usar aquests talents per ajudar-me a obrir-me pas al món.",
+				"Un assassí o un lladre em va fer un greuge, de manera que vaig centrar el meu entrenament en dominar les habilitats del meu enemic per combatre millor adversaris d'aquell tipus.",
+				"Un pícaro experimentat va veure alguna cosa en mi i em va ensenyar alguns trucs útils.",
+				"Vaig decidir convertir la meva ratxa de sort natural en la base d'una carrera, tot i que encara reconec que millorar les meves habilitats és essencial.",
+				"Em vaig unir a un grup de rufians que em van ensenyar a aconseguir el que vull mitjançant l'astúcia en lloc de l'enfrontament directe.",
+				"Sóc un incondicional d'una joia brillant o un sac de monedes, sempre que pugui posar-hi les mans sense arriscar la vida i els membres."
 			]
 		}
 	},
 	"Sorcerer": {
 		"_special": "book-PHB",
-		"Sorcerous Origin": {
+		"Origen Bruixesc": {
 			"_special": "booksort",
 			"PHB": [
-				"Draconic Bloodline",
-				"Wild Magic"
+				"Llinatge Dracònic",
+				"Màgia Salvatge"
 			],
 			"XGtE": [
-				"Divine Soul",
-				"Shadow Magic"
+				"Ànima Divina",
+				"Màgia de les Ombres"
 			],
 			"SCAG/XGtE": [
-				"Storm Sorcery"
+				"Bruixeria de Tempesta"
 			],
 			"TCoE": [
-				"Aberrant Mind",
-				"Clockwork Soul"
+				"Ment Aberrant",
+				"Ànima de Rellotgeria"
 			],
 			"UA": [
-				"Giant Soul",
-				"Phoenix Sorcery",
-				"Sea Sorcery",
-				"Stone Sorcery"
+				"Ànima de Gegant",
+				"Bruixeria del Fènix",
+				"Bruixeria del Mar",
+				"Bruixeria de Pedra"
 			]
 		},
-		"Personality": {
-			"Arcane Origins": [
-				"Your power arises from your family's bloodline. You are related to some powerful creature, or you inherited a blessing or a curse.",
-				"You are the reincarnation of a being from another plane of existence",
-				"A powerful entity entered the world. Its magic changed you.",
-				"Your birth was prophesied in an ancient text, and you are foretold to use your power for terrible ends.",
-				"You are the product of generations of careful, selective breeding",
-				"You were made in a vat by an alchemist",
+		"Personalitat": {
+			"Orígens Arcans": [
+				"El teu poder sorgeix del llinatge de la teva família. Estàs relacionat amb alguna criatura poderosa, o has heretat una benedicció o una maledicció.",
+				"Ets la reencarnació d'un ésser d'un altre pla d'existència.",
+				"Una entitat poderosa va entrar al món. La seva màgia et va transformar.",
+				"El teu naixement va ser profetitzat en un text antic, i es preveu que usaràs el teu poder per a fins terribles.",
+				"Ets el producte de generacions de cria selectiva i acurada.",
+				"Et van fabricar en una cubeta per un alquimista.",
 				null,
 				null,
 				null
 			],
-			"Reaction": [
-				"Your powers are seen as a great blessing by those around you, and you are expected to use them in service to your community.",
-				"Your powers caused destruction and even a death when they became evident, and you were treated as a criminal.",
-				"Your neighbors hate and fear your power, causing them to shun you.",
-				"You came to the attention of a sinister cult that plans on exploiting your abilities.",
-				"People around you believe that your powers are a curse levied on your family for a past transgression.",
-				"Your powers are believed to be tied to an ancient line of mad kings that supposedly ended in a bloody revolt over a century ago.",
+			"Reacció": [
+				"Els que t'envolten veuen els teus poders com una gran benedicció, i s'espera que els usis al servei de la teva comunitat.",
+				"Els teus poders van causar destrucció i fins i tot una mort quan es van fer evidents, i et van tractar com un criminal.",
+				"Els teus veïns odien i temen el teu poder, la qual cosa fa que et marginïn.",
+				"Has cridat l'atenció d'un culte sinistre que planeja explotar les teves habilitats.",
+				"Les persones que t'envolten creuen que els teus poders són una maledicció imposada a la teva família per una transgressió passada.",
+				"Es creu que els teus poders estan lligats a un antic llinatge de reis bojos que suposadament va acabar en una sagnant revolta fa més d'un segle.",
 				null,
 				null,
 				null
 			],
-			"Supernatural Mark": [
-				"Your eyes are an unusual color, such as red.",
-				"You have an extra toe on one foot.",
-				"One of your ears is noticeably larger than the other.",
-				"Your hair grows at a prodigious rate.",
-				"You wrinkle your nose repeatedly while you are chewing.",
-				"A red splotch appears on your neck once a day, then vanishes after an hour.",
+			"Marca Sobrenatural": [
+				"Els teus ulls tenen un color inusual, com ara el vermell.",
+				"Tens un dit de peu addicional a un peu.",
+				"Una de les teves orelles és notablement més gran que l'altra.",
+				"El teu cabell creix a una velocitat prodigiosa.",
+				"Arrufes el nas repetidament mentre mastegues.",
+				"Una taca vermella apareix al teu coll un cop al dia i desapareix al cap d'una hora.",
 				null,
 				null,
 				null
 			],
-			"Sign of Sorcery": [
-				"You deliver the verbal components of your spells in the booming voice of a titan.",
-				"For a moment after you cast a spell, the area around you grows dark and gloomy.",
-				"You sweat profusely while casting a spell and for a few seconds thereafter.",
-				"Your hair and garments are briefly buffeted about as if by a breeze, whenever you call forth a spell.",
-				"If you are standing when you cast a spell, you rise six inches into the air and gently float back down.",
-				"Illusory blue flames wreathe your head as you begin your casting, then abruptly disappear.",
+			"Signe de Bruixeria": [
+				"Pronuncies els components verbals dels teus encanteris amb la veu retronant d'un tità.",
+				"Durant un moment després de llançar un encanteri, la zona al teu voltant s'enfosqueix i es torna ombrívola.",
+				"Sues abundantment mentre llances un encanteri i durant uns pocs segons després.",
+				"El teu cabell i les teves robes s'agiten breument com si hi hagués una brisa quan invoque un encanteri.",
+				"Si estàs dret quan llances un encanteri, t'eleveixes quinze centímetres a l'aire i flottes suaument de tornada a terra.",
+				"Flames blaves il·lusòries envolten el teu cap quan comences a llançar l'encanteri, i desapareixen de sobte.",
 				null,
 				null,
 				null
 			],
-			"Became a sorcerer because": [
-				"When I was born, all the water in the house froze solid, the milk spoiled, or all the iron turned to copper. My family is convinced that this event was a harbinger of stranger things to come for me.",
-				"I suffered a terrible emotional or physical strain, which brought forth my latent magical power. I have fought to control it ever since.",
-				"My immediate family never spoke of my ancestors, and when I asked, they would change the subject. It wasn't until I started displaying strange talents that the full truth of my heritage came out.",
-				"When a monster threatened one of my friends, I became filled with anxiety. I lashed out instinctively and blasted the wretched thing with a force that came from within me.",
-				"Sensing something special in me, a stranger taught me how to control my gift.",
-				"After I escaped from a magical conflagration, I realized that though I was unharmed, I was not unchanged. I began to exhibit unusual abilities that I am just beginning to understand."
+			"Et vas fer bruixot perquè": [
+				"Quan vaig néixer, tota l'aigua de la casa es va congelar, la llet es va espatllar, o tot el ferro es va convertir en coure. La meva família està convençuda que aquest fet va ser un presagi de coses més estranyes per venir.",
+				"Vaig patir una terrible tensió emocional o física, que va fer aflorar el meu poder màgic latent. Des d'aleshores he lluitat per controlar-lo.",
+				"La meva família immediata mai no parlava dels meus avantpassats, i quan preguntava, canviaven de tema. No va ser fins que vaig començar a mostrar talents estranys que va sortir tota la veritat del meu llegat.",
+				"Quan un monstre va amenaçar un dels meus amics, em vaig omplir d'ansietat. Vaig reaccionar instintivament i vaig fer volar la miserable criatura amb una força que venia de dins meu.",
+				"Intuint que hi havia alguna cosa especial en mi, un desconegut em va ensenyar a controlar el meu do.",
+				"Després d'escapar d'una conflagració màgica, em vaig adonar que, tot i que estava il·lès, no era el mateix. Vaig començar a exhibir habilitats inusuals que tot just estic començant a entendre."
 			]
 		}
 	},
 	"Warlock": {
 		"_special": "book-PHB",
-		"Otherworldly Patron": {
+		"Patró Extraterrenal": {
 			"_special": "booksort",
 			"PHB": [
-				"The Archfey",
-				"The Fiend",
-				"The Great Old One"
+				"L'Archifada",
+				"El Dimoni",
+				"El Gran Ser Antic"
 			],
 			"SCAG": [
-				"The Undying"
+				"L'Immortal"
 			],
 			"XGtE": [
-				"The Celestial",
-				"The Hexblade"
+				"El Celestial",
+				"L'Espasaprofana"
 			],
 			"TCoE": [
-				"The Fathomless",
-				"The Genie"
+				"L'Insondable",
+				"El Geni"
 			],
 			"UA": [
-				"Ghost in the Machine",
-				"The Raven Queen",
-				"The Seeker",
-				"The Undead"
+				"Fantasma en la Màquina",
+				"La Reina dels Corbs",
+				"El Cercador",
+				"El No-mort"
 			]
 		},
-		"Personality": {
-			"Patron Attitudes": [
-				"Your patron has guided and helped your family for generations and is kindly toward you.",
-				"Each interaction with your capricious patron is a surprise, whether pleasant or painful.",
-				"Your patron is the spirit of a long-dead hero who sees your pact as a way for it to continue to influence the world.",
-				"Your patron is a strict disciplinarian but treats you with a measure of respect.",
-				"Your patron tricked you into a pact and treats you as a slave.",
-				"You are mostly left to your own devices with no interference from your patron. Sometimes you dread the demands it will make when it does appear.",
+		"Personalitat": {
+			"Actituds del Patró": [
+				"El teu patró ha guiat i ajudat la teva família durant generacions i és bondadós amb tu.",
+				"Cada interacció amb el teu capritxós patró és una sorpresa, sigui agradable o dolorosa.",
+				"El teu patró és l'esperit d'un heroi mort fa molt de temps que veu el teu pacte com una manera de continuar influint al món.",
+				"El teu patró és un disciplinari estricte però et tracta amb una certa mesura de respecte.",
+				"El teu patró et va enganyar per fer-te signar un pacte i et tracta com un esclau.",
+				"En general se't deixa fer el que vols sense interferències del teu patró. De vegades tems les exigències que farà quan aparegui.",
 				null,
 				null,
 				null
 			],
-			"Special Terms": [
-				"When directed, you must take immediate action against a specific enemy of your patron.",
-				"Your pact tests your willpower; you are required to abstain from alcohol and other intoxicants.",
-				"At least once a day, you must inscribe or carve your patron's name or symbol on the wall of a building.",
-				"You must occasionally conduct bizarre rituals to maintain your pact.",
-				"You can never wear the same outfit twice, since your patron finds such predictability to be boring.",
-				"When you use an eldritch invocation, you must speak your patron's name aloud or risk incurring its displeasure.",
+			"Termes Especials": [
+				"Quan se t'indica, has de prendre mesures immediates contra un enemic específic del teu patró.",
+				"El teu pacte posa a prova la teva força de voluntat; se't demana que t'abstinguis de l'alcohol i altres intoxicants.",
+				"Almenys un cop al dia, has d'inscriure o gravar el nom o símbol del teu patró a la paret d'un edifici.",
+				"De tant en tant has de dur a terme rituals estranys per mantenir el teu pacte.",
+				"Mai no pots portar el mateix vestit dues vegades, ja que el teu patró considera que aquesta previsibilitat és avorrida.",
+				"Quan uses una invocació arcana, has de pronunciar el nom del teu patró en veu alta o arriscar-te a incórrer en el seu desplaer.",
 				null,
 				null,
 				null
 			],
-			"Binding Mark": [
-				"One of your eyes looks the same as one of your patron's eyes.",
-				"Each time you wake up, the small blemish on your face appears in a different place.",
-				"You display outward symptoms of a disease but suffer no ill effects from it.",
-				"Your tongue is an unnatural color.",
-				"You have a vestigial tail.",
-				"Your nose glows in the dark.",
+			"Marca del Pacte": [
+				"Un dels teus ulls té el mateix aspecte que un dels ulls del teu patró.",
+				"Cada vegada que et despertes, la petita taca a la teva cara apareix en un lloc diferent.",
+				"Mostres símptomes externs d'una malaltia però no en pateixes cap efecte negatiu.",
+				"La teva llengua té un color no natural.",
+				"Tens una cua vestigial.",
+				"El teu nas brilla a la foscor.",
 				null,
 				null,
 				null
 			],
-			"Became a warlock because": [
-				"While wandering around in a forbidden place, I encountered an otherworldly being that offered to enter into a pact with me.",
-				"I was examining a strange tome I found in an abandoned library when the entity that would become my patron suddenly appeared before me.",
-				"I stumbled into the clutches of my patron after I accidentally stepped through a magical doorway.",
-				"When I was faced with a terrible crisis, I prayed to any being who would listen, and the creature that answered became my patron.",
-				"My future patron visited me in my dreams and offered great power in exchange for my service.",
-				"One of my ancestors had a pact with my patron, so that entity was determined to bind me to the same agreement."
+			"Et vas fer bruixot perquè": [
+				"Mentre vagava per un lloc prohibit, em vaig trobar amb un ésser d'un altre món que em va oferir entrar en un pacte.",
+				"Examinava un estrany volum que vaig trobar en una biblioteca abandonada quan l'entitat que seria el meu patró es va aparèixer de sobte davant meu.",
+				"Vaig caure a les urpes del meu patró després de passar accidentalment per una porta màgica.",
+				"Quan m'enfrontava a una crisi terrible, vaig pregar a qualsevol ésser que em volgués escoltar, i la criatura que va respondre es va convertir en el meu patró.",
+				"El meu futur patró em visitava en somnis i m'oferia un gran poder a canvi del meu servei.",
+				"Un dels meus avantpassats tenia un pacte amb el meu patró, de manera que aquella entitat estava determinada a vincular-me al mateix acord."
 			]
 		}
 	},
 	"Wizard": {
 		"_special": "book-PHB",
-		"Arcane Tradition": {
+		"Tradició Arcana": {
 			"_special": "booksort",
 			"PHB": [
-				"School of Abjuration",
-				"School of Conjuration",
-				"School of Divination",
-				"School of Enchantment",
-				"School of Evocation",
-				"School of Illusion",
-				"School of Necromancy",
-				"School of Transmutation"
+				"Escola d'Abjuració",
+				"Escola de Conjuració",
+				"Escola de Divinació",
+				"Escola d'Encantament",
+				"Escola d'Evocació",
+				"Escola d'Il·lusió",
+				"Escola de Necromància",
+				"Escola de Transmutació"
 			],
 			"XGtE": [
-				"War Magic"
+				"Màgia de Guerra"
 			],
 			"SCAG/TCoE": [
-				"Bladesinging"
+				"Cançó de Fulla"
 			],
 			"TCoE": [
-				"Order of Scribes"
+				"Ordre dels Escrivans"
 			],
 			"EGtW": [
-				"Chronurgy Magic",
-				"Graviturgy Magic"
+				"Màgia de Cronurgia",
+				"Màgia de Graviturgia"
 			],
 			"UA": [
-				"Onomancy",
-				"Psionics",
-				"School of Invention",
-				"Technomancy",
-				"Theurgy"
+				"Onomància",
+				"Psionisme",
+				"Escola d'Invenció",
+				"Tecnomàgia",
+				"Teurgia"
 			]
 		},
-		"Personality": {
-			"Spellbook": [
-				"A tome with pages that are thin sheets of metal spells etched into them with acid",
-				"Long straps of leather on which spells are written, wrapped around a staff for ease of transport",
-				"A battered tome filled with pictographs that only you can understand",
-				"Small stones inscribed with spells and kept in a cloth bag",
-				"A scorched book, ravaged by dragon fire, with the script of your spells barely visible on its pages",
-				"A tome full of black pages whose writing is visible only in dim light or darkness",
+		"Personalitat": {
+			"Llibre d'Encanteris": [
+				"Un volum amb pàgines que són fulles fines de metall amb encanteris gravats amb àcid",
+				"Llargues tires de cuir en les quals hi ha escrits encanteris, enrotllats al voltant d'un bastó per facilitar el transport",
+				"Un tom destrossat ple de pictografies que només tu pots entendre",
+				"Pedres petites inscrites amb encanteris i guardades en una bossa de roba",
+				"Un llibre cremat, devastat pel foc d'un drac, amb la grafia dels teus encanteris tot just visible a les seves pàgines",
+				"Un tom ple de pàgines negres l'escriptura de les quals només és visible en llum tènue o en la foscor",
 				null,
 				null,
 				null
 			],
-			"Ambition": [
-				"You will prove that the gods aren't as powerful as folk believe.",
-				"Immortality is the end goal of your studies.",
-				"If you can fully understand magic, you can unlock its use for all and usher in an era of equality.",
-				"Magic is a dangerous tool. You use it to protect what you treasure.",
-				"Arcane power must be taken away from those who would abuse it.",
-				"You will become the greatest wizard the world has seen in generations.",
+			"Ambició": [
+				"Demostraràs que els déus no són tan poderosos com la gent creu.",
+				"La immortalitat és l'objectiu final dels teus estudis.",
+				"Si pots entendre completament la màgia, pots desbloquejar el seu ús per a tots i inaugurar una era d'igualtat.",
+				"La màgia és una eina perillosa. L'uses per protegir allò que aprecies.",
+				"El poder arcà s'ha de prendre als qui en farien un ús abusiu.",
+				"Et convertiràs en el mag més gran que el món ha vist en generacions.",
 				null,
 				null,
 				null
 			],
-			"Eccentricity": [
-				"You have the habit of tapping your foot incessantly, which often annoys those around you.",
-				"Your memory is quite good, but you have no trouble pretending to be absent minded when it suits your purposes.",
-				"You never enter a room without looking to see what's hanging from the ceiling.",
-				"Your most prized possession is a dead worm that you keep inside a potion vial.",
-				"When you want people to leave you alone, you start talking to yourself. That usually does the trick.",
-				"Your fashion sense and grooming, or more accurately lack thereof, sometimes causes others to assume you are a beggar.",
+			"Excentricitat": [
+				"Tens el costum de picar el peu incansablement, cosa que sovint molesta els que t'envolten.",
+				"La teva memòria és molt bona, però no tens cap problema per fingir que ets distret quan et convé.",
+				"Mai no entres en una habitació sense mirar si hi ha alguna cosa penjada del sostre.",
+				"La teva possessió més preuada és un cuc mort que guardes dins d'un flascó de poció.",
+				"Quan vols que la gent et deixi en pau, comences a parlar sol. Generalment funciona.",
+				"El teu sentit de la moda i la cura personal, o més exactament la manca d'ells, de vegades fa que altri et prengui per un captaire.",
 				null,
 				null,
 				null
 			],
-			"Became a wizard because": [
-				"An old wizard chose me from among several candidates to serve an apprenticeship.",
-				"When I became lost in a forest, a hedge wizard found me, took me in, and taught me the rudiments of magic.",
-				"I grew up listening to tales of great wizards and knew I wanted to follow their path. I strove to be accepted at an academy of magic and succeeded.",
-				"One of my relatives was an accomplished wizard who decided I was smart enough to learn the craft.",
-				"While exploring an old tomb, library, or temple, I found a spellbook. I was immediately driven to learn all I could about becoming a wizard.",
-				"I was a prodigy who demonstrated mastery of the arcane arts at an early age. When I became old enough to set out on my own, I did so to learn more magic and expand my power."
+			"Et vas fer mag perquè": [
+				"Un mag vell em va escollir entre diversos candidats per fer d'aprenent.",
+				"Quan em vaig perdre en un bosc, un mag de bardissa em va trobar, em va acollir i em va ensenyar els rudiments de la màgia.",
+				"Vaig créixer escoltant històries de grans mags i sabia que volia seguir el seu camí. Em vaig esforçar per ser admès en una acadèmia de màgia i ho vaig aconseguir.",
+				"Un dels meus parents era un mag reconegut que va decidir que era prou intel·ligent per aprendre l'ofici.",
+				"Mentre explorava una antiga tomba, biblioteca o temple, vaig trobar un llibre d'encanteris. De seguida em va impel·lir a aprendre tot el que podia sobre com convertir-me en mag.",
+				"Era un prodigi que va demostrar el domini de les arts arcanes a una edat primerenca. Quan vaig ser prou gran per independitzar-me, ho vaig fer per aprendre més màgia i expandir el meu poder."
 			]
 		}
 	}

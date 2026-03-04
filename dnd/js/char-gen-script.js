@@ -26,7 +26,7 @@ var Dropdowns = {
     },
 
     GetDropdownOptions: function (list) {
-        let optionsArray = ["<option value=\"Random\">Random</option>"];
+        let optionsArray = ["<option value=\"Random\">Aleatori</option>"];
         for (let propertyName in list) {
             let item = list[propertyName];
             if (typeof item != "object" || !item.hasOwnProperty("_special") || BookFunctions.CheckSpecial(item._special))
@@ -243,7 +243,7 @@ function SetHTML() {
     $("#race, #raceheader").html(character.Race.name);
     $("#racesection").html(HTMLStrings.Get(character.Race));
 
-    $("#gender, #genderheader").html(character.Race.name == "Warforged" ? "Genderless" : character.Gender);
+    $("#gender, #genderheader").html(character.Race.name == "Warforged" ? "Sense gènere" : character.Gender);
 
     $("#class, #classheader").html(character.Class.name);
     $("#classsection").html(HTMLStrings.Get(character.Class));
@@ -339,12 +339,12 @@ var Content = {
                 return this.GetCharacteristics(specialItem);
 
             case "gendersort": // Get property according to gender
-                return character.Gender == "Male" ? specialItem.Male :
-                    character.Gender == "Female" ? specialItem.Female :
-                        Random.Array([specialItem.Male, specialItem.Female]);
+                return character.Gender == "Masculí" ? specialItem["Masculí"] :
+                    character.Gender == "Femení" ? specialItem["Femení"] :
+                        Random.Array([specialItem["Masculí"], specialItem["Femení"]]);
 
             case "halfethnicity": // Get human ethnicity for half-humans
-                mcEthnicity = (Random.Num(5) > 0 ? RandomEthnicity.Get() : "Unknown");
+                mcEthnicity = (Random.Num(5) > 0 ? RandomEthnicity.Get() : "Desconeguda");
                 return mcEthnicity;
 
             case "humanethnicity": // Get human ethnicity for full-humans
@@ -352,8 +352,8 @@ var Content = {
                 return mcEthnicity;
 
             case "subracesort": // For certain races, we need to know the subrace to determine the physical characteristics. This is less hacky than the code it replaced.
-                let SubracePropName = (splitSpecial.length > 1 ? (splitSpecial[1].split("_").join(" ")) : "Subrace"),
-                    subracesAndVariants = specialItem["Subraces and Variants"],
+                let SubracePropName = (splitSpecial.length > 1 ? (splitSpecial[1].split("_").join(" ")) : "Subraça"),
+                    subracesAndVariants = specialItem["Subracies i Variants"],
                     newSubVar = {},
                     subraceString;
 
@@ -366,11 +366,11 @@ var Content = {
                     } else
                         newSubVar[propertyName] = subracesAndVariants[propertyName];
                 }
-                // specialItem["Subraces and Variants"] = newSubVar;
-                // specialItem["Physical Characteristics"] = specialItem["Physical Characteristics"][subraceString];
+                // specialItem["Subracies i Variants"] = newSubVar;
+                // specialItem["Característiques Físiques"] = specialItem["Característiques Físiques"][subraceString];
                 return {
-                    "Subraces and Variants": newSubVar,
-                    "Physical Characteristics": specialItem["Physical Characteristics"][subraceString]
+                    "Subracies i Variants": newSubVar,
+                    "Característiques Físiques": specialItem["Característiques Físiques"][subraceString]
                 };
 
             case "dragonbornvarianttype": // Wildemount dragonborn have weird variants
@@ -403,33 +403,33 @@ var Content = {
                 // specialItem["Bond"] = backgroundCopy.Bond;
                 // specialItem["Flaw"] = backgroundCopy.Flaw;
                 return {
-                    "Trait": backgroundCopy.Trait,
+                    "Tret de Personalitat": backgroundCopy["Tret de Personalitat"],
                     "Ideal": backgroundCopy.Ideal,
-                    "Bond": backgroundCopy.Bond,
-                    "Flaw": backgroundCopy.Flaw
+                    "Vincle": backgroundCopy["Vincle"],
+                    "Defecte": backgroundCopy["Defecte"]
                 };
 
             case "ravnicacontacts": // Ravnica Backgrounds
                 let guildName = specialItem["_name"],
                     ravnicaContacts = {};
-                ravnicaContacts[guildName + " Ally"] = Random.Array(specialItem["_guild"]);
+                ravnicaContacts[guildName + " Aliat"] = Random.Array(specialItem["_guild"]);
                 ravnicaContacts[guildName + " Rival"] = Random.Array(specialItem["_guild"]);
                 let nonGuildContact = Random.Array(specialItem["_nonguild"]);
                 if (nonGuildContact == "_reroll") {
                     nonGuildContact = Random.Array(specialItem["_guild"]);
-                    ravnicaContacts["Additional " + guildName + " Contact"] = nonGuildContact
+                    ravnicaContacts["Contacte de " + guildName + " addicional"] = nonGuildContact
                 }
                 else
-                    ravnicaContacts["Non-" + guildName + " Contact"] = nonGuildContact;
+                    ravnicaContacts["Contacte no de " + guildName] = nonGuildContact;
                 return ravnicaContacts;
 
             case "dimircontacts": // Ravnica Backgrounds, House Dimir is a special case
                 let dimirContacts = {}, secondaryGuild = Random.Array(specialItem._guilds),
                     otherGuildContacts = backgrounds[secondaryGuild.background]["Contacts"]["_guild"];
-                dimirContacts["Dimir Ally"] = Random.Array(specialItem["_dimircontact"]);
-                dimirContacts["Secondary Guild"] = secondaryGuild.name;
-                dimirContacts["Secondary Guild Ally"] = Random.Array(otherGuildContacts);
-                dimirContacts["Secondary Guild Rival"] = Random.Array(otherGuildContacts);
+                dimirContacts["Aliat Dimir"] = Random.Array(specialItem["_dimircontact"]);
+                dimirContacts["Gremi secundari"] = secondaryGuild.name;
+                dimirContacts["Aliat del gremi secundari"] = Random.Array(otherGuildContacts);
+                dimirContacts["Rival del gremi secundari"] = Random.Array(otherGuildContacts);
                 return dimirContacts;
             //"Roll an additional Azorius contact; you can decide if the contact is an ally or a rival.",
         }
@@ -452,13 +452,13 @@ var Content = {
     GetCharacteristics: function (item) {
         let chaObj = {},
             age = Random.Num(item.maxage - item.minage) + item.minage;
-        age += (age == "1" ? " year" : " years"); // Extremely rare edge case but it can happen
-        chaObj.Age = age;
+        age += (age == "1" ? " any" : " anys"); // Extremely rare edge case but it can happen
+        chaObj.Edat = age;
 
         let heightmod = Random.DiceRoll(item.heightmod),
             intHeight = item.baseheight + heightmod;
-        chaObj.Height = Math.floor(intHeight / 12) + "'" + (intHeight % 12) + "\"";
-        chaObj.Weight = item.baseweight + heightmod * Random.DiceRoll(item.weightmod) + " lbs.",
+        chaObj.Alçada = Math.floor(intHeight / 12) + "'" + (intHeight % 12) + "\"";
+        chaObj.Pes = item.baseweight + heightmod * Random.DiceRoll(item.weightmod) + " lbs.",
             otherObj = item._other;
 
         if (otherObj == undefined)
@@ -690,10 +690,10 @@ var Names = {
     GetSubrace: function () {
         let race = character.Race.content
         for (let index = 0; index < race.length; index++) {
-            if (race[index].name == "Subraces and Variants") {
+            if (race[index].name == "Subracies i Variants") {
                 let subrace = race[index].content;
                 for (let index2 = 0; index2 < subrace.length; index2++) {
-                    if (subrace[index2].name == "Subrace")
+                    if (subrace[index2].name == "Subraça")
                         return subrace[index2].content;
                 }
             }
@@ -762,9 +762,9 @@ var RandomEthnicity = {
     Get: function () {
         return ethnicityOption == "standard" ?
             usedBooks.includes("SCAG") ?
-                Random.Array(races.Human["Subraces and Variants"].Ethnicity.PHB.concat(races.Human["Subraces and Variants"].Ethnicity.SCAG)) :
-                Random.Array(races.Human["Subraces and Variants"].Ethnicity.PHB) :
-            Random.Array(races.Human["Subraces and Variants"].Ethnicity.Real);
+                Random.Array(races.Human["Subracies i Variants"].Ètnia.PHB.concat(races.Human["Subracies i Variants"].Ètnia.SCAG)) :
+                Random.Array(races.Human["Subracies i Variants"].Ètnia.PHB) :
+            Random.Array(races.Human["Subracies i Variants"].Ètnia.Real);
     }
 }
 
@@ -772,7 +772,7 @@ var RandomEthnicity = {
 var NPCTraits = {
     Get: function () {
         let newNPCTraits = {
-            "Appearance": Random.Array(npcs.appearances)
+            "Aparença": Random.Array(npcs.appearances)
         },
             highTraitNum = Random.Num(npcs.highAbilities.length),
             lowTraitNum = Random.Num(npcs.lowAbilities.length - 1);
@@ -781,12 +781,12 @@ var NPCTraits = {
         if (lowTraitNum >= highTraitNum)
             lowTraitNum++;
 
-        newNPCTraits["High Ability"] = npcs.highAbilities[highTraitNum];
-        newNPCTraits["Low Ability"] = npcs.lowAbilities[lowTraitNum];
+        newNPCTraits["Habilitat Alta"] = npcs.highAbilities[highTraitNum];
+        newNPCTraits["Habilitat Baixa"] = npcs.lowAbilities[lowTraitNum];
 
-        newNPCTraits.Talent = Random.Array(npcs.talents);
-        newNPCTraits.Mannerism = Random.Array(npcs.mannerisms);
-        newNPCTraits["Interaction Trait"] = Random.Array(npcs.interactionTraits);
+        newNPCTraits["Talent"] = Random.Array(npcs.talents);
+        newNPCTraits["Manera de ser"] = Random.Array(npcs.mannerisms);
+        newNPCTraits["Tret d'interacció"] = Random.Array(npcs.interactionTraits);
 
         let ideal = Random.Array(npcs.ideals),
             bond, bond1 = Random.Num(10)
@@ -799,9 +799,9 @@ var NPCTraits = {
                 bond2 = Random.Num(9);
             bond = npcs.bonds[bond1] + ", " + npcs.bonds[bond2];
         }
-        newNPCTraits.Values = ideal + ", " + bond;
+        newNPCTraits["Valors"] = ideal + ", " + bond;
 
-        newNPCTraits["Flaw or Secret"] = Random.Array(npcs.flawsAndSecrets);
+        newNPCTraits["Defecte o Secret"] = Random.Array(npcs.flawsAndSecrets);
         return newNPCTraits;
     }
 }
@@ -809,22 +809,22 @@ var NPCTraits = {
 var Occupation = {
     Get: function (allowAdventurer) {
         let rand = Random.Num(allowAdventurer ? 100 : 99);
-        return rand < 5 ? "Academic" :
-            rand < 10 ? "Aristocrat" :
-                rand < 25 ? "Artisan or guild member" :
+        return rand < 5 ? "Acadèmic" :
+            rand < 10 ? "Aristòcrata" :
+                rand < 25 ? "Artesà o membre d'un gremi" :
                     rand < 30 ? "Criminal" :
-                        rand < 35 ? "Entertainer" :
-                            rand < 37 ? "Exile, hermit, or refugee" :
-                                rand < 42 ? "Explorer or wanderer" :
-                                    rand < 54 ? "Farmer or herder" :
-                                        rand < 59 ? "Hunter or trapper" :
-                                            rand < 74 ? "Laborer" :
-                                                rand < 79 ? "Merchant" :
-                                                    rand < 84 ? "Politician or bureaucrat" :
-                                                        rand < 89 ? "Priest" :
-                                                            rand < 94 ? "Sailor" :
-                                                                rand < 99 ? "Soldier" :
-                                                                    "Adventurer (" + Life.ClassWeighted() + ")";
+                        rand < 35 ? "Animador/a" :
+                            rand < 37 ? "Exiliat, ermità o refugiat" :
+                                rand < 42 ? "Explorador o vagabund" :
+                                    rand < 54 ? "Pagès o pastor" :
+                                        rand < 59 ? "Caçador o trampaire" :
+                                            rand < 74 ? "Obrer" :
+                                                rand < 79 ? "Comerciant" :
+                                                    rand < 84 ? "Polític o buròcrata" :
+                                                        rand < 89 ? "Sacerdot" :
+                                                            rand < 94 ? "Mariner" :
+                                                                rand < 99 ? "Soldat" :
+                                                                    "Aventurer (" + Life.ClassWeighted() + ")";
     },
 }
 
@@ -832,29 +832,32 @@ var Occupation = {
 var Life = {
     Get: function () {
         let newLife = {};
-        newLife.Alignment = Random.Array(life.alignments);
-        newLife.Origin = {};
+        newLife["Alineament"] = Random.Array(life.alignments);
+        newLife["Origen"] = {};
         if (character.Race.name == "Warforged")
-            newLife.Origin.Built = Random.Array(life.origins.Birthplace);
+            newLife["Origen"]["Construït"] = Random.Array(life.origins.Birthplace);
         else
-            newLife.Origin.Birthplace = Random.Array(life.origins.Birthplace);
+            newLife["Origen"]["Lloc de Naixement"] = Random.Array(life.origins.Birthplace);
         let parents = life.origins.Parents[character.Race.name];
         if (parents != undefined)
-            newLife.Origin.Parents = Random.Array(parents);
+            newLife["Origen"]["Pares"] = Random.Array(parents);
 
         let raisedBy = this.RaisedBy();
-        if (raisedBy != "Mother and father")
-            newLife.Origin["Absent Parent(s)"] = this.AbsentParent();
+        if (raisedBy != "Mare i pare")
+            newLife["Procedent de"] = raisedBy;
+        newLife["Pare absent"] = this.AbsentParent();
 
         let lifestyle = this.Lifestyle();
-        newLife.Origin["Family Lifestyle"] = lifestyle[0];
-        newLife.Origin["Childhood Home"] = this.Home(lifestyle[1]);
-        newLife.Origin["Childhood Memories"] = this.Memories();
+        newLife["Estil de vida familiar"] = lifestyle[0];
+        newLife["Llar d'infantesa"] = this.Home(lifestyle[1]);
+        newLife["Records d'infantesa"] = this.Memories();
 
-        newLife.Origin["Siblings"] = this.Siblings(newLife.Origin.Parents);
+        let siblings = this.Siblings(newLife["Origen"]["Pares"]);
+        newLife["Germans"] = siblings;
 
-        newLife["Life Events"] = this.LifeEvents();
-        newLife["Trinket"] = Random.Array(life.trinkets);
+        let lifeEvents = this.LifeEvents();
+        newLife["Esdeveniments de la vida"] = lifeEvents;
+        newLife["Andròmina"] = Random.Array(life.trinkets);
 
         return newLife;
     },
@@ -866,38 +869,39 @@ var Life = {
             let newEventType = "";
             do {
                 let randomEventNum = Random.Num(100);
-                newEventType = randomEventNum == 99 ? "Weird Stuff" :
+                newEventType = randomEventNum == 99 ? "Cosa Estranya" :
                     life.eventTables["Life Events"][Math.floor(randomEventNum / 5)];
             } while (lifeEvents.hasOwnProperty([newEventType]))
 
             let newEvent = "";
             switch (newEventType) {
-                case "Marriage":
+                case "Matrimoni":
                     let spouseRace;
                     if (Random.Num(3) < 2)
                         spouseRace = character.Race.name;
                     else
                         spouseRace = RaceWeighted.Get();
-                    newEvent = "You fell in love or got married to a(n) " + spouseRace.toLowerCase() + " " + Occupation.Get(true).toLowerCase() + ".";
+                    newEvent = "Et vas enamorar o et vas casar amb un/a " + this.People() + ".";
                     break;
-                case "Friend":
-                    newEvent = "You made a friend of a(n) " + RaceWeighted.Get().toLowerCase() + " " + this.ClassWeighted().toLowerCase() + ".";
+                case "Amic":
+                    newEvent = "Vas fer amistat amb un/a " + this.People() + ".";
                     break;
-                case "Enemy":
-                    newEvent = "You made an enemy of a(n) " + RaceWeighted.Get().toLowerCase() + " " + this.ClassWeighted().toLowerCase() + ". Roll a d6. An odd number indicates you are to blame for the rift, and an even number indicates you are blameless.";
+                case "Enemic":
+                    newEvent = "Te vas fer enemic d'un/a " + this.People() + ". Tira un d6. Un número senar indica que tu tens la culpa de la ruptura, i un número parell indica que ets innocent.";
                     break;
-                case "Job":
-                    newEvent = "You spent time working in a job related to your background. Start the game with an extra 2d6 gp.";
+                case "Feina":
+                    newEvent = "Vas passar temps treballant en una feina relacionada amb el teu rerefons. Comença la partida amb 2d6 po extres.";
                     break;
-                case "Someone Important":
-                    newEvent = "You met an important " + RaceWeighted.Get().toLowerCase() + ", who is " + this.Relationship().toLowerCase() + " towards you.";
+                case "Persona important":
+                    let attitude = Random.Array(["hostil", "amistós", "indiferent"]);
+                    newEvent = "Vas conèixer una persona important (" + this.People() + "), que és " + attitude + " cap a tu.";
                     break;
-                case "Adventure":
+                case "Aventura":
                     let rand = Random.Num(100);
-                    newEvent = rand == 99 ? life.eventTables.Adventure[10] : life.eventTables.Adventure[Math.floor(rand / 10)];
+                    newEvent = rand == 99 ? life.eventTables["Aventura"][10] : life.eventTables["Aventura"][Math.floor(rand / 10)];
                     break;
-                case "Crime":
-                    newEvent = Random.Array(life.eventTables.Crime) + ". " + Random.Array(life.eventTables.Punishment);
+                case "Crim":
+                    newEvent = Random.Array(life.eventTables["Crim"]) + ". " + Random.Array(life.eventTables["Càstig"]);
                     break;
                 default:
                     newEvent = Random.Array(life.eventTables[newEventType]);
@@ -917,27 +921,27 @@ var Life = {
             let newSib = {},
                 race = this.SiblingRace(parents);
             if (race != "Warforged")
-                newSib.Gender = Random.Array(other.genders);
-            newSib.Race = race;
+                newSib["Gènere"] = Random.Array(other.genders);
+            newSib["Raça"] = race;
             newSibName = this.SiblingName(newSib);
             while (newSibName == character.Name.substring(0, newSibName.length))
                 newSibName = this.SiblingName(newSib);
-            newSib.Alignment = this.Alignment();
-            newSib.Occupation = Occupation.Get(true);
-            newSib.Status = this.Status();
+            newSib["Alineament"] = this.Alignment();
+            newSib["Ocupació"] = Occupation.Get(true);
+            newSib["Estat"] = this.Status();
 
-            newSib.Relationship = this.Relationship();
+            newSib["Relació"] = this.Relationship();
 
             let birthOrderRoll = Random.DiceRoll("2d6"),
                 birthOrder;
-            if (newSib.Race == "Warforged") {
-                birthOrder = birthOrderRoll < 3 ? "Simultaneous" :
-                    birthOrderRoll < 8 ? "Older" : "Younger"
-                newSib["Order of Construction"] = birthOrder;
+            if (newSib["Raça"] == "Warforged") {
+                birthOrder = birthOrderRoll < 3 ? "Simultani" :
+                    birthOrderRoll < 8 ? "Gran" : "Petit"
+                newSib["Ordre de Construcció"] = birthOrder;
             } else {
-                birthOrder = birthOrderRoll < 3 ? "Twin, triplet, or quadruplet" :
-                    birthOrderRoll < 8 ? "Older" : "Younger"
-                newSib["Birth Order"] = birthOrder;
+                birthOrder = birthOrderRoll < 3 ? "Bessons, trigèmins o quàdruples" :
+                    birthOrderRoll < 8 ? "Gran" : "Petit"
+                newSib["Ordre de Naixement"] = birthOrder;
             }
             siblings[newSibName] = newSib;
         }
@@ -948,27 +952,27 @@ var Life = {
     {
         switch (character.Race.name) {
             case "Half-Elf":
-                return parents == "One parent was an elf and the other was a half-elf." ?
+                return parents == "Un dels progenitors era un elf i l'altre era un mig-elf." ?
                     Random.Array(["Elf", "Half-Elf"]) :
-                    parents == "One parent was a human and the other was a half-elf." ?
+                    parents == "Un dels progenitors era un humà i l'altre era un mig-elf." ?
                         Random.Array(["Human", "Half-Elf"]) : "Half-Elf";
             case "Half-Orc":
-                return parents == "One parent was an orc and the other was a half-orc." ?
+                return parents == "Un dels progenitors era un orc i l'altre era un mig-orc." ?
                     Random.Array(["Orc", "Half-Orc"]) :
-                    parents == "One parent was an human and the other was a half-orc." ?
+                    parents == "Un dels progenitors era un humà i l'altre era un mig-orc." ?
                         Random.Array(["Human", "Half-Orc"]) : "Half-Orc";
             case "Tiefling":
-                return parents == "Both parents were humans, their infernal heritage dormant until you came along." ?
+                return parents == "Ambdós progenitors eren humans, la seva herència infernal va estar latent fins que vas arribar tu." ?
                     Random.Array(["Human", "Human", "Human", "Tiefling"]) :
-                    parents == "One parent was a tiefling and the other was a human." ?
+                    parents == "Un dels progenitors era un tiefling i l'altre era un humà." ?
                         Random.Array(["Human", "Tiefling"]) : "Tiefling";
             case "Genasi":
-                return parents == "One parent was a genasi and the other was a human." ?
+                return parents == "Un dels progenitors era un geni i l'altre era un humà." ?
                     Random.Array(["Human", "Genasi"]) :
-                    parents == "Both parents were humans, their elemental heritage dormant until you came along." ?
+                    parents == "Ambdós progenitors eren humans, la seva herència elemental va estar latent fins que vas arribar tu." ?
                         Random.Array(["Human", "Human", "Human", "Genasi"]) : "Genasi";
             case "Aasimar":
-                return parents == "Both parents were humans, their celestial heritage dormant until you came along." ?
+                return parents == "Ambdós progenitors eren humans, la seva herència celestial va estar latent fins que vas arribar tu." ?
                     "Human" : Random.Array(["Human", "Aasimar"]);
         }
         return character.Race.name;
@@ -977,122 +981,122 @@ var Life = {
     // Random tables
 
     SiblingName: function (sibling) {
-        let siblingRace = sibling.Race,
+        let siblingRace = sibling["Raça"],
             name;
         if (siblingRace == "Tabaxi")
             return Random.Array(names.Tabaxi.Name);
         else
             name = (siblingRace == "Human" && character.Race.name != "Human") ?
-                Names.GetHuman(Names.GetHumanEthnicity(), sibling.Gender) :
-                Names.Get(sibling.Race, sibling.Gender);
+                Names.GetHuman(Names.GetHumanEthnicity(), sibling["Gènere"]) :
+                Names.Get(sibling["Raça"], sibling["Gènere"]);
         let lastSpace = name.lastIndexOf(" ");
         return lastSpace < 0 ? name : name.substring(0, lastSpace);
     },
 
     Alignment: function () {
         let roll = Random.DiceRoll("3d6");
-        return roll < 4 ? Random.Array(["Chaotic Evil", "Chaotic Neutral"]) :
-            roll < 6 ? "Lawful Evil" :
-                roll < 9 ? "Neutral Evil" :
-                    roll < 13 ? "Neutral" :
-                        roll < 16 ? "Neutral Good" :
-                            roll < 17 ? "Lawful Good" :
-                                roll < 18 ? "Lawful Neutral" :
-                                    Random.Array(["Chaotic Good", "Chaotic Neutral"]);
+        return roll < 3 ? "Lícit Maligne" :
+                roll < 5 ? "Caòtic Maligne" :
+                roll < 9 ? "Neutral Maligne" :
+                roll < 13 ? "Neutral Pur" :
+                roll < 16 ? "Neutral Bo" :
+                roll < 17 ? "Lícit Bo" :
+                roll < 18 ? "Lícit Neutral" :
+                Random.Array(["Caòtic Bo", "Caòtic Neutral"]);
     },
 
     ClassWeighted: function () {
         let rand = Random.Num(115);
-        return rand < 7 ? "Barbarian" :
+        return rand < 7 ? "Bàrbar" :
             rand < 14 ? "Bard" :
-                rand < 29 ? "Cleric" :
-                    rand < 36 ? "Druid" :
-                        rand < 52 ? "Fighter" :
-                            rand < 58 ? "Monk" :
+                rand < 29 ? "Clergue" :
+                    rand < 36 ? "Druida" :
+                        rand < 52 ? "Guerrer" :
+                            rand < 58 ? "Monjo" :
                                 rand < 64 ? "Paladin" :
                                     rand < 70 ? "Ranger" :
-                                        rand < 84 ? "Rogue" :
-                                            rand < 89 ? "Sorcerer" :
-                                                rand < 94 ? "Warlock" :
-                                                    rand < 100 ? "Wizard" :
+                                        rand < 84 ? "Bergant" :
+                                            rand < 89 ? "Bruixot" :
+                                                rand < 94 ? "Mag Fosc" :
+                                                    rand < 100 ? "Mag" :
                                                         rand < 105 ? (usedBooks.includes("EBR") ? "Artificer" : this.ClassWeighted()) :
-                                                            rand < 110 ? (usedBooks.includes("Other") ? "Blood Hunter" : this.ClassWeighted()) :
-                                                                (usedBooks.includes("UA") ? "Mystic" : this.ClassWeighted());
+                                                            rand < 110 ? (usedBooks.includes("Other") ? "Caçador de Sang" : this.ClassWeighted()) :
+                                                                (usedBooks.includes("UA") ? "Místic" : this.ClassWeighted());
     },
 
     Status: function () {
         let roll = Random.DiceRoll("3d6");
-        return roll < 4 ? "Dead (roll on the Cause of Death table)" :
-            roll < 6 ? "Missing or unknown" :
-                roll < 9 ? "Alive, but doing poorly due to injury, financial trouble, or relationship difficulties" :
-                    roll < 13 ? "Alive and well" :
-                        roll < 16 ? "Alive and quite successful" :
-                            roll < 18 ? "Alive and infamous" :
-                                "Alive and famous";
+        return roll < 4 ? "Mort (tira a la taula de Causa de la Mort)" :
+            roll < 6 ? "Desaparegut o desconegut" :
+                roll < 9 ? "Viu, però li va malament a causa d'una lesió, problemes financers o dificultats en les relacions" :
+                    roll < 13 ? "Viu i bé" :
+                        roll < 16 ? "Viu i amb força èxit" :
+                            roll < 18 ? "Viu i amb mala fama" :
+                                "Viu i famós";
     },
 
     RaisedBy: function () {
         let rand = Random.Num(100);
-        return rand < 1 ? "Nobody" :
-            rand < 2 ? "Institution, such as an asylum" :
+        return rand < 1 ? "Ningú" :
+            rand < 2 ? "Institució, com un manicomi" :
                 rand < 3 ? "Temple" :
-                    rand < 5 ? "Orphanage" :
-                        rand < 7 ? "Guardian" :
-                            rand < 15 ? "Paternal or maternal aunt, uncle, or both : or extended family such as a tribe or clan" :
-                                rand < 25 ? "Paternal or maternal grandparent(s)" :
-                                    rand < 35 ? "Adoptive family (same or different race)" :
-                                        rand < 55 ? "Single father or stepfather" :
-                                            rand < 75 ? "Single mother or stepmother" :
-                                                "Mother and father";
+                    rand < 5 ? "Orfenat" :
+                        rand < 7 ? "Tutor" :
+                            rand < 15 ? "Oncle o tia (patern/a o matern/a), o tots dos: o família extensa com una tribu o clan" :
+                                rand < 25 ? "Avi/s (paterns o materns)" :
+                                    rand < 35 ? "Família adoptiva (de la mateixa o diferent raça)" :
+                                        rand < 55 ? "Pare solter o padrastre" :
+                                            rand < 75 ? "Mare soltera o madrastra" :
+                                                "Mare i pare";
     },
 
     AbsentParent: function () {
         let rand = Random.Num(4);
-        return rand < 1 ? "Your parent(s) died" :
-            rand < 2 ? "Your parent(s) was/were imprisoned, enslaved, or otherwise taken away" :
-                rand < 3 ? "Your parent(s) abandoned you" :
-                    "Your parent(s) disappeared to an unknown fate";
+        return rand < 1 ? "Els teus pares van morir" :
+            rand < 2 ? "Els teus pares van ser empresonats, esclavitzats o apartats d'alguna altra manera" :
+                rand < 3 ? "Els teus pares et van abandonar" :
+                    "Els teus pares van desaparèixer cap a un destí desconegut";
     },
 
     Lifestyle: function () {
         let roll = Random.DiceRoll("3d6");
-        return roll < 4 ? ["Wretched", -40] :
-            roll < 6 ? ["Squalid", -20] :
-                roll < 9 ? ["Poor", -10] :
+        return roll < 4 ? ["Miserable", -40] :
+            roll < 6 ? ["Escarransit", -20] :
+                roll < 9 ? ["Pobre", -10] :
                     roll < 13 ? ["Modest", 0] :
-                        roll < 16 ? ["Comfortable", 10] :
-                            roll < 18 ? ["Wealthy", 20] : ["Aristocratic", 40];
+                        roll < 16 ? ["Còmode", 10] :
+                            roll < 18 ? ["Ric", 20] : ["Aristocràtic", 40];
     },
 
     Home: function (lifeMod) {
         let rand = Random.Num(100) + lifeMod;
-        return rand < 0 ? "On the streets" :
-            rand < 20 ? "Rundown shack" :
-                rand < 30 ? "No permanent residence, you moved around a lot" :
-                    rand < 40 ? "Encampment of village in the wilderness" :
-                        rand < 50 ? "Apartment in a rundown neighborhood" :
-                            rand < 70 ? "Small house" :
-                                rand < 90 ? "Large house" :
-                                    rand < 110 ? "Mansion" :
-                                        "Palace or Castle";
+        return rand < 0 ? "Al carrer" :
+            rand < 20 ? "Cabana rònega" :
+                rand < 30 ? "Sense residència permanent, et movies molt" :
+                    rand < 40 ? "Campament o poble a la natura" :
+                        rand < 50 ? "Apartament en un barri rònec" :
+                            rand < 70 ? "Casa petita" :
+                                rand < 90 ? "Casa gran" :
+                                    rand < 110 ? "Mansió" :
+                                        "Palau o Castell";
     },
 
     Memories: function () {
         let roll = Random.DiceRoll("3d6") + Random.Num(5) - 1;
-        return roll < 4 ? "I am still haunted by my childhood, when I was treated badly by my peers" :
-            roll < 6 ? "I spent most of my childhood alone, with no close friends" :
-                roll < 9 ? "Others saw me as being different or strange, and so I had few companions" :
-                    roll < 13 ? "I had a few close friends and lived an ordinary childhood." :
-                        roll < 16 ? "I had several friends, and my childhood was generally a happy one." :
-                            roll < 18 ? "I always found it easy to make friends, and I loved being around people." :
-                                "Everyone knew who I was, and I had friends everywhere I went.";
+        return roll < 4 ? "Encara estic traumatitzat per la meva infantesa, quan els meus companys em tractaven malament" :
+            roll < 6 ? "Vaig passar la major part de la meva infantesa sol, sense amics íntims" :
+                roll < 9 ? "Els altres em veien diferent o estrany, i per això tenia pocs companys" :
+                    roll < 13 ? "Tenia alguns amics íntims i vaig tenir una infantesa corrent." :
+                        roll < 16 ? "Tenia diversos amics, i la meva infantesa va ser generalment feliç." :
+                            roll < 18 ? "Sempre em va resultar fàcil fer amics, i m'encantava estar amb gent." :
+                                "Tothom sabia qui era, i tenia amics a tot arreu on anava.";
     },
 
     Relationship: function () {
         let roll = Random.DiceRoll("3d4");
-        return roll < 5 ? "Hostile" :
-            roll < 11 ? "Friendly" :
-                "Indifferent";
+        return roll < 5 ? "Hostil" :
+            roll < 11 ? "Amistós" :
+                "Indiferent";
     },
 }
 
@@ -1177,7 +1181,7 @@ let Characters = {
     },
     SetDropdown: function () {
         if (prevCharacters.length < 2) return;
-        let options = ["<option value=''>-Select-</option>"];
+        let options = ["<option value=''>-Selecciona-</option>"];
         for (let index = 0; index < prevCharacters.length; index++) {
             let prevCharacter = prevCharacters[index];
             options.push("<option value='" + index + "'>" + prevCharacter.ShortName + ", " + prevCharacter.Race.name + " " + (prevCharacter.type == "npc" ? prevCharacter.Occupation : prevCharacter.Class.name) + "</option>");

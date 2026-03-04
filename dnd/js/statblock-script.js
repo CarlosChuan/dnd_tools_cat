@@ -219,27 +219,27 @@ function UpdateStatblock(moveSeparationPoint) {
     let traitsHTML = [];
 
     if (mon.abilities.length > 0) AddToTraitList(traitsHTML, mon.abilities);
-    if (mon.actions.length > 0) AddToTraitList(traitsHTML, mon.actions, "<h3>Actions</h3>");
-    if (mon.bonusActions.length > 0) AddToTraitList(traitsHTML, mon.bonusActions, "<h3>Bonus Actions</h3>");
-    if (mon.reactions.length > 0) AddToTraitList(traitsHTML, mon.reactions, "<h3>Reactions</h3>");
+    if (mon.actions.length > 0) AddToTraitList(traitsHTML, mon.actions, "<h3>Accions</h3>");
+    if (mon.bonusActions.length > 0) AddToTraitList(traitsHTML, mon.bonusActions, "<h3>Accions Bonus</h3>");
+    if (mon.reactions.length > 0) AddToTraitList(traitsHTML, mon.reactions, "<h3>Reaccions</h3>");
     if (mon.isLegendary && (mon.legendaries.length > 0 || mon.legendariesDescription.length > 0))
         AddToTraitList(traitsHTML, mon.legendaries, mon.legendariesDescription == "" ?
-            "<h3>Legendary Actions</h3><div class='property-block'></div>" :
-            ["<h3>Legendary Actions</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.legendariesDescription))), "</div></br>"], true);
+            "<h3>Accions Llegendàries</h3><div class='property-block'></div>" :
+            ["<h3>Accions Llegendàries</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.legendariesDescription))), "</div></br>"], true);
     if (mon.isMythic && mon.isLegendary && (mon.mythics.length > 0 || mon.mythicDescription.length > 0))
         AddToTraitList(traitsHTML, mon.mythics, mon.mythicDescription == "" ?
-            "<h3>Mythic Actions</h3><div class='property-block'></div>" :
-            ["<h3>Mythic Actions</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.mythicDescription))), "</div></br>"], true);    
+            "<h3>Accions Mítiques</h3><div class='property-block'></div>" :
+            ["<h3>Accions Mítiques</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.mythicDescription))), "</div></br>"], true);    
     if (mon.isLair && mon.isLegendary && (mon.lairs.length > 0 || mon.lairDescription.length > 0 || mon.lairDescriptionEnd.length > 0)) {
         AddToTraitList(traitsHTML, mon.lairs, mon.lairDescription == "" ?
-            "<h3>Lair Actions</h3><div class='property-block'></div>" :
-            ["<h3>Lair Actions</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.lairDescription))), "</div></br><ul>"], false, true);
+            "<h3>Accions de Cau</h3><div class='property-block'></div>" :
+            ["<h3>Accions de Cau</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.lairDescription))), "</div></br><ul>"], false, true);
         traitsHTML.push("</ul>" + StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.lairDescriptionEnd))));
     }
     if (mon.isRegional && mon.isLegendary && (mon.regionals.length > 0 || mon.regionalDescription.length > 0 || mon.regionalDescriptionEnd.length > 0)) {
         AddToTraitList(traitsHTML, mon.regionals, mon.regionalDescription == "" ?
-            "<h3>Regional Effects</h3><div class='property-block'></div>" :
-            ["<h3>Regional Effects</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.regionalDescription))), "</div></br><ul>"], false, true);
+            "<h3>Efectes Regionals</h3><div class='property-block'></div>" :
+            ["<h3>Efectes Regionals</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.regionalDescription))), "</div></br><ul>"], false, true);
         traitsHTML.push("</ul>" + StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.regionalDescriptionEnd))));
     }
 
@@ -441,9 +441,9 @@ function BuildMarkdown(isV3Markdown) {
         `## ${mon.name}`,
         `*${StringFunctions.StringCapitalize(mon.size)} ${mon.type}${mon.tag != "" ? ` (${mon.tag})`  : ""}, ${mon.alignment}*`,
         `___`,
-        PrintMarkdownProperty(isV3Markdown, "Armor Class", StringFunctions.FormatString(StringFunctions.GetArmorData())),
-        PrintMarkdownProperty(isV3Markdown, "Hit Points", StringFunctions.GetHP()), 
-        PrintMarkdownProperty(isV3Markdown, "Speed", StringFunctions.GetSpeed()),
+        PrintMarkdownProperty(isV3Markdown, "Classe d'Armadura", StringFunctions.FormatString(StringFunctions.GetArmorData())),
+        PrintMarkdownProperty(isV3Markdown, "Punts de Vida", StringFunctions.GetHP()), 
+        PrintMarkdownProperty(isV3Markdown, "Velocitat", StringFunctions.GetSpeed()),
         `___`);
     AddMarkdownAttributesTable(markdownLines);
     markdownLines.push("___");
@@ -458,19 +458,19 @@ function BuildMarkdown(isV3Markdown) {
     }
 
     markdownLines.push(
-        PrintMarkdownProperty(isV3Markdown, "Challenge", mon.cr == "*" ? mon.customCr : `${mon.cr} (${data.crs[mon.cr].xp} XP)`),
+        PrintMarkdownProperty(isV3Markdown, "Desafiament", mon.cr == "*" ? mon.customCr : `${mon.cr} (${data.crs[mon.cr].xp} XP)`),
         "___");
 
     AddMarkdownTraitSection(markdownLines, isV3Markdown, null, mon.abilities);
-    AddMarkdownTraitSection(markdownLines, isV3Markdown, "Actions", mon.actions);
-    AddMarkdownTraitSection(markdownLines, isV3Markdown, "Bonus Actions", mon.bonusActions);
-    AddMarkdownTraitSection(markdownLines, isV3Markdown, "Reactions", mon.reactions);
+    AddMarkdownTraitSection(markdownLines, isV3Markdown, "Accions", mon.actions);
+    AddMarkdownTraitSection(markdownLines, isV3Markdown, "Accions Bonus", mon.bonusActions);
+    AddMarkdownTraitSection(markdownLines, isV3Markdown, "Reaccions", mon.reactions);
 
     if (mon.isLegendary) {
-        AddMarkdownTraitSection(markdownLines, isV3Markdown, "Legendary Actions", mon.legendaries, mon.legendariesDescription, null, LEGENDARY);
-        if (mon.isMythic) AddMarkdownTraitSection(markdownLines, isV3Markdown, "Mythic Actions", mon.mythics, mon.mythicDescription, null, MYTHIC);
-        if (mon.isLair) AddMarkdownTraitSection(markdownLines, isV3Markdown, "Lair Actions", mon.lairs, mon.lairDescription, mon.lairDescriptionEnd, LAIR);
-        if (mon.isRegional) AddMarkdownTraitSection(markdownLines, isV3Markdown, "Regional Effects", mon.regionals, mon.regionalDescription, mon.regionalDescriptionEnd, REGIONAL);
+        AddMarkdownTraitSection(markdownLines, isV3Markdown, "Accions Llegendàries", mon.legendaries, mon.legendariesDescription, null, LEGENDARY);
+        if (mon.isMythic) AddMarkdownTraitSection(markdownLines, isV3Markdown, "Accions Mítiques", mon.mythics, mon.mythicDescription, null, MYTHIC);
+        if (mon.isLair) AddMarkdownTraitSection(markdownLines, isV3Markdown, "Accions de Cau", mon.lairs, mon.lairDescription, mon.lairDescriptionEnd, LAIR);
+        if (mon.isRegional) AddMarkdownTraitSection(markdownLines, isV3Markdown, "Efectes Regionals", mon.regionals, mon.regionalDescription, mon.regionalDescriptionEnd, REGIONAL);
     }
 
     if (isV3Markdown) {
@@ -781,7 +781,7 @@ var FormFunctions = {
         }
         else {
             $("#prof-bonus").show();
-            $("#prof-bonus").html("(Proficiency Bonus: +" + StringFunctions.RemoveHtmlTags(CrFunctions.GetProf()) + ")");
+            $("#prof-bonus").html("(Bonus de Competència: +" + StringFunctions.RemoveHtmlTags(CrFunctions.GetProf()) + ")");
             $("#custom-cr").hide();
         }
     },
@@ -848,18 +848,18 @@ var FormFunctions = {
                 note = element.hasOwnProperty("note") ? element.note : "";
 
             if (arrName == "languages") {
-                content = "<b>" + StringFunctions.FormatString(elementName + note, false) + (element.speaks || element.speaks == undefined ? "" : " (understands)") + "</b>";
+                content = "<b>" + StringFunctions.FormatString(elementName + note, false) + (element.speaks || element.speaks == undefined ? "" : " (entén)") + "</b>";
             }
             else
                 content = "<b>" + StringFunctions.FormatString(elementName + note, false) + (element.hasOwnProperty("desc") ?
                     ":</b> " + StringFunctions.FormatString(element.desc, isBlock) : "</b>");
 
             let functionArgs = arrName + "\", " + index + ", " + capitalize + ", " + isBlock,
-                imageHTML = "<img class='statblock-image' src='dndimages/x-icon.png' alt='Remove' title='Remove' onclick='FormFunctions.RemoveDisplayListItem(\"" + functionArgs + ")'>";
+                imageHTML = "<img class='statblock-image' src='dndimages/x-icon.png' alt='Eliminar' title='Eliminar' onclick='FormFunctions.RemoveDisplayListItem(\"" + functionArgs + ")'>";
             if (isBlock)
-                imageHTML += " <img class='statblock-image' src='dndimages/edit-icon.png' alt='Edit' title='Edit' onclick='FormFunctions.EditDisplayListItem(\"" + functionArgs + ")'>" +
-                    " <img class='statblock-image' src='dndimages/up-icon.png' alt='Up' title='Up' onclick='FormFunctions.SwapDisplayListItem(\"" + arrName + "\", " + index + ", -1)'>" +
-                    " <img class='statblock-image' src='dndimages/down-icon.png' alt='Down' title='Down' onclick='FormFunctions.SwapDisplayListItem(\"" + arrName + "\", " + index + ", 1)'>";
+                imageHTML += " <img class='statblock-image' src='dndimages/edit-icon.png' alt='Editar' title='Editar' onclick='FormFunctions.EditDisplayListItem(\"" + functionArgs + ")'>" +
+                    " <img class='statblock-image' src='dndimages/up-icon.png' alt='Amunt' title='Amunt' onclick='FormFunctions.SwapDisplayListItem(\"" + arrName + "\", " + index + ", -1)'>" +
+                    " <img class='statblock-image' src='dndimages/down-icon.png' alt='Avall' title='Avall' onclick='FormFunctions.SwapDisplayListItem(\"" + arrName + "\", " + index + ", 1)'>";
             displayArr.push("<li> " + imageHTML + " " + content + "</li>");
         }
         $(arrElement).html(displayArr.join(""));
@@ -903,7 +903,7 @@ var FormFunctions = {
     // Initialize Forms
     InitForms: function () {
         let dropdownBuffer = [
-            "<option value=*>Custom CR</option>",
+            "<option value=*>GD Personalitzat</option>",
             "<option value=0>0 (", data.crs["0"].xp, " XP)</option>",
             "<option value=1/8>1/8 (", data.crs["1/8"].xp, " XP)</option>",
             "<option value=1/4>1/4 (", data.crs["1/4"].xp, " XP)</option>",
@@ -933,7 +933,7 @@ var InputFunctions = {
             UpdateStatblock();
         })
             .fail(function () {
-                console.error("Failed to load preset.");
+                console.error("No s'ha pogut carregar el preset.");
                 return;
             })
     },
@@ -1212,7 +1212,7 @@ var GetVariablesFunctions = {
                 mon.otherArmorDesc = armorDescData[0].includes("(") ? armorDescData :
                     armorAcData + " (" + armorDescData + ")";
             else
-                mon.otherArmorDesc = armorAcData + " (unknown armor type)";
+                mon.otherArmorDesc = armorAcData + " (tipus d'armadura desconegut)";
 
             // Set the nat armor bonus for convenience- often the AC is for natural armor, but doesn't have it in the armor description
             let natArmorBonusCheck = armorAcData - MathFunctions.GetAC("none");
@@ -1479,7 +1479,7 @@ var GetVariablesFunctions = {
                     return;
             }
         }
-        note = type == 'v' ? " (Vulnerable)" : type == 'i' ? " (Immune)" : " (Resistant)";
+        note = type == 'v' ? " (Vulnerable)" : type == 'i' ? " (Immune)" : " (Resistent)";
         ArrayFunctions.ArrayInsert(mon[special ? "specialdamage" : "damagetypes"], {
             "name": damageName,
             "note": note,
@@ -1610,32 +1610,32 @@ var GetVariablesFunctions = {
 
     // Return the default legendary description
     LegendaryDescriptionDefault: function () {
-        mon.legendariesDescription = "The " + mon.name.toLowerCase() + " can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The " + mon.name.toLowerCase() + " regains spent legendary actions at the start of its turn.";
+        mon.legendariesDescription = "El/La " + mon.name.toLowerCase() + " pot realitzar 3 accions llegendàries, escollint entre les opcions següents. Només es pot utilitzar una opció d'acció llegendària alhora i només al final del torn d'una altra criatura. El/La " + mon.name.toLowerCase() + " recupera les accions llegendàries gastades al començament del seu torn.";
     },
 
     // Return the default mythic description
     MythicDescriptionDefault: function () {
-        mon.mythicDescription = "If the " + mon.name.toLowerCase() + "'s mythic trait is active, it can use the options below as legendary actions for 1 hour after using {Some Ability}.";
+        mon.mythicDescription = "Si el tret mític del/de la " + mon.name.toLowerCase() + " està actiu, pot utilitzar les opcions següents com a accions llegendàries durant 1 hora després d'utilitzar {Alguna Habilitat}.";
     },
 
     // Return the default lair description
     LairDescriptionDefault: function () {
-        mon.lairDescription = "When fighting inside its lair, the " + mon.name.toLowerCase() + " can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the " + mon.name.toLowerCase() + " can take one lair action to cause one of the following effects:";
+        mon.lairDescription = "Quan lluita dins del seu cau, el/la " + mon.name.toLowerCase() + " pot invocar la màgia ambient per realitzar accions de cau. En el recompte d'iniciativa 20 (perdent els empats d'iniciativa), el/la " + mon.name.toLowerCase() + " pot realitzar una acció de cau per causar un dels efectes següents:";
     },
 
     // Return the default lair end description
     LairDescriptionEndDefault: function () {
-        mon.lairDescriptionEnd = "The " + mon.name.toLowerCase() + " can't repeat an effect until they have all been used, and it can't use the same effect two rounds in a row.";
+        mon.lairDescriptionEnd = "El/La " + mon.name.toLowerCase() + " no pot repetir un efecte fins que s'hagin utilitzat tots, i no pot utilitzar el mateix efecte dues rondes seguides.";
     },
 
     // Return the default regional description
     RegionalDescriptionDefault: function () {
-        mon.regionalDescription = "The region containing the " + mon.name.toLowerCase() + "'s lair is warped by the creature's presence, which creates one or more of the following effects:";
+        mon.regionalDescription = "La regió que conté el cau del/de la " + mon.name.toLowerCase() + " és distorsionada per la presència de la criatura, cosa que crea un o més dels efectes següents:";
     },
 
     // Return the default regional end description
     RegionalDescriptionEndDefault: function () {
-        mon.regionalDescriptionEnd = "If the " + mon.name.toLowerCase() + " dies, the first two effects fade over the course of 3d10 days.";
+        mon.regionalDescriptionEnd = "Si el/la " + mon.name.toLowerCase() + " mor, els dos primers efectes s'esvaeixen al llarg de 3d10 dies.";
     }
 }
 
@@ -1650,17 +1650,17 @@ var StringFunctions = {
             return mon.otherArmorDesc;
         if (mon.armorName == "mage armor") {
             let mageAC = MathFunctions.GetAC(mon.armorName);
-            return mageAC + " (" + (mon.shieldBonus > 0 ? "shield, " : "") + (mageAC + 3) + " with _mage armor_)";
+            return mageAC + " (" + (mon.shieldBonus > 0 ? "escut, " : "") + (mageAC + 3) + " amb _armadura de mag_)";
         }
         if (mon.armorName == "none")
-            return MathFunctions.GetAC(mon.armorName) + (mon.shieldBonus > 0 ? " (shield)" : "");
+            return MathFunctions.GetAC(mon.armorName) + (mon.shieldBonus > 0 ? " (escut)" : "");
         return this.GetArmorString(mon.armorName, MathFunctions.GetAC(mon.armorName));
     },
 
     // Add a shield to the string if the monster has one
     GetArmorString: function (name, ac) {
         if (mon.shieldBonus > 0)
-            return ac + " (" + name + ", shield)";
+            return ac + " (" + name + ", escut)";
         return ac + " (" + name + ")"
     },
 
@@ -1682,31 +1682,57 @@ var StringFunctions = {
         if (mon.customSpeed)
             return mon.speedDesc;
         let speedsDisplayArr = [mon.speed + " ft."];
-        if (mon.burrowSpeed > 0) speedsDisplayArr.push("burrow " + mon.burrowSpeed + " ft.");
-        if (mon.climbSpeed > 0) speedsDisplayArr.push("climb " + mon.climbSpeed + " ft.");
-        if (mon.flySpeed > 0) speedsDisplayArr.push("fly " + mon.flySpeed + " ft." + (mon.hover ? " (hover)" : ""));
-        if (mon.swimSpeed > 0) speedsDisplayArr.push("swim " + mon.swimSpeed + " ft.");
+        if (mon.burrowSpeed > 0) speedsDisplayArr.push("excavació " + mon.burrowSpeed + " ft.");
+        if (mon.climbSpeed > 0) speedsDisplayArr.push("escalada " + mon.climbSpeed + " ft.");
+        if (mon.flySpeed > 0) speedsDisplayArr.push("vol " + mon.flySpeed + " ft." + (mon.hover ? " (flotar)" : ""));
+        if (mon.swimSpeed > 0) speedsDisplayArr.push("natació " + mon.swimSpeed + " ft.");
         return speedsDisplayArr.join(", ")
     },
 
     GetSenses: function () {
         let sensesDisplayArr = [];
-        if (mon.blindsight > 0) sensesDisplayArr.push("blindsight " + mon.blindsight + " ft." + (mon.blind ? " (blind beyond this radius)" : ""));
-        if (mon.darkvision > 0) sensesDisplayArr.push("darkvision " + mon.darkvision + " ft.");
-        if (mon.tremorsense > 0) sensesDisplayArr.push("tremorsense " + mon.tremorsense + " ft.");
-        if (mon.truesight > 0) sensesDisplayArr.push("truesight " + mon.truesight + " ft.");
+        if (mon.blindsight > 0) sensesDisplayArr.push("visió cega " + mon.blindsight + " ft." + (mon.blind ? " (cec més enllà d'aquest radi)" : ""));
+        if (mon.darkvision > 0) sensesDisplayArr.push("visió fosca " + mon.darkvision + " ft.");
+        if (mon.tremorsense > 0) sensesDisplayArr.push("sentit sísmic " + mon.tremorsense + " ft.");
+        if (mon.truesight > 0) sensesDisplayArr.push("visió vertadera " + mon.truesight + " ft.");
 
-        // Passive Perception
+        // Percepció Passiva
         let ppData = ArrayFunctions.FindInList(mon.skills, "Perception"),
             pp = 10 + MathFunctions.PointsToBonus(mon.wisPoints);
         if (ppData != null)
             pp += CrFunctions.GetProf() * (ppData.hasOwnProperty("note") ? 2 : 1);
-        sensesDisplayArr.push("passive Perception " + pp);
+        sensesDisplayArr.push("Percepció passiva " + pp);
         return sensesDisplayArr.join(", ");
     },
 
     GetPropertiesDisplayArr: function () {
         // Properties
+        let sthrowNames = {"str": "For", "dex": "Des", "con": "Con", "int": "Int", "wis": "Sav", "cha": "Car"},
+            skillNames = {
+                "acrobatics": "Acrobàcies", "animal handling": "Tracte amb Animals",
+                "arcana": "Arcana", "athletics": "Atletisme", "deception": "Engany",
+                "history": "Història", "insight": "Perspicàcia", "intimidation": "Intimidació",
+                "investigation": "Investigació", "medicine": "Medicina", "nature": "Naturalesa",
+                "perception": "Percepció", "performance": "Actuació", "persuasion": "Persuasió",
+                "religion": "Religió", "sleight of hand": "Joc de Mans", "stealth": "Sigil",
+                "survival": "Supervivència"
+            },
+            damageNames = {
+                "acid": "àcid", "bludgeoning": "contundent", "cold": "fred", "fire": "foc",
+                "force": "força", "lightning": "llamp", "necrotic": "necròtic",
+                "piercing": "perforant", "poison": "verí", "psychic": "psíquic",
+                "radiant": "radiant", "slashing": "tallant", "thunder": "tro",
+                "bludgeoning, piercing, and slashing from nonmagical attacks": "atacs no màgics",
+                "bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered": "atacs no platejats",
+                "bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine": "atacs no d'adamantina"
+            },
+            conditionNames = {
+                "blinded": "encegat", "charmed": "encantat", "deafened": "ensordit",
+                "exhaustion": "exhaustió", "frightened": "espantat", "grappled": "agafat",
+                "incapacitated": "incapacitat", "invisible": "invisible", "paralyzed": "paralitzat",
+                "petrified": "petrificat", "poisoned": "enverinat", "prone": "a terra",
+                "restrained": "restringit", "stunned": "atordit", "unconscious": "inconscient"
+            };
         let propertiesDisplayArr = [],
             sthrowsDisplayArr = [],
             skillsDisplayArr = [],
@@ -1718,13 +1744,13 @@ var StringFunctions = {
 
         // Saving Throws
         for (let index = 0; index < mon.sthrows.length; index++)
-            sthrowsDisplayArr.push(StringFunctions.StringCapitalize(mon.sthrows[index].name) + " " +
+            sthrowsDisplayArr.push((sthrowNames[mon.sthrows[index].name] || StringFunctions.StringCapitalize(mon.sthrows[index].name)) + " " +
                 StringFunctions.BonusFormat((MathFunctions.PointsToBonus(mon[mon.sthrows[index].name + "Points"]) + CrFunctions.GetProf())));
 
         // Skills
         for (let index = 0; index < mon.skills.length; index++) {
             let skillData = mon.skills[index];
-            skillsDisplayArr.push(StringFunctions.StringCapitalize(skillData.name) + " " +
+            skillsDisplayArr.push((skillNames[skillData.name.toLowerCase()] || StringFunctions.StringCapitalize(skillData.name)) + " " +
                 StringFunctions.BonusFormat(MathFunctions.PointsToBonus(mon[skillData.stat + "Points"]) + CrFunctions.GetProf() * (skillData.hasOwnProperty("note") ? 2 : 1)));
         }
 
@@ -1737,12 +1763,12 @@ var StringFunctions = {
             immuneDisplayArrSpecial = [];
         for (let index = 0; index < mon.damagetypes.length; index++) {
             let typeId = mon.damagetypes[index].type;
-            (typeId == "v" ? vulnerableDisplayArr : typeId == "i" ? immuneDisplayArr : resistantDisplayArr).push(mon.damagetypes[index].name)
+            (typeId == "v" ? vulnerableDisplayArr : typeId == "i" ? immuneDisplayArr : resistantDisplayArr).push(damageNames[mon.damagetypes[index].name.toLowerCase()] || mon.damagetypes[index].name)
         }
         for (let index = 0; index < mon.specialdamage.length; index++) {
             let typeId = mon.specialdamage[index].type,
                 arr = typeId == "v" ? vulnerableDisplayArrSpecial : typeId == "i" ? immuneDisplayArrSpecial : resistantDisplayArrSpecial;
-            arr.push(mon.specialdamage[index].name)
+            arr.push(damageNames[mon.specialdamage[index].name.toLowerCase()] || mon.specialdamage[index].name)
         }
         vulnerableDisplayString = StringFunctions.ConcatUnlessEmpty(vulnerableDisplayArr.join(", "), vulnerableDisplayArrSpecial.join("; "), "; ").toLowerCase();
         resistantDisplayString = StringFunctions.ConcatUnlessEmpty(resistantDisplayArr.join(", "), resistantDisplayArrSpecial.join("; "), "; ").toLowerCase();
@@ -1750,7 +1776,7 @@ var StringFunctions = {
 
         // Condition Immunities
         for (let index = 0; index < mon.conditions.length; index++)
-            conditionsDisplayArr.push(mon.conditions[index].name.toLowerCase());
+            conditionsDisplayArr.push(conditionNames[mon.conditions[index].name.toLowerCase()] || mon.conditions[index].name.toLowerCase());
 
         // Senses
         sensesDisplayString = StringFunctions.GetSenses();
@@ -1770,22 +1796,22 @@ var StringFunctions = {
         if (understandsLanguages.length > 0) {
             if (understandsLanguages.length > 1) {
                 if (understandsLanguages.length > 2) {
-                    languageDisplayArr.push("understands " + understandsLanguages[0].name);
+                    languageDisplayArr.push("entén " + understandsLanguages[0].name);
                     for (let index = 1; index < understandsLanguages.length; index++)
                         languageDisplayArr.push(understandsLanguages[index].name);
-                    languageDisplayArr[languageDisplayArr.length - 1] = " and " + languageDisplayArr[languageDisplayArr.length - 1];
+                    languageDisplayArr[languageDisplayArr.length - 1] = " i " + languageDisplayArr[languageDisplayArr.length - 1];
                 }
                 else
-                    languageDisplayArr.push("understands " + understandsLanguages[0].name + " and " + understandsLanguages[1].name);
+                    languageDisplayArr.push("entén " + understandsLanguages[0].name + " i " + understandsLanguages[1].name);
             }
             else
-                languageDisplayArr.push("understands " + understandsLanguages[0].name);
+                languageDisplayArr.push("entén " + understandsLanguages[0].name);
             if (mon.understandsBut && mon.understandsBut.trim().length > 0)
-                languageDisplayArr[languageDisplayArr.length - 1] += " but " + mon.understandsBut.trim();
+                languageDisplayArr[languageDisplayArr.length - 1] += " però " + mon.understandsBut.trim();
         }
 
         if (mon.telepathy > 0)
-            languageDisplayArr.push("telepathy " + mon.telepathy + " ft.");
+            languageDisplayArr.push("telepatia " + mon.telepathy + " ft.");
         else if (languageDisplayArr.length == 0)
             languageDisplayArr.push("&mdash;");
 
@@ -1796,14 +1822,14 @@ var StringFunctions = {
                 "arr": arr
             })
         };
-        pushArr("Saving Throws", sthrowsDisplayArr);
-        pushArr("Skills", skillsDisplayArr);
-        pushArr("Damage Vulnerabilities", vulnerableDisplayString);
-        pushArr("Damage Resistances", resistantDisplayString);
-        pushArr("Damage Immunities", immuneDisplayString);
-        pushArr("Condition Immunities", conditionsDisplayArr);
-        pushArr("Senses", sensesDisplayString);
-        pushArr("Languages", languageDisplayArr);
+        pushArr("Tirades de Salvació", sthrowsDisplayArr);
+        pushArr("Habilitats", skillsDisplayArr);
+        pushArr("Vulnerabilitats de Dany", vulnerableDisplayString);
+        pushArr("Resistències de Dany", resistantDisplayString);
+        pushArr("Immunitats de Dany", immuneDisplayString);
+        pushArr("Immunitats a Condicions", conditionsDisplayArr);
+        pushArr("Sentits", sensesDisplayString);
+        pushArr("Idiomes", languageDisplayArr);
 
         return propertiesDisplayArr;
     },
@@ -1989,11 +2015,11 @@ $(function () {
             })
         })
             .fail(function () {
-                $("#monster-select-form").html("Unable to load Tome of Beasts monster presets.")
+                $("#monster-select-form").html("No s'han pogut carregar els presets de monstres del Tome of Beasts.")
             });
     })
         .fail(function () {
-            $("#monster-select-form").html("Unable to load monster presets.")
+            $("#monster-select-form").html("No s'han pogut carregar els presets de monstres.")
         });
 
     // Load the json data

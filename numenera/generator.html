@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 
 <head>
     <meta charset="utf-8" />
-    <title>Numenera Generator</title>
+    <title>Generador de Numenera</title>
     <link rel="stylesheet" type="text/css" href="generator.css">
     <script src="jquery-3.6.1.min.js"></script>
     <script src="generator-book-data.js"></script>
@@ -26,36 +26,36 @@
     <script src='https://ko-fi.com/widgets/widget_2.js'></script>
     <script>
         try {
-            kofiwidget2.init('Support Me on Ko-fi', '#46b798', 'Q5Q8MRF6');
+            kofiwidget2.init('Dona suport a Ko-fi', '#46b798', 'Q5Q8MRF6');
             kofiwidget2.draw();
         }
         catch {
             console.error("Kofi widget display error")
-            document.writeln('<a id="kofi-button" href="https://ko-fi.com/Q5Q8MRF6" target="_blank"><b>Support me on Ko-Fi!</b></a>');
+            document.writeln('<a id="kofi-button" href="https://ko-fi.com/Q5Q8MRF6" target="_blank"><b>Dona suport a Ko-Fi!</b></a>');
         }
     </script>
     <br>
 </div>
-    <h1>Numenera Generator</h1>
+    <h1>Generador de Numenera</h1>
     <br>
     <div id="options">
         <div>
-            <b>Allowed Books: </b>
+            <b>Llibres Permesos: </b>
             <label>Discovery <input type="checkbox" id="discovery-book" onclick="OnCheck()" checked></label><label>Destiny <input type="checkbox" id="destiny-book" onclick="OnCheck()" checked></label><label>Building Tomorrow <input type="checkbox" id="building-tomorrow-book" onclick="OnCheck()"></label>
         </div>
         <br>
         <div>
-            <button id="generate-tetras" onclick="GenerateTetras()">Inspiration (Tetra's Items)</button>
-            <button id="generate-cypher" onclick="GenerateCypherArtifact('Cypher')">Cypher</button>
-            <button id="generate-artifact" onclick="GenerateCypherArtifact('Artifact')">Artifact</button>
-            <button id="generate-oddity" onclick="GenerateOddity()">Oddity</button>
-            <button id="generate-installation" onclick="GenerateOther('Installation')">Installation</button>
+            <button id="generate-tetras" onclick="GenerateTetras()">Inspiració (Objectes de Tetra)</button>
+            <button id="generate-cypher" onclick="GenerateCypherArtifact('Cypher')">Xifra</button>
+            <button id="generate-artifact" onclick="GenerateCypherArtifact('Artifact')">Artefacte</button>
+            <button id="generate-oddity" onclick="GenerateOddity()">Raresa</button>
+            <button id="generate-installation" onclick="GenerateOther('Installation')">Instal·lació</button>
             <br>
-            <button id="generate-automaton" onclick="GenerateOther('Automaton')">Automaton</button>
+            <button id="generate-automaton" onclick="GenerateOther('Automaton')">Autòmat</button>
             <button id="generate-vehicle" onclick="GenerateOther('Vehicle')">Vehicle</button>
-            <button id="generate-biological" onclick="GenerateOther('Biological')">Biological</button>
-            <button id="generate-otherspace" onclick="GenerateOther('Otherspace')">Otherspace</button>
-            <button id="generate-plan" onclick="GeneratePlan()">Plan</button>
+            <button id="generate-biological" onclick="GenerateOther('Biological')">Biològic</button>
+            <button id="generate-otherspace" onclick="GenerateOther('Otherspace')">Altre Espai</button>
+            <button id="generate-plan" onclick="GeneratePlan()">Pla</button>
         </div>
         <hr>
     </div>

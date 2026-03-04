@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 
 <head>
 	<meta charset="utf-8" />
-	<title>Free NFT Generator</title>
+	<title>Generador Gratuït de NFT</title>
 	<link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/nft.css">
@@ -32,87 +32,87 @@
 			<script src='https://ko-fi.com/widgets/widget_2.js'></script>
 			<script>
 				try {
-					kofiwidget2.init('Support Me on Ko-fi', '#46b798', 'Q5Q8MRF6');
+					kofiwidget2.init('Dona suport a Ko-fi', '#46b798', 'Q5Q8MRF6');
 					kofiwidget2.draw();
 				}
 				catch {
 					console.error("Kofi widget display error")
-					document.writeln('<a id="kofi-button" href="https://ko-fi.com/Q5Q8MRF6" target="_blank"><b>Support me on Ko-Fi!</b></a>');
+					document.writeln('<a id="kofi-button" href="https://ko-fi.com/Q5Q8MRF6" target="_blank"><b>Dona suport a Ko-Fi!</b></a>');
 				}
 			</script>
 		</div>
 
 		<div class="content">
 
-			<h1 class="centered-element">Free NFT Generator</h1>
+			<h1 class="centered-element">Generador Gratuït de NFT</h1>
 			<br>
 			<div>
 				<label>
-					<div class="input-label">Input a unique identifier: </div>
+					<div class="input-label">Introdueix un identificador únic: </div>
 					<div><input type="text" id="id-input" class="form-control" onchange="setButtonValidity()"></input>
 					</div>
 				</label>
 			</div>
-			<div id="invalid-id" class="error-text" style="display: none;">Invalid identifier</div>
+			<div id="invalid-id" class="error-text" style="display: none;">Identificador no vàlid</div>
 			<br>
 			<div>
 				<label>
-					<div class="input-label">Input a URL: </div>
+					<div class="input-label">Introdueix una URL: </div>
 					<div><input type="text" id="url-input" class="form-control" onchange="setButtonValidity()"></input>
 					</div>
 				</label>
 			</div>
-			<div id="invalid-url" class="error-text" style="display: none;">Invalid URL</div>
+			<div id="invalid-url" class="error-text" style="display: none;">URL no vàlida</div>
 			<br>
 			<div class="centered-element">
-				<button id="generate-button" class="btn btn-secondary" onclick="generate()">GENERATE MY NFT</button>
+				<button id="generate-button" class="btn btn-secondary" onclick="generate()">GENERA EL MEU NFT</button>
 			</div>
 			<br>
 			<div id="generating-value" style="display: none;">
-				Generating value...
+				Generant valor...
 			</div>
 			<div id="your-nft" style="display: none;">
 				<div>
 					<label>
-						<div class="input-label">Your NFT: </div>
+						<div class="input-label">El teu NFT: </div>
 						<div><input type="text" id="nft-input" class="form-control"
 								onClick="this.setSelectionRange(0, this.value.length)" readonly></input></div>
 					</label>
 				</div>
 				<div>
-					<div><b>The estimated value of this NFT is:</b></div>
+					<div><b>El valor estimat d'aquest NFT és:</b></div>
 					<br>
-					<div id="nft-value">$<span id="nft-value-number"></span> million dollars</div>
+					<div id="nft-value">$<span id="nft-value-number"></span> milions de dòlars</div>
 				</div>
 			</div>
 
 			<!-- <br><br><br>
-			<h2>FAQ</h2>
+			<h2>PMF</h2>
 			<div class="centered-element">
-				<button id="faq-button" class="btn btn-primary" onclick="showHideFaq()">Show</button>
+				<button id="faq-button" class="btn btn-primary" onclick="showHideFaq()">Mostrar</button>
 			</div>
 			<div id="faq" style="display: none;">
 				<br>
-				<p><b>Q: Hey wait a minute, these aren't real NFTS!</b></p>
-				<p>A: I assure you, these are genuine Nice Fuckin' Tokens.</p>
-				<p><b>Q: I mean they're not non-fungible tokens!</b></p>
-				<p>A: Nice Fuckin' Tokens are, functionally, exactly the same thing:
+				<p><b>P: Ei, espera un moment, aquests no són NFTs de veritat!</b></p>
+				<p>R: T'asseguro que aquests són autèntics Nice Fuckin' Tokens.</p>
+				<p><b>P: Vull dir que no són tokens no fungibles!</b></p>
+				<p>R: Els Nice Fuckin' Tokens són, funcionalment, exactament el mateix:
 				<ol>
-					<li>They contain URLs</li>
-					<li>Intellectually... exceptional people can be convinced to buy them for money</li>
-					<li>If you donate a million dollars or more I will personally start a forest fire</li>
+					<li>Contenen URLs</li>
+					<li>Les persones intel·lectualment... excepcionals es poden convèncer de comprar-los per diners</li>
+					<li>Si doneu un milió de dòlars o més, personalment iniciaré un incendi forestal</li>
 				</ol>
-				The only difference is instead of being stored on a cumbersome blockchain, they are stored in a much
-				more efficient manner on your clipboard.
+				L'única diferència és que en lloc d'estar emmagatzemats en una blockchain feixuga, estan emmagatzemats d'una manera
+				molt més eficient al vostre porta-retalls.
 				</p>
-				<p><b>Q: Excuse me but as a crypto enthusiast I'd like to explain why spending an enormous amount of
-						currency on literally nothing is actually a good idea. My brain is smoother than polished
-						marble.</b></p>
-				<p>A: Go away</p>
+				<p><b>P: Disculpeu però com a entusiasta de les criptomonedes m'agradaria explicar per què gastar una quantitat enorme de
+						diners en literalment res és en realitat una bona idea. El meu cervell és més llis que el marbre
+						polit.</b></p>
+				<p>R: Marxeu</p>
 			</div> -->
 
 			<br><br><br>
-			<div class="footer"><a href="https://github.com/Tetra-cube/Tetra-cube.github.io">GitHub Repo</a></div>
+			<div class="footer"><a href="https://github.com/Tetra-cube/Tetra-cube.github.io">Repositori GitHub</a></div>
 		</div>
 	</div>
 </body>

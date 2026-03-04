@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 
 <head>
     <meta charset="utf-8" />
-    <title>D&amp;D 5e PC Options Reference</title>
+    <title>Referència d'Opcions de PJ de D&amp;D 5e</title>
     <link rel="shortcut icon" type="image/x-icon" href="dndimages/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/dnd-style.css">
@@ -31,25 +31,25 @@
             <script src='https://ko-fi.com/widgets/widget_2.js'></script>
             <script>
                 try {
-                    kofiwidget2.init('Support Me on Ko-fi', '#46b798', 'Q5Q8MRF6');
+                    kofiwidget2.init('Dona suport a Ko-fi', '#46b798', 'Q5Q8MRF6');
                     kofiwidget2.draw();
                 }
                 catch {
                     console.error("Kofi widget display error")
-                    document.writeln('<a id="kofi-button" href="https://ko-fi.com/Q5Q8MRF6" target="_blank"><b>Support me on Ko-Fi!</b></a>');
+                    document.writeln('<a id="kofi-button" href="https://ko-fi.com/Q5Q8MRF6" target="_blank"><b>Dona suport a Ko-Fi!</b></a>');
                 }
             </script>
         </div>
         <div class="content">
-            <div style="text-align: center;"><b>PC Options Reference</b> - <a href="dnd-char-gen.html">Character
-                    Generator</a> - <a href="dnd-magic-items.html">Magic Item Generator</a> - <a
-                    href="dnd-statblock.html">Statblock Generator</a></div>
+            <div style="text-align: center;"><b>Referència d'Opcions de PJ</b> - <a href="dnd-char-gen.html">Generador
+                    de Personatges</a> - <a href="dnd-magic-items.html">Generador d'Objectes Màgics</a> - <a
+                    href="dnd-statblock.html">Generador de Blocs d'Estadístiques</a></div>
 
             <br>
 
-            <h1>D&amp;D 5e Content Reference</h1>
+            <h1>Referència de Contingut de D&amp;D 5e</h1>
             <br>
-            <div>Select which books to use:</div>
+            <div>Selecciona quins llibres utilitzar:</div>
 
             <br>
 
@@ -75,7 +75,7 @@
                                 <sup>(DMG)</sup></b></label></div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <div><label><b><input id="Modbox" type="checkbox" onclick="UpdateList()"> Adventure Modules
+                    <div><label><b><input id="Modbox" type="checkbox" onclick="UpdateList()"> Mòduls d'Aventura
                                 <sup>(Mod)</sup></b></label></div>
                     <div><label><b><input id="EBRbox" type="checkbox" onclick="UpdateList()"> Eberron: Rising from the
                                 Last War <sup>(EBR)</sup></b></label></div>
@@ -87,7 +87,7 @@
                                 <sup>(MOoT)</sup></b></label></div>
                     <div><label><b><input id="AIbox" type="checkbox" onclick="UpdateList()"> Acquisitions Incorporated
                                 <sup>(AI)</sup></b></label></div>
-                    <div><label><b><input id="Otherbox" type="checkbox" onclick="UpdateList()"> Other Notable Content
+                    <div><label><b><input id="Otherbox" type="checkbox" onclick="UpdateList()"> Altre Contingut Notable
                                 <sup>(Other)</sup></b></label></div>
                     <div><label><b><input id="UAbox" type="checkbox" onclick="UpdateList()"> Unearthed Arcana
                                 <sup>(UA)</sup></b></label></div>
@@ -97,52 +97,52 @@
             <hr>
 
             <h2 class="expand-retract-h2">Races</h2>
-            <div class="expand-retract-text" onclick="Collapsibles.ExpandAll('races')">Expand All</div>
-            <div class="expand-retract-text" onclick="Collapsibles.RetractAll('races')">Retract All</div>
+            <div class="expand-retract-text" onclick="Collapsibles.ExpandAll('races')">Expandir Tot</div>
+            <div class="expand-retract-text" onclick="Collapsibles.RetractAll('races')">Contraure Tot</div>
             <div id="races"></div>
 
             <br>
             <hr>
 
             <h2 class="expand-retract-h2">Classes</h2>
-            <div class="expand-retract-text" onclick="Collapsibles.ExpandAll('classes')">Expand All</div>
-            <div class="expand-retract-text" onclick="Collapsibles.RetractAll('classes')">Retract All</div>
+            <div class="expand-retract-text" onclick="Collapsibles.ExpandAll('classes')">Expandir Tot</div>
+            <div class="expand-retract-text" onclick="Collapsibles.RetractAll('classes')">Contraure Tot</div>
             <div id="classes"></div>
 
             <br>
             <hr>
 
-            <h2 class="expand-retract-h2">Backgrounds</h2>
-            <div class="expand-retract-text" onclick="Collapsibles.ExpandAll('backgrounds')">Expand All</div>
-            <div class="expand-retract-text" onclick="Collapsibles.RetractAll('backgrounds')">Retract All</div>
+            <h2 class="expand-retract-h2">Rerefons</h2>
+            <div class="expand-retract-text" onclick="Collapsibles.ExpandAll('backgrounds')">Expandir Tot</div>
+            <div class="expand-retract-text" onclick="Collapsibles.RetractAll('backgrounds')">Contraure Tot</div>
             <div id="backgrounds"></div>
 
             <br>
             <hr>
 
-            <h2 class="expand-retract-h2">Names</h2>
-            <div class="expand-retract-text" onclick="Collapsibles.ExpandAll('names')">Expand All</div>
-            <div class="expand-retract-text" onclick="Collapsibles.RetractAll('names')">Retract All</div>
+            <h2 class="expand-retract-h2">Noms</h2>
+            <div class="expand-retract-text" onclick="Collapsibles.ExpandAll('names')">Expandir Tot</div>
+            <div class="expand-retract-text" onclick="Collapsibles.RetractAll('names')">Contraure Tot</div>
             <div id="names"></div>
 
             <br>
             <hr>
 
             <div id="uacontent">
-                <h2>Unearthed Arcana Index</h2>
-                <h3><span class="collapsiblebutton" onclick="Collapsibles.CollapseExpand(this)">[+]</span> UA Races
-                    &amp; Subraces</h3>
+                <h2>Índex d'Unearthed Arcana</h2>
+                <h3><span class="collapsiblebutton" onclick="Collapsibles.CollapseExpand(this)">[+]</span> Races i
+                    Subraces de UA</h3>
                 <ul id="uaraces" style="display: none"></ul>
-                <h3><span class="collapsiblebutton" onclick="Collapsibles.CollapseExpand(this)">[+]</span> UA Classes
-                    &amp; Subclasses</h3>
+                <h3><span class="collapsiblebutton" onclick="Collapsibles.CollapseExpand(this)">[+]</span> Classes i
+                    Subclasses de UA</h3>
                 <ul id="uaclasses" style="display: none"></ul>
-                <h3><span class="collapsiblebutton" onclick="Collapsibles.CollapseExpand(this)">[+]</span> UA Other</h3>
+                <h3><span class="collapsiblebutton" onclick="Collapsibles.CollapseExpand(this)">[+]</span> Altres de UA</h3>
                 <ul id="uaother" style="display: none"></ul>
                 <h3><span class="collapsiblebutton" onclick="Collapsibles.CollapseExpand(this)">[+]</span> Plane Shift
                 </h3>
                 <ul id="uaplaneshift" style="display: none"></ul>
             </div>
-            <div class="footer"><a href="https://github.com/Tetra-cube/Tetra-cube.github.io">GitHub Repo</a></div>
+            <div class="footer"><a href="https://github.com/Tetra-cube/Tetra-cube.github.io">Repositori GitHub</a></div>
         </div>
     </div>
 </body>

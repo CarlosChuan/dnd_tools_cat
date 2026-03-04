@@ -126,10 +126,10 @@ var Content = {
 
             case "characteristics": // Output height, weight, appearance, etc
                 let chObj = {};
-                chObj["Base Height"] = Math.floor(specialItem.baseheight / 12) + "'" + (specialItem.baseheight % 12) + "\"";
-                chObj["Height Mod"] = "+" + specialItem.heightmod;
-                chObj["Base Weight"] = specialItem.baseweight + " lb.";
-                chObj["Weight Mod"] = "x (" + specialItem.weightmod + ") lb.";
+                chObj["Alçada Base"] = Math.floor(specialItem.baseheight / 12) + "'" + (specialItem.baseheight % 12) + "\"";
+                chObj["Modificador d'Alçada"] = "+" + specialItem.heightmod;
+                chObj["Pes Base"] = specialItem.baseweight + " lb.";
+                chObj["Modificador de Pes"] = "x (" + specialItem.weightmod + ") lb.";
                 if (specialItem.hasOwnProperty("_other")) {
                     for (let propertyName in specialItem._other)
                         chObj[propertyName] = specialItem._other[propertyName];
@@ -150,10 +150,10 @@ var Content = {
                 // specialItem["Bond"] = backgroundCopy.Bond;
                 // specialItem["Flaw"] = backgroundCopy.Flaw;
                 return {
-                    "Trait": backgroundCopy.Trait,
+                    "Tret de Personalitat": backgroundCopy["Tret de Personalitat"],
                     "Ideal": backgroundCopy.Ideal,
-                    "Bond": backgroundCopy.Bond,
-                    "Flaw": backgroundCopy.Flaw
+                    "Vincle": backgroundCopy["Vincle"],
+                    "Defecte": backgroundCopy["Defecte"]
                 };
 
             case "ravnicacontacts":
@@ -161,20 +161,20 @@ var Content = {
                     ravnicaContacts = {}, nonGuildList = [];
                 for (let index = 0; index < specialItem._nonguild.length; index++) {
                     if (specialItem._nonguild[index] == "_reroll")
-                        nonGuildList[index] = "Roll an additional " + guildName + " contact; you can decide if the contact is an ally or a rivalf."
+                        nonGuildList[index] = "Tirada addicional de contacte de " + guildName + "; pots decidir si el contacte és un aliat o un rival."
                     else
                         nonGuildList[index] = specialItem._nonguild[index];
                 }
-                ravnicaContacts[guildName + " Contact"] = specialItem["_guild"];
-                ravnicaContacts["Non-" + guildName + " Contact"] = nonGuildList;
+                ravnicaContacts["Contacte de " + guildName] = specialItem["_guild"];
+                ravnicaContacts["Contacte no de " + guildName] = nonGuildList;
                 return ravnicaContacts;
 
             case "dimircontacts":
                 let dimirContacts = {}, guilds = [];
                 for (let index = 0; index < specialItem._guilds.length; index++)
                     guilds.push(specialItem._guilds[index].name);
-                dimirContacts["Dimir Contact"] = specialItem["_dimircontact"];
-                dimirContacts["Secondary Guild"] = guilds;
+                dimirContacts["Contacte Dimir"] = specialItem["_dimircontact"];
+                dimirContacts["Gremi Secundari"] = guilds;
                 return dimirContacts;
         }
 
@@ -350,4 +350,4 @@ $(function () {
     GetJSON("ua");
 });
 
-const noBulletPointsTraits = ["Subraces and Variants", "Physical Characteristics", "Childhood Nickname", "Guide Name", "Animal Enhancement", "Advanced Animal Enhancement", "Artificer Specialty", "Mystic Order", "Blood Hunter Order"];
+const noBulletPointsTraits = ["Subracies i Variants", "Característiques Físiques", "Sobrenom d'Infància", "Nom de la Guia", "Millora Animal", "Millora Animal Avançada", "Especialitat d'Artífex", "Orde Místic", "Orde del Caçador de Sang"];

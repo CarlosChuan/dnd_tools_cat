@@ -1,16 +1,16 @@
 {
 	"genders": [
-		"Male",
-		"Male",
-		"Male",
-		"Male",
-		"Male",
-		"Female",
-		"Female",
-		"Female",
-		"Female",
-		"Female",
-		"Nonbinary or Unknown"
+		"Masculí",
+		"Masculí",
+		"Masculí",
+		"Masculí",
+		"Masculí",
+		"Femení",
+		"Femení",
+		"Femení",
+		"Femení",
+		"Femení",
+		"Nonbinari o desconegut"
 	],
 	"raceWeights": {
 		"Dragonborn": 3,
@@ -24,13 +24,13 @@
 		"Tiefling": 3
 	},
 	"monstrousOrigins": [
-		"You are a spy sent to undermine your enemies from within.",
-		"You are the victim of a curse or polymorph spell.",
-		"You were raised by humans, elves, or dwarves and have adopted their culture.",
-		"At a young age, you adopted a human religion and now serve it faithfully.",
-		"You received divine insight that sent you on your path, and occasionally receive new visions that guide you.",
-		"Your sworn enemy is an ally of your people, forcing you to leave your tribe to gain vengeance.",
-		"An evil entity corrupted your people's society.",
-		"An injury or strange event caused you to lose all memory of your past, but occasional flashes of it return to you."
+		"Ets un espia enviat per soscavar els teus enemics des de dins.",
+		"Ets víctima d'una maledicció o d'un encanteri de metamorfosi.",
+		"Vas ser criat per humans, elfs o nans i has adoptat la seva cultura.",
+		"A una edat primerenca, vas adoptar una religió humana i ara la serveixes fidelment.",
+		"Vas rebre una intuïció divina que et va posar en el teu camí, i ocasionalment reps noves visions que et guien.",
+		"El teu enemic jurat és un aliat del teu poble, fet que t'obliga a deixar la teva tribu per venjar-te.",
+		"Una entitat malvada va corrompre la societat del teu poble.",
+		"Una lesió o un esdeveniment estrany et va fer perdre tota memòria del teu passat, però ocasionals centelleigs d'aquest et tornen."
 	]
 }
