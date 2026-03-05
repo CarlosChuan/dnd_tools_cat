@@ -219,27 +219,27 @@ function UpdateStatblock(moveSeparationPoint) {
     let traitsHTML = [];
 
     if (mon.abilities.length > 0) AddToTraitList(traitsHTML, mon.abilities);
-    if (mon.actions.length > 0) AddToTraitList(traitsHTML, mon.actions, "<h3>Actions</h3>");
-    if (mon.bonusActions.length > 0) AddToTraitList(traitsHTML, mon.bonusActions, "<h3>Bonus Actions</h3>");
-    if (mon.reactions.length > 0) AddToTraitList(traitsHTML, mon.reactions, "<h3>Reactions</h3>");
+    if (mon.actions.length > 0) AddToTraitList(traitsHTML, mon.actions, "<h3>Accions</h3>");
+    if (mon.bonusActions.length > 0) AddToTraitList(traitsHTML, mon.bonusActions, "<h3>Accions Addicionals</h3>");
+    if (mon.reactions.length > 0) AddToTraitList(traitsHTML, mon.reactions, "<h3>Reaccions</h3>");
     if (mon.isLegendary && (mon.legendaries.length > 0 || mon.legendariesDescription.length > 0))
         AddToTraitList(traitsHTML, mon.legendaries, mon.legendariesDescription == "" ?
-            "<h3>Legendary Actions</h3><div class='property-block'></div>" :
-            ["<h3>Legendary Actions</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.legendariesDescription))), "</div></br>"], true);
+            "<h3>Accions Llegendàries</h3><div class='property-block'></div>" :
+            ["<h3>Accions Llegendàries</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.legendariesDescription))), "</div></br>"], true);
     if (mon.isMythic && mon.isLegendary && (mon.mythics.length > 0 || mon.mythicDescription.length > 0))
         AddToTraitList(traitsHTML, mon.mythics, mon.mythicDescription == "" ?
-            "<h3>Mythic Actions</h3><div class='property-block'></div>" :
-            ["<h3>Mythic Actions</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.mythicDescription))), "</div></br>"], true);    
+            "<h3>Accions Mítiques</h3><div class='property-block'></div>" :
+            ["<h3>Accions Mítiques</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.mythicDescription))), "</div></br>"], true);
     if (mon.isLair && mon.isLegendary && (mon.lairs.length > 0 || mon.lairDescription.length > 0 || mon.lairDescriptionEnd.length > 0)) {
         AddToTraitList(traitsHTML, mon.lairs, mon.lairDescription == "" ?
-            "<h3>Lair Actions</h3><div class='property-block'></div>" :
-            ["<h3>Lair Actions</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.lairDescription))), "</div></br><ul>"], false, true);
+            "<h3>Accions de la Guarida</h3><div class='property-block'></div>" :
+            ["<h3>Accions de la Guarida</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.lairDescription))), "</div></br><ul>"], false, true);
         traitsHTML.push("</ul>" + StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.lairDescriptionEnd))));
     }
     if (mon.isRegional && mon.isLegendary && (mon.regionals.length > 0 || mon.regionalDescription.length > 0 || mon.regionalDescriptionEnd.length > 0)) {
         AddToTraitList(traitsHTML, mon.regionals, mon.regionalDescription == "" ?
-            "<h3>Regional Effects</h3><div class='property-block'></div>" :
-            ["<h3>Regional Effects</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.regionalDescription))), "</div></br><ul>"], false, true);
+            "<h3>Efectes Regionals</h3><div class='property-block'></div>" :
+            ["<h3>Efectes Regionals</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.regionalDescription))), "</div></br><ul>"], false, true);
         traitsHTML.push("</ul>" + StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.regionalDescriptionEnd))));
     }
 
@@ -1682,26 +1682,26 @@ var StringFunctions = {
         if (mon.customSpeed)
             return mon.speedDesc;
         let speedsDisplayArr = [mon.speed + " ft."];
-        if (mon.burrowSpeed > 0) speedsDisplayArr.push("burrow " + mon.burrowSpeed + " ft.");
-        if (mon.climbSpeed > 0) speedsDisplayArr.push("climb " + mon.climbSpeed + " ft.");
-        if (mon.flySpeed > 0) speedsDisplayArr.push("fly " + mon.flySpeed + " ft." + (mon.hover ? " (hover)" : ""));
-        if (mon.swimSpeed > 0) speedsDisplayArr.push("swim " + mon.swimSpeed + " ft.");
+        if (mon.burrowSpeed > 0) speedsDisplayArr.push("excavar " + mon.burrowSpeed + " ft.");
+        if (mon.climbSpeed > 0) speedsDisplayArr.push("escalar " + mon.climbSpeed + " ft.");
+        if (mon.flySpeed > 0) speedsDisplayArr.push("volar " + mon.flySpeed + " ft." + (mon.hover ? " (planant)" : ""));
+        if (mon.swimSpeed > 0) speedsDisplayArr.push("nedar " + mon.swimSpeed + " ft.");
         return speedsDisplayArr.join(", ")
     },
 
     GetSenses: function () {
         let sensesDisplayArr = [];
-        if (mon.blindsight > 0) sensesDisplayArr.push("blindsight " + mon.blindsight + " ft." + (mon.blind ? " (blind beyond this radius)" : ""));
-        if (mon.darkvision > 0) sensesDisplayArr.push("darkvision " + mon.darkvision + " ft.");
-        if (mon.tremorsense > 0) sensesDisplayArr.push("tremorsense " + mon.tremorsense + " ft.");
-        if (mon.truesight > 0) sensesDisplayArr.push("truesight " + mon.truesight + " ft.");
+        if (mon.blindsight > 0) sensesDisplayArr.push("visió cega " + mon.blindsight + " ft." + (mon.blind ? " (cec més enllà d'aquest radi)" : ""));
+        if (mon.darkvision > 0) sensesDisplayArr.push("visió en la foscor " + mon.darkvision + " ft.");
+        if (mon.tremorsense > 0) sensesDisplayArr.push("sentit sísmic " + mon.tremorsense + " ft.");
+        if (mon.truesight > 0) sensesDisplayArr.push("visió veritable " + mon.truesight + " ft.");
 
         // Passive Perception
         let ppData = ArrayFunctions.FindInList(mon.skills, "Perception"),
             pp = 10 + MathFunctions.PointsToBonus(mon.wisPoints);
         if (ppData != null)
             pp += CrFunctions.GetProf() * (ppData.hasOwnProperty("note") ? 2 : 1);
-        sensesDisplayArr.push("passive Perception " + pp);
+        sensesDisplayArr.push("Percepció passiva " + pp);
         return sensesDisplayArr.join(", ");
     },
 
@@ -1770,22 +1770,22 @@ var StringFunctions = {
         if (understandsLanguages.length > 0) {
             if (understandsLanguages.length > 1) {
                 if (understandsLanguages.length > 2) {
-                    languageDisplayArr.push("understands " + understandsLanguages[0].name);
+                    languageDisplayArr.push("entén " + understandsLanguages[0].name);
                     for (let index = 1; index < understandsLanguages.length; index++)
                         languageDisplayArr.push(understandsLanguages[index].name);
-                    languageDisplayArr[languageDisplayArr.length - 1] = " and " + languageDisplayArr[languageDisplayArr.length - 1];
+                    languageDisplayArr[languageDisplayArr.length - 1] = " i " + languageDisplayArr[languageDisplayArr.length - 1];
                 }
                 else
-                    languageDisplayArr.push("understands " + understandsLanguages[0].name + " and " + understandsLanguages[1].name);
+                    languageDisplayArr.push("entén " + understandsLanguages[0].name + " i " + understandsLanguages[1].name);
             }
             else
-                languageDisplayArr.push("understands " + understandsLanguages[0].name);
+                languageDisplayArr.push("entén " + understandsLanguages[0].name);
             if (mon.understandsBut && mon.understandsBut.trim().length > 0)
-                languageDisplayArr[languageDisplayArr.length - 1] += " but " + mon.understandsBut.trim();
+                languageDisplayArr[languageDisplayArr.length - 1] += " però " + mon.understandsBut.trim();
         }
 
         if (mon.telepathy > 0)
-            languageDisplayArr.push("telepathy " + mon.telepathy + " ft.");
+            languageDisplayArr.push("telepatia " + mon.telepathy + " ft.");
         else if (languageDisplayArr.length == 0)
             languageDisplayArr.push("&mdash;");
 
@@ -1796,14 +1796,14 @@ var StringFunctions = {
                 "arr": arr
             })
         };
-        pushArr("Saving Throws", sthrowsDisplayArr);
-        pushArr("Skills", skillsDisplayArr);
-        pushArr("Damage Vulnerabilities", vulnerableDisplayString);
-        pushArr("Damage Resistances", resistantDisplayString);
-        pushArr("Damage Immunities", immuneDisplayString);
-        pushArr("Condition Immunities", conditionsDisplayArr);
-        pushArr("Senses", sensesDisplayString);
-        pushArr("Languages", languageDisplayArr);
+        pushArr("Tirades de Salvació", sthrowsDisplayArr);
+        pushArr("Habilitats", skillsDisplayArr);
+        pushArr("Vulnerabilitats al Dany", vulnerableDisplayString);
+        pushArr("Resistències al Dany", resistantDisplayString);
+        pushArr("Immunitats al Dany", immuneDisplayString);
+        pushArr("Immunitats a Condicions", conditionsDisplayArr);
+        pushArr("Sentits", sensesDisplayString);
+        pushArr("Idiomes", languageDisplayArr);
 
         return propertiesDisplayArr;
     },
