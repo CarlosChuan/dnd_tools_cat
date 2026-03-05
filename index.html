@@ -148,15 +148,17 @@
                         </td>
                         <td>
                             <label for="size-input">Size: <br>
-                                <select id="size-input">
+                                <select id="size-input" onchange="FormFunctions.ShowHideSizeOther()">
                                     <option value="tiny">Tiny</option>
                                     <option value="small">Small</option>
                                     <option value="medium" selected="selected">Medium</option>
                                     <option value="large">Large</option>
                                     <option value="huge">Huge</option>
                                     <option value="gargantuan">Gargantuan</option>
+                                    <option value="*">Other</option>
                                 </select>
                             </label>
+                            <div><input id="other-size-input" type="text" value=""></div>
                         </td>
                         <td>
                             <label for="type-input">Type: <br>

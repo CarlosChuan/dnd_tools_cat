@@ -572,7 +572,14 @@ var FormFunctions = {
     SetForms: function () {
         // Name and type
         $("#name-input").val(mon.name);
-        $("#size-input").val(mon.size);
+
+        if (data.sizes[mon.size])
+            $("#size-input").val(mon.size);
+        else {
+            $("#size-input").val("*");
+            $("#other-size-input").val(mon.size);
+        }
+        this.ShowHideSizeOther();
 
         if (data.types.includes(mon.type))
             $("#type-input").val(mon.type);
@@ -683,6 +690,10 @@ var FormFunctions = {
 
     ShowHideTypeOther: function () {
         this.ShowHideHtmlElement("#other-type-input", $("#type-input").val() == "*");
+    },
+
+    ShowHideSizeOther: function () {
+        this.ShowHideHtmlElement("#other-size-input", $("#size-input").val() == "*");
     },
 
     ShowHideCustomHP: function () {
@@ -1051,6 +1062,8 @@ var GetVariablesFunctions = {
         // Name and Type
         mon.name = $("#name-input").val().trim();
         mon.size = $("#size-input").val().toLowerCase();
+        if (mon.size == "*")
+            mon.size = $("#other-size-input").val().toLowerCase();
         mon.type = $("#type-input").val();
         if (mon.type == "*")
             mon.type = $("#other-type-input").val();
@@ -1669,7 +1682,7 @@ var StringFunctions = {
         if (mon.customHP)
             return mon.hpText;
         let conBonus = MathFunctions.PointsToBonus(mon.conPoints);
-        hitDieSize = data.sizes[mon.size].hitDie,
+        hitDieSize = (data.sizes[mon.size] ?? data.sizes["medium"]).hitDie,
             avgHP = Math.floor(mon.hitDice * ((hitDieSize + 1) / 2)) + (mon.hitDice * conBonus);
         if (conBonus > 0)
             return avgHP + " (" + mon.hitDice + "d" + hitDieSize + " + " + (mon.hitDice * conBonus) + ")";
