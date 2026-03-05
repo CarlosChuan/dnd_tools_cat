@@ -431,7 +431,7 @@
 	],
 	"commonAbilities": [
 		{
-			"name": "Select Preset",
+			"name": "Selecciona Preset",
 			"desc": null
 		},
 		{
@@ -439,839 +439,839 @@
 			"desc": null
 		},
 		{
-			"name": "Melee Weapon Attack (STR)",
+			"name": "Atac amb Arma de Cos a Cos (FOR)",
 			"realname": "",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach ??? ft., one target. _Hit:_ [STR ???D???] ??? damage."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast ??? ft., un objectiu. _Impacte:_ [STR ???D???] de dany ???."
 		},
 		{
-			"name": "Melee Weapon Attack (DEX)",
+			"name": "Atac amb Arma de Cos a Cos (DES)",
 			"realname": "",
-			"desc": "_Melee Weapon Attack:_ [DEX ATK] to hit, reach ??? ft., one target. _Hit:_ [DEX ???D???] ??? damage."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [DEX ATK] per impactar, abast ??? ft., un objectiu. _Impacte:_ [DEX ???D???] de dany ???."
 		},
 		{
-			"name": "Melee Spell Attack (INT)",
+			"name": "Atac de Conjur de Cos a Cos (INT)",
 			"realname": "",
-			"desc": "_Melee Spell Attack:_ [INT ATK] to hit, reach ??? ft., one target. _Hit:_ [INT ???D???] ??? damage."
+			"desc": "_Atac de Conjur de Cos a Cos:_ [INT ATK] per impactar, abast ??? ft., un objectiu. _Impacte:_ [INT ???D???] de dany ???."
 		},
 		{
-			"name": "Melee Spell Attack (WIS)",
+			"name": "Atac de Conjur de Cos a Cos (SAV)",
 			"realname": "",
-			"desc": "_Melee Spell Attack:_ [WIS ATK] to hit, reach ??? ft., one target. _Hit:_ [WIS ???D???] ??? damage."
+			"desc": "_Atac de Conjur de Cos a Cos:_ [WIS ATK] per impactar, abast ??? ft., un objectiu. _Impacte:_ [WIS ???D???] de dany ???."
 		},
 		{
-			"name": "Melee Spell Attack (CHA)",
+			"name": "Atac de Conjur de Cos a Cos (CAR)",
 			"realname": "",
-			"desc": "_Melee Spell Attack:_ [CHA ATK] to hit, reach ??? ft., one target. _Hit:_ [CHA ???D???] ??? damage."
+			"desc": "_Atac de Conjur de Cos a Cos:_ [CHA ATK] per impactar, abast ??? ft., un objectiu. _Impacte:_ [CHA ???D???] de dany ???."
 		},
 		{
-			"name": "Ranged Weapon Attack (STR)",
+			"name": "Atac amb Arma a Distància (FOR)",
 			"realname": "",
-			"desc": "_Ranged Weapon Attack:_ [STR ATK] to hit, range ???/??? ft., one target. _Hit:_ [STR ???D???] ??? damage."
+			"desc": "_Atac amb Arma a Distància:_ [STR ATK] per impactar, rang ???/??? ft., un objectiu. _Impacte:_ [STR ???D???] de dany ???."
 		},
 		{
-			"name": "Ranged Weapon Attack (DEX)",
+			"name": "Atac amb Arma a Distància (DES)",
 			"realname": "",
-			"desc": "_Ranged Weapon Attack:_ [DEX ATK] to hit, range ???/??? ft., one target. _Hit:_ [DEX ???D???] ??? damage."
+			"desc": "_Atac amb Arma a Distància:_ [DEX ATK] per impactar, rang ???/??? ft., un objectiu. _Impacte:_ [DEX ???D???] de dany ???."
 		},
 		{
-			"name": "Ranged Spell Attack (INT)",
+			"name": "Atac de Conjur a Distància (INT)",
 			"realname": "",
-			"desc": "_Ranged Spell Attack:_ [INT ATK] to hit, range ???/??? ft., one target. _Hit:_ [INT ???D???] ??? damage."
+			"desc": "_Atac de Conjur a Distància:_ [INT ATK] per impactar, rang ???/??? ft., un objectiu. _Impacte:_ [INT ???D???] de dany ???."
 		},
 		{
-			"name": "Ranged Spell Attack (WIS)",
+			"name": "Atac de Conjur a Distància (SAV)",
 			"realname": "",
-			"desc": "_Ranged Spell Attack:_ [WIS ATK] to hit, range ???/??? ft., one target. _Hit:_ [WIS ???D???] ??? damage."
+			"desc": "_Atac de Conjur a Distància:_ [WIS ATK] per impactar, rang ???/??? ft., un objectiu. _Impacte:_ [WIS ???D???] de dany ???."
 		},
 		{
-			"name": "Ranged Spell Attack (CHA)",
+			"name": "Atac de Conjur a Distància (CAR)",
 			"realname": "",
-			"desc": "_Ranged Spell Attack:_ [CHA ATK] to hit, range ???/??? ft., one target. _Hit:_ [CHA ???D???] ??? damage."
+			"desc": "_Atac de Conjur a Distància:_ [CHA ATK] per impactar, rang ???/??? ft., un objectiu. _Impacte:_ [CHA ???D???] de dany ???."
 		},
 		{
-			"name": "Melee or Ranged Weapon Attack (STR)",
+			"name": "Atac amb Arma de Cos a Cos o a Distància (FOR)",
 			"realname": "",
-			"desc": "_Melee or Ranged Weapon Attack:_ [STR ATK] to hit, reach ??? ft. or range ???/??? ft., one target. _Hit:_ [STR ???D???] ??? damage."
+			"desc": "_Atac amb Arma de Cos a Cos o a Distància:_ [STR ATK] per impactar, abast ??? ft. o rang ???/??? ft., un objectiu. _Impacte:_ [STR ???D???] de dany ???."
 		},
 		{
-			"name": "Melee or Ranged Weapon Attack (DEX)",
+			"name": "Atac amb Arma de Cos a Cos o a Distància (DES)",
 			"realname": "",
-			"desc": "_Melee or Ranged Weapon Attack:_ [DEX ATK] to hit, reach ??? ft. or range ???/??? ft., one target. _Hit:_ [DEX ???D???] ??? damage."
+			"desc": "_Atac amb Arma de Cos a Cos o a Distància:_ [DEX ATK] per impactar, abast ??? ft. o rang ???/??? ft., un objectiu. _Impacte:_ [DEX ???D???] de dany ???."
 		},
 		{
 			"name": "",
 			"desc": null
 		},
 		{
-			"name": "Multiattack (Action)",
+			"name": "Atac Múltiple (Acció)",
 			"realname": "Multiattack",
-			"desc": "The [MON] makes two attacks."
+			"desc": "El/La [MON] fa dos atacs."
 		},
 		{
-			"name": "Legendary Resistance",
+			"name": "Resistència Llegendària",
 			"realname": "Legendary Resistance (3/day)",
-			"desc": "If the [MON] fails a saving throw, it can choose to succeed instead."
+			"desc": "Si el/la [MON] falla una tirada de salvació, pot triar tenir-hi èxit."
 		},
 		{
-			"name": "Spellcasting (INT)",
+			"name": "Llançament de Conjurs (INT)",
 			"realname": "Spellcasting",
-			"desc": "The [MON] is a ???-level spellcaster. Its spellcasting ability is Intelligence (spell save DC [INT SAVE], [INT ATK] to hit with spell attacks). The [MON] has the following ??? spells prepared:\n\n> Cantrips (at will): _spell, spell, spell, spell_\n> 1st level (4 slots): _spell, spell, spell_\n> 2nd level (3 slots): _spell, spell, spell_\n> 3rd level (2 slots): _spell, spell_"
+			"desc": "El/La [MON] és un llançador de conjurs de nivell ???. La seva habilitat de llançament de conjurs és la Intel·ligència (CD de salvació de conjur [INT SAVE], [INT ATK] per impactar amb atacs de conjur). El/La [MON] té els següents conjurs ??? preparats:\n\n> Cantrips (a voluntat): _conjur, conjur, conjur, conjur_\n> Nivell 1 (4 espais): _conjur, conjur, conjur_\n> Nivell 2 (3 espais): _conjur, conjur, conjur_\n> Nivell 3 (2 espais): _conjur, conjur_"
 		},
 		{
-			"name": "Spellcasting (WIS)",
+			"name": "Llançament de Conjurs (SAV)",
 			"realname": "Spellcasting",
-			"desc": "The [MON] is a ???-level spellcaster. Its spellcasting ability is Wisdom (spell save DC [WIS SAVE], [WIS ATK] to hit with spell attacks). The [MON] has the following ??? spells prepared:\n\n> Cantrips (at will): _spell, spell, spell, spell_\n> 1st level (4 slots): _spell, spell, spell_\n> 2nd level (3 slots): _spell, spell, spell_\n> 3rd level (2 slots): _spell, spell_"
+			"desc": "El/La [MON] és un llançador de conjurs de nivell ???. La seva habilitat de llançament de conjurs és la Saviesa (CD de salvació de conjur [WIS SAVE], [WIS ATK] per impactar amb atacs de conjur). El/La [MON] té els següents conjurs ??? preparats:\n\n> Cantrips (a voluntat): _conjur, conjur, conjur, conjur_\n> Nivell 1 (4 espais): _conjur, conjur, conjur_\n> Nivell 2 (3 espais): _conjur, conjur, conjur_\n> Nivell 3 (2 espais): _conjur, conjur_"
 		},
 		{
-			"name": "Spellcasting (CHA)",
+			"name": "Llançament de Conjurs (CAR)",
 			"realname": "Spellcasting",
-			"desc": "The [MON] is a ???-level spellcaster. Its spellcasting ability is Charisma (spell save DC [CHA SAVE], [CHA ATK] to hit with spell attacks). The [MON] has the following ??? spells prepared:\n\n> Cantrips (at will): _spell, spell, spell, spell_\n> 1st level (4 slots): _spell, spell, spell_\n> 2nd level (3 slots): _spell, spell, spell_\n> 3rd level (2 slots): _spell, spell_"
+			"desc": "El/La [MON] és un llançador de conjurs de nivell ???. La seva habilitat de llançament de conjurs és el Carisma (CD de salvació de conjur [CHA SAVE], [CHA ATK] per impactar amb atacs de conjur). El/La [MON] té els següents conjurs ??? preparats:\n\n> Cantrips (a voluntat): _conjur, conjur, conjur, conjur_\n> Nivell 1 (4 espais): _conjur, conjur, conjur_\n> Nivell 2 (3 espais): _conjur, conjur, conjur_\n> Nivell 3 (2 espais): _conjur, conjur_"
 		},
 		{
-			"name": "Innate Spellcasting (INT)",
+			"name": "Llançament de Conjurs Innat (INT)",
 			"realname": "Innate Spellcasting",
-			"desc": "The [MON]'s innate spellcasting ability is Intelligence (spell save DC [INT SAVE], [INT ATK] to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\n> At will: _spell, spell, spell_\n> 3/day each: _spell, spell, spell_\n> 1/day each: _spell, spell_"
+			"desc": "L'habilitat de llançament de conjurs innata del/de la [MON] és la Intel·ligència (CD de salvació de conjur [INT SAVE], [INT ATK] per impactar amb atacs de conjur). Pot llançar innativament els següents conjurs, sense necessitat de components materials:\n\n> A voluntat: _conjur, conjur, conjur_\n> 3/dia cada un: _conjur, conjur, conjur_\n> 1/dia cada un: _conjur, conjur_"
 		},
 		{
-			"name": "Innate Spellcasting (WIS)",
+			"name": "Llançament de Conjurs Innat (SAV)",
 			"realname": "Innate Spellcasting",
-			"desc": "The [MON]'s innate spellcasting ability is Wisdom (spell save DC [WIS SAVE], [WIS ATK] to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\n> At will: _spell, spell, spell_\n> 3/day each: _spell, spell, spell_\n> 1/day each: _spell, spell_"
+			"desc": "L'habilitat de llançament de conjurs innata del/de la [MON] és la Saviesa (CD de salvació de conjur [WIS SAVE], [WIS ATK] per impactar amb atacs de conjur). Pot llançar innativament els següents conjurs, sense necessitat de components materials:\n\n> A voluntat: _conjur, conjur, conjur_\n> 3/dia cada un: _conjur, conjur, conjur_\n> 1/dia cada un: _conjur, conjur_"
 		},
 		{
-			"name": "Innate Spellcasting (CHA)",
+			"name": "Llançament de Conjurs Innat (CAR)",
 			"realname": "Innate Spellcasting",
-			"desc": "The [MON]'s innate spellcasting ability is Charisma (spell save DC [CHA SAVE], [CHA ATK] to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\n> At will: _spell, spell, spell_\n> 3/day each: _spell, spell, spell_\n> 1/day each: _spell, spell_"
+			"desc": "L'habilitat de llançament de conjurs innata del/de la [MON] és el Carisma (CD de salvació de conjur [CHA SAVE], [CHA ATK] per impactar amb atacs de conjur). Pot llançar innativament els següents conjurs, sense necessitat de components materials:\n\n> A voluntat: _conjur, conjur, conjur_\n> 3/dia cada un: _conjur, conjur, conjur_\n> 1/dia cada un: _conjur, conjur_"
 		},
 		{
 			"name": "",
 			"desc": null
 		},
 		{
-			"name": "Aggressive",
-			"desc": "As a bonus action, the [MON] can move up to its speed toward a hostile creature that it can see."
+			"name": "Agressiu",
+			"desc": "Com a acció bonus, el/la [MON] pot moure's fins a la seva velocitat cap a una criatura hostil que pugui veure."
 		},
 		{
-			"name": "Ambusher",
-			"desc": "The [MON] has advantage on attack rolls against any creature it has surprised."
+			"name": "Emboscador",
+			"desc": "El/La [MON] té avantatge en les tirades d'atac contra qualsevol criatura a la qual hagi sorprès."
 		},
 		{
-			"name": "Amorphous",
-			"desc": "The [MON] can move through a space as narrow as 1 inch wide without squeezing."
+			"name": "Amorf",
+			"desc": "El/La [MON] pot moure's per un espai tan estret com 1 polzada d'ample sense esforç."
 		},
 		{
-			"name": "Amphibious",
-			"desc": "The [MON] can breathe air and water."
+			"name": "Amfibi",
+			"desc": "El/La [MON] pot respirar aire i aigua."
 		},
 		{
-			"name": "Angelic Weapons",
-			"desc": "The [MON]'s weapon attacks are magical. When the [MON] hits with any weapon, the weapon deals an extra [???D???] radiant damage (included in the attack)."
+			"name": "Armes Angèliques",
+			"desc": "Els atacs amb arma del/de la [MON] són màgics. Quan el/la [MON] impacta amb qualsevol arma, l'arma causa [???D???] de dany radiant addicional (inclòs en l'atac)."
 		},
 		{
-			"name": "Animal Telepathy",
+			"name": "Telepatia Animal",
 			"realname": "??? Telepathy",
-			"desc": "The [MON] can magically command any ??? within 120 feet of it, using a limited telepathy."
+			"desc": "El/La [MON] pot comandar màgicament qualsevol ??? dins de 120 peus d'ell/a, utilitzant una telepatia limitada."
 		},
 		{
-			"name": "Antimagic Susceptibility",
-			"desc": "The [MON] is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the [MON] must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+			"name": "Susceptibilitat Antimàgica",
+			"desc": "El/La [MON] queda incapacitat/da mentre es troba en l'àrea d'un camp antimàgic. Si és l'objectiu de dissipar màgia, el/la [MON] ha de tenir èxit en una tirada de salvació de Constitució contra la CD de salvació de conjur del llançador o quedar inconscient durant 1 minut."
 		},
 		{
-			"name": "Assassinate",
-			"desc": "During its first turn, the [MON] has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the [MON] scores against a surprised creature is a critical hit."
+			"name": "Assassinat",
+			"desc": "Durant el seu primer torn, el/la [MON] té avantatge en les tirades d'atac contra qualsevol criatura que no hagi pres un torn. Tot impacte que el/la [MON] faci contra una criatura sorpresa és un impacte crític."
 		},
 		{
-			"name": "Attack (Legendary Action)",
+			"name": "Atac (Acció Llegendària)",
 			"realname": "??? Attack",
-			"desc": "The [MON] makes a ??? attack."
+			"desc": "El/La [MON] fa un atac de ???."
 		},
 		{
-			"name": "Aversion to Damage",
+			"name": "Aversió al Dany",
 			"realname": "Aversion to ???",
-			"desc": "If the [MON] takes ??? damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+			"desc": "Si el/la [MON] rep dany de ???, té desavantatge en les tirades d'atac i les proves d'habilitat fins al final del seu proper torn."
 		},
 		{
-			"name": "Beast of Burden",
-			"desc": "The [MON] is considered to be a ??? animal for the purpose of determining its carrying capacity."
+			"name": "Bèstia de Càrrega",
+			"desc": "El/La [MON] és considerat un animal ??? a efectes de determinar la seva capacitat de càrrega."
 		},
 		{
-			"name": "Berserk",
-			"desc": "Whenever the [MON] starts its turn with ??? hit points or fewer, roll a d6. On a 6, the [MON] goes berserk. On each of its turns while berserk, the [MON] attacks the nearest creature it can see. If no creature is near enough to move to and attack, the [MON] attacks an object, with preference for an object smaller than itself. Once the [MON] goes berserk, it continues to do so until it is destroyed or regains all its hit points."
+			"name": "Frenesi",
+			"desc": "Cada vegada que el/la [MON] comença el seu torn amb ??? punts de vida o menys, llança un d6. Amb un 6, el/la [MON] entra en frenesi. En cada un dels seus torns mentre estigui en frenesi, el/la [MON] ataca la criatura més propera que pugui veure. Si no hi ha cap criatura prou a prop per moure's i atacar, el/la [MON] ataca un objecte, preferint un objecte més petit que ell/a. Un cop el/la [MON] entra en frenesi, continua fins que és destruït/da o recupera tots els seus punts de vida."
 		},
 		{
-			"name": "Blind Senses",
-			"desc": "The [MON] can't use its blindsight while deafened and unable to smell."
+			"name": "Sentits Cecs",
+			"desc": "El/La [MON] no pot usar la seva visió cega mentre estigui ensordida i incapaç d'olorar."
 		},
 		{
-			"name": "Blood Frenzy",
-			"desc": "The [MON] has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+			"name": "Frenesi de Sang",
+			"desc": "El/La [MON] té avantatge en les tirades d'atac de cos a cos contra qualsevol criatura que no tingui tots els seus punts de vida."
 		},
 		{
-			"name": "Brave",
-			"desc": "The [MON] has advantage on saving throws against being frightened."
+			"name": "Valent",
+			"desc": "El/La [MON] té avantatge en les tirades de salvació contra ser esporuguit/da."
 		},
 		{
-			"name": "Breath Weapon (Cone, Action)",
+			"name": "Arma de Buf (Con, Acció)",
 			"realname": "Breath Weapon (Recharge ???)",
-			"desc": "The [MON] exhales ??? in a ???-foot cone. Each creature in that area must make a DC ??? Dexterity saving throw, taking [???D???] ??? damage on a failed save, or half as much damage on a successful one."
+			"desc": "El/La [MON] exhala ??? en un con de ??? peus. Cada criatura en aquella àrea ha de fer una tirada de salvació de Destreses de CD ???, rebent [???D???] de dany ??? en cas de fallar, o la meitat del dany en cas d'èxit."
 		},
 		{
-			"name": "Breath Weapon (Line, Action)",
+			"name": "Arma de Buf (Línia, Acció)",
 			"realname": "Breath Weapon (Recharge ???)",
-			"desc": "The [MON] exhales ??? in a ???-foot line that is ??? feet wide. Each creature in that line must make a DC ??? Dexterity saving throw, taking [???D???] ??? damage on a failed save, or half as much damage on a successful one."
+			"desc": "El/La [MON] exhala ??? en una línia de ??? peus de llarg i ??? peus d'ample. Cada criatura en aquella línia ha de fer una tirada de salvació de Destreses de CD ???, rebent [???D???] de dany ??? en cas de fallar, o la meitat del dany en cas d'èxit."
 		},
 		{
-			"name": "Brute",
-			"desc": "A melee weapon deals one extra die of its damage when the [MON] hits with it (included in the attack)."
+			"name": "Brutal",
+			"desc": "Una arma de cos a cos causa un dau extra del seu dany quan el/la [MON] impacta amb ella (inclòs en l'atac)."
 		},
 		{
-			"name": "Camouflage",
+			"name": "Camuflatge",
 			"realname": "??? Camouflage",
-			"desc": "The [MON] has advantage on Dexterity (Stealth) checks made to hide in ??? terrain."
+			"desc": "El/La [MON] té avantatge en les proves de Destreses (Sigil) fetes per amagar-se en terreny ???."
 		},
 		{
-			"name": "Change Shape (Dragon, Action)",
+			"name": "Canviar Forma (Drac, Acció)",
 			"realname": "Change Shape",
-			"desc": "The [MON] magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the [MON]'s choice).\nIn a new form, the [MON] retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+			"desc": "El/La [MON] es transforma màgicament en un humanoide o bèstia que té un grau de dificultat no superior al seu, o torna a la seva forma veritable. Torna a la seva forma veritable si mor. Qualsevol equipament que porti o transporti és absorbit o portat per la nova forma (a elecció del/de la [MON]).\nEn una nova forma, el/la [MON] conserva el seu alineament, punts de vida, Daus de Vida, capacitat de parlar, competències, Resistència Llegendària, accions de cau, i les puntuacions d'Intel·ligència, Saviesa i Carisma, així com aquesta acció. Les seves estadístiques i capacitats es substitueixen per les de la nova forma, excepte qualsevol característica de classe o accions llegendàries d'aquella forma."
 		},
 		{
-			"name": "Change Shape (Humanoid, Action)",
+			"name": "Canviar Forma (Humanoide, Acció)",
 			"realname": "Change Shape",
-			"desc": "The [MON] magically polymorphs into a small or medium humanoid, or back into its true form. Its statistics are the same in each form. Any equipment the [MON] is wearing or carrying isn't transformed. If the [MON] dies, it reverts to its true form."
+			"desc": "El/La [MON] es transforma màgicament en un humanoide petit o mitjà, o torna a la seva forma veritable. Les seves estadístiques són les mateixes en cada forma. Qualsevol equipament que el/la [MON] porti o transporti no es transforma. Si el/la [MON] mor, torna a la seva forma veritable."
 		},
 		{
-			"name": "Charge",
-			"desc": "If the [MON] moves at least ??? ft. straight toward a target and then hits it with a ??? attack on the same turn, the target takes an extra [???D???] ??? damage. If the target is a creature, it must succeed on a DC ??? Strength saving throw or be knocked prone."
+			"name": "Càrrega",
+			"desc": "Si el/la [MON] es mou almenys ??? ft. en línia recta cap a un objectiu i després l'impacta amb un atac de ??? en el mateix torn, l'objectiu rep [???D???] de dany ??? addicional. Si l'objectiu és una criatura, ha de tenir èxit en una tirada de salvació de Força de CD ??? o quedar prostrat/da."
 		},
 		{
-			"name": "Confer Resistance",
+			"name": "Conferir Resistència",
 			"realname": "Confer ??? Resistance",
-			"desc": "The [MON] can grant resistance to ??? damage to anyone riding it."
+			"desc": "El/La [MON] pot atorgar resistència al dany de ??? a qualsevol que el/la munti."
 		},
 		{
-			"name": "Constrict (Action)",
+			"name": "Constricció (Acció)",
 			"realname": "Constrict",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one creature. _Hit:_ [STR ???D???] bludgeoning damage, and the target is grappled (escape DC ???). Until this grapple ends, the creature is restrained, and the [MON] can't constrict another target."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., una criatura. _Impacte:_ [STR ???D???] de dany contundent, i l'objectiu queda aferrat (CD d'escapament ???). Fins que aquest aferrament acabi, la criatura queda restringida, i el/la [MON] no pot constrènyer un altre objectiu."
 		},
 		{
-			"name": "Corrode Metal",
-			"desc": "Any nonmagical weapon made of metal that hits the [MON] corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Non magical ammunition made of metal that hits the [MON] is destroyed after dealing damage.\nThe [MON] can eat through 2-inch-thick, nonmagical metal in 1 round."
+			"name": "Corroir Metall",
+			"desc": "Qualsevol arma no màgica feta de metall que impacti el/la [MON] es corroia. Després de causar dany, l'arma rep una penalització permanent i acumulativa de -1 a les tirades de dany. Si la seva penalització cau a -5, l'arma és destruïda. La munició no màgica feta de metall que impacti el/la [MON] és destruïda després de causar dany.\nEl/La [MON] pot menjar-se 2 polzades de gruix de metall no màgic en 1 ronda."
 		},
 		{
-			"name": "Cunning Action",
-			"desc": "On each of its turns, the [MON] can use a bonus action to take the Dash, Disengage, or Hide action."
+			"name": "Acció Astuta",
+			"desc": "En cada un dels seus torns, el/la [MON] pot usar una acció bonus per fer l'acció Córrer, Desengantxar-se o Amagar-se."
 		},
 		{
-			"name": "Damage Absorption",
+			"name": "Absorció de Dany",
 			"realname": "??? Absorption",
-			"desc": "Whenever the [MON] is subjected to ??? damage, it takes no damage and instead regains a number of hit points equal to the ??? damage dealt."
+			"desc": "Cada vegada que el/la [MON] és sotmès a dany de ???, no rep cap dany i en comptes recupera un nombre de punts de vida igual al dany de ??? causat."
 		},
 		{
-			"name": "Damage Transfer",
-			"desc": "While it is grappling a creature, the [MON] takes only half the damage dealt to it, and the creature grappled by the [MON] takes the other half."
+			"name": "Transferència de Dany",
+			"desc": "Mentre agafa una criatura, el/la [MON] només rep la meitat del dany que se li causa, i la criatura agafada per el/la [MON] rep l'altra meitat."
 		},
 		{
-			"name": "Dark Devotion",
-			"desc": "The [MON] has advantage on saving throws against being charmed or frightened."
+			"name": "Devoció Fosca",
+			"desc": "El/La [MON] té avantatge en les tirades de salvació contra ser encantat/da o esporuguit/da."
 		},
 		{
-			"name": "Death Burst",
-			"desc": "When the [MON] dies, it explodes in a burst of ???. Each creature within ??? ft. of it must make a DC ??? Dexterity saving throw, taking [???D???] ??? damage on a failed save, or half as much damage on a successful one."
+			"name": "Esclat de Mort",
+			"desc": "Quan el/la [MON] mor, explota en un esclat de ???. Cada criatura dins de ??? ft. d'ell/a ha de fer una tirada de salvació de Destreses de CD ???, rebent [???D???] de dany ??? en cas de fallar, o la meitat del dany en cas d'èxit."
 		},
 		{
-			"name": "Detect (Legendary Action)",
+			"name": "Detectar (Acció Llegendària)",
 			"realname": "Detect",
-			"desc": "The [MON] makes a Wisdom (Perception) check."
+			"desc": "El/La [MON] fa una prova de Saviesa (Percepció)."
 		},
 		{
-			"name": "Devil's Sight",
-			"desc": "Magical darkness doesn't impede the devil's darkvision."
+			"name": "Visió del Dimoni",
+			"desc": "La foscor màgica no impedeix la visió en la foscor del dimoni."
 		},
 		{
-			"name": "Divine Awareness",
-			"desc": "The [MON] knows if it hears a lie."
+			"name": "Consciència Divina",
+			"desc": "El/La [MON] sap si sent una mentida."
 		},
 		{
-			"name": "Divine Eminence",
-			"desc": "As a bonus action, the [MON] can expend a spell slot to cause its melee weapon attacks to magically deal an extra [???D???] radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the [MON] expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st."
+			"name": "Eminència Divina",
+			"desc": "Com a acció bonus, el/la [MON] pot gastar un espai de conjur per fer que els seus atacs amb arma de cos a cos causin màgicament [???D???] de dany radiant addicional a un objectiu en un impacte. Aquest benefici dura fins al final del torn. Si el/la [MON] gasta un espai de conjur de nivell 2 o superior, el dany addicional augmenta en 1d6 per cada nivell per sobre del 1r."
 		},
 		{
-			"name": "Duergar Resilience",
-			"desc": "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+			"name": "Resistència Duergar",
+			"desc": "El duergar té avantatge en les tirades de salvació contra verí, conjurs i il·lusions, així com per resistir ser encantat/da o paralitzat/da."
 		},
 		{
-			"name": "Dwarven Resilience",
-			"desc": "The dwarf has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+			"name": "Resistència Nana",
+			"desc": "El nan/la nana té avantatge en les tirades de salvació contra verí, conjurs i il·lusions, així com per resistir ser encantat/da o paralitzat/da."
 		},
 		{
-			"name": "Earth Glide",
-			"desc": "The [MON] can burrow through nonmagical, unworked earth and stone. While doing so, the [MON] doesn't disturb the material it moves through."
+			"name": "Lliscament Terrestre",
+			"desc": "El/La [MON] pot excavar per terra i pedra no màgiques i no treballades. En fer-ho, el/la [MON] no pertorba el material per on es mou."
 		},
 		{
-			"name": "Echolocation",
-			"desc": "The [MON] can't use its blindsight while deafened."
+			"name": "Ecolocalització",
+			"desc": "El/La [MON] no pot usar la seva visió cega mentre estigui ensordida."
 		},
 		{
-			"name": "Elemental Demise",
-			"desc": "If the [MON] dies, its body disintegrates into ???, leaving behind only equipment the [MON] was wearing or carrying."
+			"name": "Mort Elemental",
+			"desc": "Si el/la [MON] mor, el seu cos es desintegra en ???, deixant enrere només l'equipament que el/la [MON] portava o transportava."
 		},
 		{
-			"name": "Elemental Form",
+			"name": "Forma Elemental",
 			"realname": "??? Form",
-			"desc": "The [MON] can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+			"desc": "El/La [MON] pot entrar en l'espai d'una criatura hostil i aturar-se allà. Pot moure's per un espai tan estret com 1 polzada d'ample sense esforç."
 		},
 		{
-			"name": "Ephemeral",
-			"desc": "The [MON] can't wear or carry anything."
+			"name": "Efímer",
+			"desc": "El/La [MON] no pot portar ni transportar res."
 		},
 		{
-			"name": "Etherealness (Action)",
+			"name": "Etèria (Acció)",
 			"realname": "Etherealness",
-			"desc": "The [MON] magically enters the Ethereal Plane from the Material Plane, or vice versa."
+			"desc": "El/La [MON] entra màgicament al Pla Etèri des del Pla Material, o viceversa."
 		},
 		{
-			"name": "Ethereal Jaunt",
-			"desc": "As a bonus action, the [MON] can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
+			"name": "Salt Etèri",
+			"desc": "Com a acció bonus, el/la [MON] pot desplaçar-se màgicament del Pla Material al Pla Etèri, o viceversa."
 		},
 		{
-			"name": "Ethereal Sight",
-			"desc": "The [MON] can see 60 ft. into the Ethereal Plane when it is on the Material Plane, and vice versa."
+			"name": "Visió Etèria",
+			"desc": "El/La [MON] pot veure 60 ft. dins del Pla Etèri quan es troba al Pla Material, i viceversa."
 		},
 		{
-			"name": "Evasion",
-			"desc": "If the [MON] is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the [MON] instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+			"name": "Evasió",
+			"desc": "Si el/la [MON] és sotmès a un efecte que li permet fer una tirada de salvació de Destreses per rebre només la meitat del dany, el/la [MON] no rep cap dany si té èxit en la tirada de salvació, i només la meitat del dany si falla."
 		},
 		{
-			"name": "False Appearance",
-			"desc": "While the [MON] remains motionless, it is indistinguishable from ???."
+			"name": "Aparença Falsa",
+			"desc": "Mentre el/la [MON] roman immòbil, és indistingible de ???."
 		},
 		{
-			"name": "Fear Aura",
-			"desc": "Any creature hostile to the [MON] that starts its turn within ??? feet of the [MON] must make a DC ??? Wisdom saving throw, unless the [MON] is incapacitated. On a failed save, the creature is frightened until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the [MON]'s Fear Aura for the next 24 hours."
+			"name": "Aura de Por",
+			"desc": "Qualsevol criatura hostil al/a la [MON] que comenci el seu torn dins de ??? peus del/de la [MON] ha de fer una tirada de salvació de Saviesa de CD ???, tret que el/la [MON] estigui incapacitat/da. En un save fallit, la criatura queda esporugüida fins al principi del seu proper torn. Si la tirada de salvació d'una criatura té èxit, la criatura és immune a l'Aura de Por del/de la [MON] durant les properes 24 hores."
 		},
 		{
-			"name": "Fey Ancestry",
-			"desc": "The [MON] has advantage on saving throws against being charmed, and magic can't put the [MON] to sleep."
+			"name": "Ascendència Feèrica",
+			"desc": "El/La [MON] té avantatge en les tirades de salvació contra ser encantat/da, i la màgia no pot adormir el/la [MON]."
 		},
 		{
-			"name": "Flyby",
-			"desc": "The [MON] doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+			"name": "Vol Ràpid",
+			"desc": "El/La [MON] no provoca atacs d'oportunitat quan vola fora de l'abast d'un enemic."
 		},
 		{
-			"name": "Freedom of Movement",
-			"desc": "The [MON] ignores difficult terrain, and magical effects can't reduce its speed or cause it to be restrained. It can spend 5 feet of movement to escape from nonmagical restraints or being grappled."
+			"name": "Llibertat de Moviment",
+			"desc": "El/La [MON] ignora el terreny difícil, i els efectes màgics no poden reduir la seva velocitat ni fer que quedi restringit/da. Pot gastar 5 peus de moviment per escapar de restriccions no màgiques o d'estar aferrat/da."
 		},
 		{
-			"name": "Frightful Presence (Action)",
+			"name": "Presència Aterradora (Acció)",
 			"realname": "Frightful Presence",
-			"desc": "Each creature of the [MON]'s choice that is within 120 feet of the [MON] and aware of it must succeed on a DC ??? Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the [MON]'s Frightful Presence for the next 24 hours."
+			"desc": "Cada criatura a elecció del/de la [MON] que es trobi dins de 120 peus del/de la [MON] i en sigui conscient ha de tenir èxit en una tirada de salvació de Saviesa de CD ??? o quedar esporugüida durant 1 minut. Una criatura pot repetir la tirada de salvació al final de cada un dels seus torns, acabant l'efecte sobre ella mateixa en cas d'èxit. Si la tirada de salvació d'una criatura té èxit o l'efecte acaba per a ella, la criatura és immune a la Presència Aterradora del/de la [MON] durant les properes 24 hores."
 		},
 		{
-			"name": "Gnome Cunning",
-			"desc": "The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
+			"name": "Astúcia Gnoma",
+			"desc": "El/La gnome/gnoma té avantatge en les tirades de salvació d'Intel·ligència, Saviesa i Carisma contra màgia."
 		},
 		{
-			"name": "Grappler",
-			"desc": "The [MON] has advantage on attack rolls against any creature grappled by it."
+			"name": "Aferrador",
+			"desc": "El/La [MON] té avantatge en les tirades d'atac contra qualsevol criatura aferrada per ell/a."
 		},
 		{
-			"name": "Healing Touch (Action)",
+			"name": "Toc Curatiu (Acció)",
 			"realname": "Healing Touch (???/day)",
-			"desc": "The [MON] touches another creature. The target magically regains [???D??? + ???] hit points and is freed from any curse, disease, poison, blindness, or deafness."
+			"desc": "El/La [MON] toca una altra criatura. L'objectiu recupera màgicament [???D??? + ???] punts de vida i és alliberat/da de qualsevol maledicció, malaltia, verí, ceguesa o sordesa."
 		},
 		{
-			"name": "Halfling Nimbleness",
-			"desc": "The halfling can move through the space of any creature that is of a size larger than its own."
+			"name": "Agilitat Mig-Ling",
+			"desc": "El/La mig-ling pot moure's per l'espai de qualsevol criatura que sigui d'una mida més gran que la seva."
 		},
 		{
-			"name": "Heated Body",
-			"desc": "A creature that touches the [MON] or hits it with a melee attack while within ??? feet of it takes [???D???] fire damage."
+			"name": "Cos Incandescent",
+			"desc": "Una criatura que toqui el/la [MON] o l'impacti amb un atac de cos a cos mentre estigui dins de ??? peus d'ell/a rep [???D???] de dany de foc."
 		},
 		{
-			"name": "Heated Weapons",
-			"desc": "Any metal melee weapon the [MON] wields deals an extra [???D???] fire damage on a hit (included in the attack)."
+			"name": "Armes Incandescents",
+			"desc": "Qualsevol arma de cos a cos de metall que el/la [MON] empunyeixi causa [???D???] de dany de foc addicional en un impacte (inclòs en l'atac)."
 		},
 		{
-			"name": "Hellish Weapons",
-			"desc": "The [MON]'s weapon attacks are magical and deal an extra [???D???] poison damage on a hit (included in the attacks)."
+			"name": "Armes Infernals",
+			"desc": "Els atacs amb arma del/de la [MON] són màgics i causen [???D???] de dany de verí addicional en un impacte (inclòs en els atacs)."
 		},
 		{
-			"name": "Hold Breath",
-			"desc": "The [MON] can hold its breath for ???."
+			"name": "Aguantar la Respiració",
+			"desc": "El/La [MON] pot aguantar la respiració durant ???."
 		},
 		{
-			"name": "Ice Walk",
-			"desc": "The [MON] can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+			"name": "Caminar sobre Gel",
+			"desc": "El/La [MON] pot moure's i escalar superfícies de gel sense necessitat de fer una prova d'habilitat. A més, el terreny difícil compost de gel o neu no li costa moviment addicional."
 		},
 		{
-			"name": "Illumination",
-			"desc": "The [MON] sheds bright light in a ???-foot radius and dim light in an additional ??? ft."
+			"name": "Il·luminació",
+			"desc": "El/La [MON] emet llum brillant en un radi de ??? peus i llum tènue en ??? ft. addicionals."
 		},
 		{
-			"name": "Illusory Appearance (Action)",
+			"name": "Aparença Il·lusòria (Acció)",
 			"realname": "Illusory Appearance",
-			"desc": "The [MON] covers itself and anything it is wearing or carrying with a magical illusion that makes it look like another creature of its general size and shape. The effect ends if the [MON] takes a bonus action to end it or if it dies.\nThe changes wrought by this effect fail to hold up to physical inspection. For example, the [MON] could appear to have no claws, but someone touching its hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC ??? Intelligence (Investigation) check to discern that the [MON] is disguised."
+			"desc": "El/La [MON] es cobreix a si mateix/a i tot el que porta o transporta amb una il·lusió màgica que el/la fa semblar una altra criatura de la seva mida i forma generals. L'efecte acaba si el/la [MON] fa una acció bonus per acabar-lo o si mor.\nEls canvis produïts per aquest efecte no resisteixen la inspecció física. Per exemple, el/la [MON] podria semblar que no té urpes, però algú que li toqui la mà podria sentir les urpes. Altrament, una criatura ha de fer una acció per inspeccionar visualment la il·lusió i tenir èxit en una prova d'Intel·ligència (Investigació) de CD ??? per discernir que el/la [MON] està disfressat/da."
 		},
 		{
-			"name": "Immutable Form",
-			"desc": "The [MON] is immune to any spell or effect that would alter its form."
+			"name": "Forma Immutable",
+			"desc": "El/La [MON] és immune a qualsevol conjur o efecte que alteri la seva forma."
 		},
 		{
-			"name": "Incorporeal",
-			"desc": "The [MON] can move through other creatures and objects as if they were difficult terrain. It takes [???D???] force damage if it ends its turn inside an object."
+			"name": "Incorpori",
+			"desc": "El/La [MON] pot moure's per altres criatures i objectes com si fossin terreny difícil. Rep [???D???] de dany de força si acaba el seu torn dins d'un objecte."
 		},
 		{
-			"name": "Innate Spellcasting (Single Spell)",
+			"name": "Llançament de Conjurs Innat (Conjur Únic)",
 			"realname": "Innate Spellcasting (???/Day)",
-			"desc": "The [MON] can innately cast ??? (spell save DC ???), requiring no material components. Its innate spellcasting ability is ???."
+			"desc": "El/La [MON] pot llançar innativament ??? (CD de salvació de conjur ???), sense necessitat de components materials. La seva habilitat de llançament de conjurs innata és ???."
 		},
 		{
-			"name": "Inscrutable",
-			"desc": "The [MON] is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the [MON]'s intentions or sincerity have disadvantage."
+			"name": "Inscrutables",
+			"desc": "El/La [MON] és immune a qualsevol efecte que senti les seves emocions o llegeixi els seus pensaments, així com a qualsevol conjur de divinació que refusi. Les proves de Saviesa (Perspicàcia) fetes per esbrinar les intencions o sinceritat del/de la [MON] tenen desavantatge."
 		},
 		{
-			"name": "Invisibility (Action)",
+			"name": "Invisibilitat (Acció)",
 			"realname": "Invisibility",
-			"desc": "The [MON] magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the [MON] wears or carries is invisible with it."
+			"desc": "El/La [MON] es torna màgicament invisible fins que ataca o llança un conjur, o fins que acaba la seva concentració (com si es concentrés en un conjur). Qualsevol equipament que el/la [MON] porti o transporti és invisible amb ell/a."
 		},
 		{
-			"name": "Invisibility (Permanent)",
+			"name": "Invisibilitat (Permanent)",
 			"realname": "Invisibility",
-			"desc": "The [MON] is invisible."
+			"desc": "El/La [MON] és invisible."
 		},
 		{
-			"name": "Keen Hearing",
-			"desc": "The [MON] has advantage on Wisdom (Perception) checks that rely on hearing."
+			"name": "Oïda Aguda",
+			"desc": "El/La [MON] té avantatge en les proves de Saviesa (Percepció) que depenen de l'oïda."
 		},
 		{
-			"name": "Keen Sight",
-			"desc": "The [MON] has advantage on Wisdom (Perception) checks that rely on sight."
+			"name": "Vista Aguda",
+			"desc": "El/La [MON] té avantatge en les proves de Saviesa (Percepció) que depenen de la vista."
 		},
 		{
-			"name": "Keen Smell",
-			"desc": "The [MON] has advantage on Wisdom (Perception) checks that rely on smell."
+			"name": "Olfacte Agut",
+			"desc": "El/La [MON] té avantatge en les proves de Saviesa (Percepció) que depenen de l'olfacte."
 		},
 		{
-			"name": "Keen Hearing and Sight",
-			"desc": "The [MON] has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+			"name": "Oïda i Vista Agudes",
+			"desc": "El/La [MON] té avantatge en les proves de Saviesa (Percepció) que depenen de l'oïda o la vista."
 		},
 		{
-			"name": "Keen Hearing and Smell",
-			"desc": "The [MON] has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+			"name": "Oïda i Olfacte Aguts",
+			"desc": "El/La [MON] té avantatge en les proves de Saviesa (Percepció) que depenen de l'oïda o l'olfacte."
 		},
 		{
-			"name": "Keen Sight and Smell",
-			"desc": "The [MON] has advantage on Wisdom (Perception) checks that rely on sight or smell."
+			"name": "Vista i Olfacte Aguts",
+			"desc": "El/La [MON] té avantatge en les proves de Saviesa (Percepció) que depenen de la vista o l'olfacte."
 		},
 		{
-			"name": "Labyrinthine Recall",
-			"desc": "The [MON] can perfectly recall any path it has traveled."
+			"name": "Memòria Laberíntica",
+			"desc": "El/La [MON] pot recordar perfectament qualsevol camí que hagi recorregut."
 		},
 		{
-			"name": "Leadership (Action)",
+			"name": "Lideratge (Acció)",
 			"realname": "Leadership (Recharges after a Short or Long Rest)",
-			"desc": "For 1 minute, the [MON] can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the [MON]. A creature can benefit from only one Leadership die at a time. This effect ends if the [MON] is incapacitated."
+			"desc": "Durant 1 minut, el/la [MON] pot pronunciar una ordre o advertència especial cada vegada que una criatura no hostil que pugui veure dins de 30 ft. d'ell/a faci una tirada d'atac o una tirada de salvació. La criatura pot afegir un d4 a la seva tirada sempre que pugui sentir i entendre el/la [MON]. Una criatura només pot beneficiar-se d'un Dau de Lideratge a la vegada. Aquest efecte acaba si el/la [MON] queda incapacitat/da."
 		},
 		{
-			"name": "Life Drain (Action)",
+			"name": "Drenatge de Vida (Acció)",
 			"realname": "Life Drain",
-			"desc": "_Melee Spell Attack:_ +??? to hit, reach ??? ft., one creature. _Hit:_ [???D??? + ???] necrotic damage. The target must succeed on a DC ??? Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+			"desc": "_Atac de Conjur de Cos a Cos:_ +??? per impactar, abast ??? ft., una criatura. _Impacte:_ [???D??? + ???] de dany necròtic. L'objectiu ha de tenir èxit en una tirada de salvació de Constitució de CD ??? o el seu màxim de punts de vida es redueix en una quantitat igual al dany rebut. Aquesta reducció dura fins que la criatura acabi un descans llarg. L'objectiu mor si aquest efecte redueix el seu màxim de punts de vida a 0."
 		},
 		{
-			"name": "Limited Amphibiousness",
-			"desc": "The [MON] can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+			"name": "Amfibi Limitat",
+			"desc": "El/La [MON] pot respirar aire i aigua, però necessita estar submergit/da almenys una vegada cada 4 hores per evitar ofegar-se."
 		},
 		{
-			"name": "Limited Magic Immunity",
-			"desc": "The [MON] can't be affected or detected by spells of ??? level or lower unless it wishes to be. It has advantage on saving throws against all other spells and magical effects."
+			"name": "Immunitat Màgica Limitada",
+			"desc": "El/La [MON] no pot ser afectat/da ni detectat/da per conjurs de nivell ??? o inferior tret que ho desitgi. Té avantatge en les tirades de salvació contra tots els altres conjurs i efectes màgics."
 		},
 		{
-			"name": "Limited Telepathy",
-			"desc": "The [MON] can magically communicate simple ideas, emotions, and images telepathically with any creature within ??? ft. of it."
+			"name": "Telepatia Limitada",
+			"desc": "El/La [MON] pot comunicar màgicament idees simples, emocions i imatges telepàticament amb qualsevol criatura dins de ??? ft. d'ell/a."
 		},
 		{
-			"name": "Lucky",
-			"desc": "When the [MON] rolls a 1 on the d20 for an attack roll, ability check, or saving throw, it can reroll the die and must use the new roll."
+			"name": "Afortunat",
+			"desc": "Quan el/la [MON] treu un 1 al d20 per a una tirada d'atac, prova d'habilitat o tirada de salvació, pot tornar a llançar el dau i ha d'usar el nou resultat."
 		},
 		{
-			"name": "Magic Resistance",
-			"desc": "The [MON] has advantage on saving throws against spells and other magical effects."
+			"name": "Resistència a la Màgia",
+			"desc": "El/La [MON] té avantatge en les tirades de salvació contra conjurs i altres efectes màgics."
 		},
 		{
-			"name": "Magic Weapons",
-			"desc": "The [MON]'s weapon attacks are magical."
+			"name": "Armes Màgiques",
+			"desc": "Els atacs amb arma del/de la [MON] són màgics."
 		},
 		{
-			"name": "Martial Advantage",
-			"desc": "Once per turn, the [MON] can deal an extra [???D???] damage to a creature it hits with a weapon attack if that creature is within 5 ft. of an ally of the [MON] that isn't incapacitated."
+			"name": "Avantatge Marcial",
+			"desc": "Una vegada per torn, el/la [MON] pot causar [???D???] de dany addicional a una criatura a la qual impacti amb un atac d'arma si aquella criatura es troba dins de 5 ft. d'un aliat del/de la [MON] que no estigui incapacitat/da."
 		},
 		{
-			"name": "Mimicry",
-			"desc": "The [MON] can mimic ??? sounds it has heard. A creature that hears the sounds can tell they are imitations with a successful DC ??? Wisdom (Insight) check."
+			"name": "Mímica",
+			"desc": "El/La [MON] pot imitar sons de ??? que ha sentit. Una criatura que senti els sons pot saber que són imitacions amb una prova de Saviesa (Perspicàcia) de CD ??? reeixida."
 		},
 		{
-			"name": "Naturally Stealthy",
-			"desc": "The [MON] can attempt to hide even when it is obscured only by a creature that is at least one size larger than itself."
+			"name": "Naturalment Sigilós",
+			"desc": "El/La [MON] pot intentar amagar-se fins i tot quan només estigui ocult/a per una criatura que sigui almenys una mida més gran que ell/a."
 		},
 		{
-			"name": "Nimble Escape",
-			"desc": "The [MON] can take the Disengage or Hide action as a bonus action on each of its turns."
+			"name": "Escapada Àgil",
+			"desc": "El/La [MON] pot fer l'acció Desengantxar-se o Amagar-se com a acció bonus en cada un dels seus torns."
 		},
 		{
-			"name": "Pack Tactics",
-			"desc": "The [MON] has advantage on an attack roll against a creature if at least one of the [MON]'s allies is within 5 ft. of the creature and the ally isn't incapacitated."
+			"name": "Tàctiques de Manada",
+			"desc": "El/La [MON] té avantatge en una tirada d'atac contra una criatura si almenys un dels aliats del/de la [MON] es troba dins de 5 ft. de la criatura i l'aliat no està incapacitat/da."
 		},
 		{
-			"name": "Parry (Reaction)",
+			"name": "Parada (Reacció)",
 			"realname": "Parry",
-			"desc": "The [MON] adds ??? to its AC against one melee attack that would hit it. To do so, the [MON] must see the attacker and be wielding a melee weapon."
+			"desc": "El/La [MON] afegeix ??? a la seva CA contra un atac de cos a cos que l'impactaria. Per fer-ho, el/la [MON] ha de veure l'atacant i empunyar una arma de cos a cos."
 		},
 		{
-			"name": "Petrifying Gaze",
-			"desc": "If a creature starts its turn within ??? ft. of the [MON] and the two of them can see each other, the [MON] can force the creature to make a DC ??? Constitution saving throw if the [MON] isn't incapacitated. On a failed save, the creature magically begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic.\nA creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the [MON] until the start of its next turn, when it can avert its eyes again. If it looks at the [MON] in the meantime, it must immediately make the save.\nIf the [MON] sees its reflection within ??? ft. of it in bright light, it is affected by its own gaze."
+			"name": "Mirada Petrificant",
+			"desc": "Si una criatura comença el seu torn dins de ??? ft. del/de la [MON] i tots dos es poden veure, el/la [MON] pot forçar la criatura a fer una tirada de salvació de Constitució de CD ??? si el/la [MON] no està incapacitat/da. En un save fallit, la criatura comença màgicament a convertir-se en pedra i queda restringida. Ha de repetir la tirada de salvació al final del seu proper torn. En cas d'èxit, l'efecte acaba. En cas de fallida, la criatura queda petrificada fins que sigui alliberada pel conjur restauració superior o altra màgia.\nUna criatura que no sigui sorpresa pot desviar els ulls per evitar la tirada de salvació al principi del seu torn. Si ho fa, no pot veure el/la [MON] fins al principi del seu proper torn, quan pot tornar a desviar els ulls. Si mira el/la [MON] entretant, ha de fer immediatament el save.\nSi el/la [MON] veu el seu reflex dins de ??? ft. d'ell/a a la llum brillant, és afectat/da per la seva pròpia mirada."
 		},
 		{
-			"name": "Pounce",
-			"desc": "If the [MON] moves at least ??? ft. straight toward a target and then hits it with a ??? attack on the same turn, the target takes an extra [???D???] ??? damage. If the target is a creature, it must succeed on a DC ??? Strength saving throw or be knocked prone. If the target is prone, the [MON] can make another ??? attack against it as a bonus action."
+			"name": "Saltar sobre la Presa",
+			"desc": "Si el/la [MON] es mou almenys ??? ft. en línia recta cap a un objectiu i després l'impacta amb un atac de ??? en el mateix torn, l'objectiu rep [???D???] de dany ??? addicional. Si l'objectiu és una criatura, ha de tenir èxit en una tirada de salvació de Força de CD ??? o quedar prostrat/da. Si l'objectiu és prostrat/da, el/la [MON] pot fer un altre atac de ??? contra ell/a com a acció bonus."
 		},
 		{
-			"name": "Rampage",
-			"desc": "When the [MON] reduces a creature to 0 hit points with a melee attack on its turn, the [MON] can take a bonus action to move up to half its speed and make a ??? attack."
+			"name": "Fúria",
+			"desc": "Quan el/la [MON] redueix una criatura a 0 punts de vida amb un atac de cos a cos en el seu torn, el/la [MON] pot fer una acció bonus per moure's fins a la meitat de la seva velocitat i fer un atac de ???."
 		},
 		{
-			"name": "Reactive",
-			"desc": "The [MON] can take one reaction on every turn in combat."
+			"name": "Reactiu",
+			"desc": "El/La [MON] pot fer una reacció en cada torn del combat."
 		},
 		{
-			"name": "Read Thoughts (Action)",
+			"name": "Llegir Pensaments (Acció)",
 			"realname": "Read Thoughts",
-			"desc": "The [MON] magically reads the surface thoughts of one creature within ??? ft. of it. The effect can penetrate barriers, but 3 ft. of wood or dirt, 2 ft. of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the [MON] can continue reading its thoughts, as long as the [MON]'s concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the [MON] has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target."
+			"desc": "El/La [MON] llegeix màgicament els pensaments superficials d'una criatura dins de ??? ft. d'ell/a. L'efecte pot penetrar barreres, però 3 ft. de fusta o terra, 2 ft. de pedra, 2 polzades de metall o un full fi de plom el bloquegen. Mentre l'objectiu estigui en rang, el/la [MON] pot continuar llegint els seus pensaments, sempre que la concentració del/de la [MON] no s'interrompi (com si es concentrés en un conjur). Mentre llegeix la ment de l'objectiu, el/la [MON] té avantatge en les proves de Saviesa (Perspicàcia) i Carisma (Engany, Intimidació i Persuasió) contra l'objectiu."
 		},
 		{
-			"name": "Reckless",
-			"desc": "At the start of its turn, the [MON] can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+			"name": "Temerari",
+			"desc": "Al principi del seu torn, el/la [MON] pot guanyar avantatge en totes les tirades d'atac amb arma de cos a cos que faci durant aquell torn, però les tirades d'atac contra ell/a tenen avantatge fins al principi del seu proper torn."
 		},
 		{
-			"name": "Regeneration",
-			"desc": "The [MON] regains ??? hit points at the start of its turn if it has at least 1 hit point."
+			"name": "Regeneració",
+			"desc": "El/La [MON] recupera ??? punts de vida al principi del seu torn si té almenys 1 punt de vida."
 		},
 		{
-			"name": "Regeneration (Troll)",
+			"name": "Regeneració (Trol)",
 			"realname": "Regeneration",
-			"desc": "The [MON] regains ??? hit points at the start of its turn. If the [MON] takes acid or fire damage, this trait doesn't function at the start of the [MON]'s next turn. The [MON] dies only if it starts its turn with 0 hit points and doesn't regenerate."
+			"desc": "El/La [MON] recupera ??? punts de vida al principi del seu torn. Si el/la [MON] rep dany d'àcid o foc, aquesta característica no funciona al principi del proper torn del/de la [MON]. El/La [MON] mor només si comença el seu torn amb 0 punts de vida i no es regenera."
 		},
 		{
-			"name": "Relentless",
+			"name": "Implacable",
 			"realname": "Relentless (Recharges after a Short or Long Rest)",
-			"desc": "If the [MON] takes ??? damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+			"desc": "Si el/la [MON] rep ??? de dany o menys que el reduiria a 0 punts de vida, en comptes es redueix a 1 punt de vida."
 		},
 		{
-			"name": "Rust Metal",
-			"desc": "Any nonmagical weapon made of metal that hits the [MON] corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Non magical ammunition made of metal that hits the [MON] is destroyed after dealing damage."
+			"name": "Rovell de Metall",
+			"desc": "Qualsevol arma no màgica feta de metall que impacti el/la [MON] es corroia. Després de causar dany, l'arma rep una penalització permanent i acumulativa de -1 a les tirades de dany. Si la seva penalització cau a -5, l'arma és destruïda. La munició no màgica feta de metall que impacti el/la [MON] és destruïda després de causar dany."
 		},
 		{
-			"name": "Savage Attacks",
-			"desc": "When the [MON] scores a critical hit with a melee weapon attack, it can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit."
+			"name": "Atacs Salvatges",
+			"desc": "Quan el/la [MON] aconsegueix un impacte crític amb un atac d'arma de cos a cos, pot llançar un dels daus de dany de l'arma una vegada addicional i afegir-lo al dany extra de l'impacte crític."
 		},
 		{
-			"name": "Sense Magic",
-			"desc": "The [MON] senses magic within 120 feet of it at will. This trait otherwise works like the detect magic spell but isn't itself magical."
+			"name": "Sentir Màgia",
+			"desc": "El/La [MON] detecta màgia dins de 120 peus d'ell/a a voluntat. Aquesta característica funciona com el conjur detectar màgia però no és en si mateixa màgica."
 		},
 		{
-			"name": "Shadow Stealth",
-			"desc": "While in dim light or darkness, the [MON] can take the Hide action as a bonus action."
+			"name": "Sigil en l'Ombra",
+			"desc": "Mentre es troba en llum tènue o foscor, el/la [MON] pot fer l'acció Amagar-se com a acció bonus."
 		},
 		{
-			"name": "Shapechanger",
-			"desc": "The [MON] can use its action to polymorph into a ???, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+			"name": "Canviador de Forma",
+			"desc": "El/La [MON] pot usar la seva acció per transformar-se en un/a ???, o tornar a la seva forma veritable. Les seves estadístiques, excepte la seva mida, són les mateixes en cada forma. Qualsevol equipament que porti o transporti no es transforma. Torna a la seva forma veritable si mor."
 		},
 		{
-			"name": "Shapechanger (Lycanthrope)",
+			"name": "Canviador de Forma (Licàntrop)",
 			"realname": "Shapechanger",
-			"desc": "The [MON] can use its action to polymorph into a ???-humanoid hybrid or into a ???, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+			"desc": "El/La [MON] pot usar la seva acció per transformar-se en un híbrid ???-humanoide o en un/a ???, o tornar a la seva forma veritable, que és humanoide. Les seves estadístiques, excepte la seva CA, són les mateixes en cada forma. Qualsevol equipament que porti o transporti no es transforma. Torna a la seva forma veritable si mor."
 		},
 		{
-			"name": "Shielded Mind",
-			"desc": "The [MON] is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location."
+			"name": "Ment Blindada",
+			"desc": "El/La [MON] és immune a l'escrutini i a qualsevol efecte que senti les seves emocions, llegeixi els seus pensaments o detecti la seva ubicació."
 		},
 		{
-			"name": "Siege Monster",
-			"desc": "The [MON] deals double damage to objects and structures."
+			"name": "Monstre de Setge",
+			"desc": "El/La [MON] causa el doble de dany a objectes i estructures."
 		},
 		{
-			"name": "Sneak Attack",
+			"name": "Atac Furtiu",
 			"realname": "Sneak Attack (1/Turn)",
-			"desc": "The [MON] deals an extra [???D???] damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the [MON] that isn't incapacitated and the [MON] doesn't have disadvantage on the attack roll."
+			"desc": "El/La [MON] causa [???D???] de dany addicional quan impacta un objectiu amb un atac d'arma i té avantatge en la tirada d'atac, o quan l'objectiu es troba dins de 5 ft. d'un aliat del/de la [MON] que no estigui incapacitat/da i el/la [MON] no tingui desavantatge en la tirada d'atac."
 		},
 		{
-			"name": "Speak With Plants and Beasts",
-			"desc": "The [MON] can communicate with beasts and plants as if they shared a language."
+			"name": "Parlar amb Plantes i Bèsties",
+			"desc": "El/La [MON] pot comunicar-se amb bèsties i plantes com si compartissin un idioma."
 		},
 		{
-			"name": "Spider Climb",
-			"desc": "The [MON] can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+			"name": "Escalar com una Aranya",
+			"desc": "El/La [MON] pot escalar superfícies difícils, inclòs cap avall en sostres, sense necessitat de fer una prova d'habilitat."
 		},
 		{
-			"name": "Split (Reaction)",
+			"name": "Divisió (Reacció)",
 			"realname": "Split",
-			"desc": "When a [MON] that is Medium or larger is subjected to lightning or slashing damage, it splits into two new [MON] if it has at least 10 hit points. Each new [MON] has hit points equal to half the original [MON]'s, rounded down. New [MON] are one size smaller than the original [MON]."
+			"desc": "Quan un/a [MON] de mida Mitjana o més gran és sotmès a dany llampant o tallant, es divideix en dos [MONS] nous si té almenys 10 punts de vida. Cada [MON] nou té punts de vida igual a la meitat dels del/de la [MON] original, arrodonit cap avall. Els [MONS] nous són una mida menor que el/la [MON] original."
 		},
 		{
-			"name": "Standing Leap",
-			"desc": "The [MON]'s long jump is up to ??? ft. and its high jump is up to ??? ft., with or without a running start."
+			"name": "Salt en Peu",
+			"desc": "El salt llarg del/de la [MON] és de fins a ??? ft. i el seu salt alt és de fins a ??? ft., amb o sense una carrera prèvia."
 		},
 		{
-			"name": "Steadfast",
-			"desc": "The [MON] can't be frightened while it can see an allied creature within 30 feet of it."
+			"name": "Ferm",
+			"desc": "El/La [MON] no pot ser esporuguit/da mentre pugui veure una criatura aliada dins de 30 peus d'ell/a."
 		},
 		{
-			"name": "Sunlight Sensitivity",
-			"desc": "While in sunlight, the [MON] has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+			"name": "Sensibilitat a la Llum Solar",
+			"desc": "Mentre es troba a la llum solar, el/la [MON] té desavantatge en les tirades d'atac, així com en les proves de Saviesa (Percepció) que depenen de la vista."
 		},
 		{
-			"name": "Sure-Footed",
-			"desc": "The [MON] has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+			"name": "Peu Segur",
+			"desc": "El/La [MON] té avantatge en les tirades de salvació de Força i Destreses fetes contra efectes que el/la farien caure prostrat/da."
 		},
 		{
-			"name": "Surprise Attack",
-			"desc": "If the [MON] surprises a creature and hits it with an attack during the first round of combat, the target takes an extra [???D???] damage from the attack."
+			"name": "Atac Sorpresa",
+			"desc": "Si el/la [MON] sorprèn una criatura i l'impacta amb un atac durant la primera ronda de combat, l'objectiu rep [???D???] de dany addicional de l'atac."
 		},
 		{
-			"name": "Swarm",
-			"desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a ???. The swarm can't regain hit points or gain temporary hit points."
+			"name": "Eixam",
+			"desc": "L'eixam pot ocupar l'espai d'una altra criatura i viceversa, i l'eixam pot moure's per qualsevol obertura prou gran per a un/a ???. L'eixam no pot recuperar punts de vida ni guanyar punts de vida temporals."
 		},
 		{
-			"name": "Teleport (Action or Legendary Action)",
+			"name": "Teletransport (Acció o Acció Llegendària)",
 			"realname": "Teleport",
-			"desc": "The [MON] magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+			"desc": "El/La [MON] es teletransporta màgicament, juntament amb qualsevol equipament que porti o transporti, fins a 120 peus a un espai desocupat que pugui veure."
 		},
 		{
-			"name": "Trampling Charge",
-			"desc": "If the [MON] moves at least ??? ft. straight toward a target and then hits it with a ??? attack on the same turn, the target takes an extra [???D???] ??? damage. If the target is a creature, it must succeed on a DC ??? Strength saving throw or be knocked prone. If the target is prone, the [MON] can make another ??? attack against it as a bonus action."
+			"name": "Càrrega Trepitjant",
+			"desc": "Si el/la [MON] es mou almenys ??? ft. en línia recta cap a un objectiu i després l'impacta amb un atac de ??? en el mateix torn, l'objectiu rep [???D???] de dany ??? addicional. Si l'objectiu és una criatura, ha de tenir èxit en una tirada de salvació de Força de CD ??? o quedar prostrat/da. Si l'objectiu és prostrat/da, el/la [MON] pot fer un altre atac de ??? contra ell/a com a acció bonus."
 		},
 		{
-			"name": "Tunneler",
-			"desc": "The [MON] can burrow through solid rock at half its burrow speed and leaves a ???-foot-diameter tunnel in its wake."
+			"name": "Excavador",
+			"desc": "El/La [MON] pot excavar per roca sòlida a la meitat de la seva velocitat d'excavació i deixa un túnel de ??? peus de diàmetre al seu pas."
 		},
 		{
-			"name": "Turn Resistance",
-			"desc": "The [MON] has advantage on saving throws against any effect that turns undead."
+			"name": "Resistència a la Repulsió",
+			"desc": "El/La [MON] té avantatge en les tirades de salvació contra qualsevol efecte que repel·leixi no-morts."
 		},
 		{
-			"name": "Two-Headed",
-			"desc": "The [MON] has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+			"name": "Bicèfal",
+			"desc": "El/La [MON] té avantatge en les proves de Saviesa (Percepció) i en les tirades de salvació contra ser encegat/da, encantat/da, ensordida, esporuguit/da, atordida i quedar inconscient."
 		},
 		{
-			"name": "Undead Fortitude",
-			"desc": "If damage reduces the [MON] to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the [MON] drops to 1 hit point instead."
+			"name": "Fortalesa No-Morta",
+			"desc": "Si el dany redueix el/la [MON] a 0 punts de vida, ha de fer una tirada de salvació de Constitució amb una CD de 5 + el dany rebut, tret que el dany sigui radiant o d'un impacte crític. En cas d'èxit, el/la [MON] cau a 1 punt de vida."
 		},
 		{
-			"name": "Water Breathing",
-			"desc": "The [MON] can breathe only underwater."
+			"name": "Respiració Aquàtica",
+			"desc": "El/La [MON] només pot respirar sota l'aigua."
 		},
 		{
-			"name": "Web Sense",
-			"desc": "While in contact with a web, the [MON] knows the exact location of any other creature in contact with the same web."
+			"name": "Sentit de Teranyina",
+			"desc": "Mentre estigui en contacte amb una teranyina, el/la [MON] coneix la ubicació exacta de qualsevol altra criatura en contacte amb la mateixa teranyina."
 		},
 		{
-			"name": "Web Walker",
-			"desc": "The [MON] ignores movement restrictions caused by webbing."
+			"name": "Caminant de Teranyines",
+			"desc": "El/La [MON] ignora les restriccions de moviment causades per les teranyines."
 		},
 		{
-			"name": "Wing Attack (Legendary Action)",
+			"name": "Atac d'Ala (Acció Llegendària)",
 			"realname": "Wing Attack (Costs 2 Actions)",
-			"desc": "The [MON] beats its wings. Each creature within ??? ft. of the [MON] must succeed on a DC ??? Dexterity saving throw or take [STR ???D???] bludgeoning damage and be knocked prone. The [MON] can then fly up to half its flying speed."
+			"desc": "El/La [MON] bat les seves ales. Cada criatura dins de ??? ft. del/de la [MON] ha de tenir èxit en una tirada de salvació de Destreses de CD ??? o rebre [STR ???D???] de dany contundent i quedar prostrada. El/La [MON] pot llavors volar fins a la meitat de la seva velocitat de vol."
 		},
 		{
 			"name": "",
 			"desc": null
 		},
 		{
-			"name": "Battleaxe",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D8] slashing damage, or [STR 1D10] slashing damage if used with two hands."
+			"name": "Destral de Batalla",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D8] de dany tallant, o [STR 1D10] de dany tallant si s'usa amb dues mans."
 		},
 		{
-			"name": "Blowgun",
-			"desc": "_Ranged Weapon Attack:_ [DEX ATK] to hit, range 25/100 ft., one target. _Hit:_ [DEX 1] piercing damage."
+			"name": "Sarbatana",
+			"desc": "_Atac amb Arma a Distància:_ [DEX ATK] per impactar, rang 25/100 ft., un objectiu. _Impacte:_ [DEX 1] de dany perforant."
 		},
 		{
-			"name": "Club",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D4] bludgeoning damage."
+			"name": "Garrota",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D4] de dany contundent."
 		},
 		{
-			"name": "Dagger (STR)",
+			"name": "Daga (FOR)",
 			"realname": "Dagger",
-			"desc": "_Melee or Ranged Weapon Attack:_ [STR ATK] to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ [STR 1D4] piercing damage."
+			"desc": "_Atac amb Arma de Cos a Cos o a Distància:_ [STR ATK] per impactar, abast 5 ft. o rang 20/60 ft., un objectiu. _Impacte:_ [STR 1D4] de dany perforant."
 		},
 		{
-			"name": "Dagger (DEX)",
+			"name": "Daga (DES)",
 			"realname": "Dagger",
-			"desc": "_Melee or Ranged Weapon Attack:_ [DEX ATK] to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ [DEX 1D4] piercing damage."
+			"desc": "_Atac amb Arma de Cos a Cos o a Distància:_ [DEX ATK] per impactar, abast 5 ft. o rang 20/60 ft., un objectiu. _Impacte:_ [DEX 1D4] de dany perforant."
 		},
 		{
-			"name": "Dart (STR)",
+			"name": "Dard (FOR)",
 			"realname": "Dart",
-			"desc": "_Ranged Weapon Attack:_ [STR ATK] to hit, range 20/60 ft., one target. _Hit:_ [STR 1D4] piercing damage."
+			"desc": "_Atac amb Arma a Distància:_ [STR ATK] per impactar, rang 20/60 ft., un objectiu. _Impacte:_ [STR 1D4] de dany perforant."
 		},
 		{
-			"name": "Dart (DEX)",
+			"name": "Dard (DES)",
 			"realname": "Dart",
-			"desc": "_Ranged Weapon Attack:_ [DEX ATK] to hit, range 20/60 ft., one target. _Hit:_ [DEX 1D4] piercing damage."
+			"desc": "_Atac amb Arma a Distància:_ [DEX ATK] per impactar, rang 20/60 ft., un objectiu. _Impacte:_ [DEX 1D4] de dany perforant."
 		},
 		{
-			"name": "Flail",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D8] bludgeoning damage."
+			"name": "Flagell",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D8] de dany contundent."
 		},
 		{
 			"name": "Glaive",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 10 ft., one target. _Hit:_ [STR 1D10] slashing damage."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 10 ft., un objectiu. _Impacte:_ [STR 1D10] de dany tallant."
 		},
 		{
-			"name": "Greataxe",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D12] slashing damage."
+			"name": "Gran Destral",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D12] de dany tallant."
 		},
 		{
-			"name": "Greatclub",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D8] bludgeoning damage."
+			"name": "Gran Garrota",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D8] de dany contundent."
 		},
 		{
-			"name": "Greatsword",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 2D6] slashing damage."
+			"name": "Gran Espasa",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 2D6] de dany tallant."
 		},
 		{
-			"name": "Halberd",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 10 ft., one target. _Hit:_ [STR 1D10] slashing damage."
+			"name": "Alabarda",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 10 ft., un objectiu. _Impacte:_ [STR 1D10] de dany tallant."
 		},
 		{
-			"name": "Handaxe",
-			"desc": "_Melee or Ranged Weapon Attack:_ [STR ATK] to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ [STR 1D6] slashing damage."
+			"name": "Destral de Mà",
+			"desc": "_Atac amb Arma de Cos a Cos o a Distància:_ [STR ATK] per impactar, abast 5 ft. o rang 20/60 ft., un objectiu. _Impacte:_ [STR 1D6] de dany tallant."
 		},
 		{
-			"name": "Hand Crossbow",
-			"desc": "_Ranged Weapon Attack:_ [DEX ATK] to hit, range 30/120 ft., one target. _Hit:_ [DEX 1D6] piercing damage."
+			"name": "Ballesta de Mà",
+			"desc": "_Atac amb Arma a Distància:_ [DEX ATK] per impactar, rang 30/120 ft., un objectiu. _Impacte:_ [DEX 1D6] de dany perforant."
 		},
 		{
-			"name": "Heavy Crossbow",
-			"desc": "_Ranged Weapon Attack:_ [DEX ATK] to hit, range 100/400 ft., one target. _Hit:_ [DEX 1D10] piercing damage."
+			"name": "Ballesta Pesant",
+			"desc": "_Atac amb Arma a Distància:_ [DEX ATK] per impactar, rang 100/400 ft., un objectiu. _Impacte:_ [DEX 1D10] de dany perforant."
 		},
 		{
-			"name": "Javelin",
-			"desc": "_Melee or Ranged Weapon Attack:_ [STR ATK] to hit, reach 5 ft. or range 30/120 ft., one target. _Hit:_ [STR 1D6] piercing damage."
+			"name": "Javelina",
+			"desc": "_Atac amb Arma de Cos a Cos o a Distància:_ [STR ATK] per impactar, abast 5 ft. o rang 30/120 ft., un objectiu. _Impacte:_ [STR 1D6] de dany perforant."
 		},
 		{
-			"name": "Lance",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 10 ft., one target. _Hit:_ [STR 1D12] piercing damage."
+			"name": "Llança",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 10 ft., un objectiu. _Impacte:_ [STR 1D12] de dany perforant."
 		},
 		{
-			"name": "Light Crossbow",
-			"desc": "_Ranged Weapon Attack:_ [DEX ATK] to hit, range 80/320 ft., one target. _Hit:_ [DEX 1D8] piercing damage."
+			"name": "Ballesta Lleugera",
+			"desc": "_Atac amb Arma a Distància:_ [DEX ATK] per impactar, rang 80/320 ft., un objectiu. _Impacte:_ [DEX 1D8] de dany perforant."
 		},
 		{
-			"name": "Light Hammer",
-			"desc": "_Melee or Ranged Weapon Attack:_ [STR ATK] to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ [STR 1D4] bludgeoning damage."
+			"name": "Martell Lleuger",
+			"desc": "_Atac amb Arma de Cos a Cos o a Distància:_ [STR ATK] per impactar, abast 5 ft. o rang 20/60 ft., un objectiu. _Impacte:_ [STR 1D4] de dany contundent."
 		},
 		{
-			"name": "Longbow",
-			"desc": "_Ranged Weapon Attack:_ [DEX ATK] to hit, range 150/600 ft., one target. _Hit:_ [DEX 1D8] piercing damage."
+			"name": "Arc Llarg",
+			"desc": "_Atac amb Arma a Distància:_ [DEX ATK] per impactar, rang 150/600 ft., un objectiu. _Impacte:_ [DEX 1D8] de dany perforant."
 		},
 		{
-			"name": "Longsword",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D8] slashing damage, or [STR 1D10] slashing damage if used with two hands."
+			"name": "Espasa Llarga",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D8] de dany tallant, o [STR 1D10] de dany tallant si s'usa amb dues mans."
 		},
 		{
-			"name": "Mace",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D6] bludgeoning damage."
+			"name": "Maça",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D6] de dany contundent."
 		},
 		{
-			"name": "Maul",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 2D6] bludgeoning damage."
+			"name": "Matxot",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 2D6] de dany contundent."
 		},
 		{
-			"name": "Morningstar",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D8] piercing damage."
+			"name": "Estel del Matí",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D8] de dany perforant."
 		},
 		{
-			"name": "Net",
-			"desc": "_Ranged Weapon Attack:_ [DEX ATK] to hit, range 5/15 ft., one Large or smaller creature. _Hit:_ The target is restrained. A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net."
+			"name": "Xarxa",
+			"desc": "_Atac amb Arma a Distància:_ [DEX ATK] per impactar, rang 5/15 ft., una criatura Gran o menor. _Impacte:_ L'objectiu queda restringit. Una criatura pot usar la seva acció per fer una prova de Força de CD 10 per alliberar-se o alliberar una altra criatura atrapada en una xarxa, acabant l'efecte en cas d'èxit. Causar 5 de dany tallant a la xarxa (CA 10) allibera l'objectiu sense fer-li mal i destrueix la xarxa."
 		},
 		{
-			"name": "Pike",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 10 ft., one target. _Hit:_ [STR 1D10] piercing damage."
+			"name": "Picarda",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 10 ft., un objectiu. _Impacte:_ [STR 1D10] de dany perforant."
 		},
 		{
-			"name": "Quarterstaff",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D6] bludgeoning damage, or [STR 1D8] bludgeoning damage if used with two hands."
+			"name": "Bastó",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D6] de dany contundent, o [STR 1D8] de dany contundent si s'usa amb dues mans."
 		},
 		{
-			"name": "Rapier (STR)",
+			"name": "Estoc (FOR)",
 			"realname": "Rapier",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D8] piercing damage."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D8] de dany perforant."
 		},
 		{
-			"name": "Rapier (DEX)",
+			"name": "Estoc (DES)",
 			"realname": "Rapier",
-			"desc": "_Melee Weapon Attack:_ [DEX ATK] to hit, reach 5 ft., one target. _Hit:_ [DEX 1D8] piercing damage."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [DEX ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [DEX 1D8] de dany perforant."
 		},
 		{
-			"name": "Scimitar (STR)",
+			"name": "Cimitarra (FOR)",
 			"realname": "Scimitar",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D6] slashing damage."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D6] de dany tallant."
 		},
 		{
-			"name": "Scimitar (DEX)",
+			"name": "Cimitarra (DES)",
 			"realname": "Scimitar",
-			"desc": "_Melee Weapon Attack:_ [DEX ATK] to hit, reach 5 ft., one target. _Hit:_ [DEX 1D6] slashing damage."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [DEX ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [DEX 1D6] de dany tallant."
 		},
 		{
-			"name": "Shortbow",
-			"desc": "_Ranged Weapon Attack:_ [DEX ATK] to hit, range 80/320 ft., one target. _Hit:_ [DEX 1D6] piercing damage."
+			"name": "Arc Curt",
+			"desc": "_Atac amb Arma a Distància:_ [DEX ATK] per impactar, rang 80/320 ft., un objectiu. _Impacte:_ [DEX 1D6] de dany perforant."
 		},
 		{
-			"name": "Shortsword (STR)",
+			"name": "Espasa Curta (FOR)",
 			"realname": "Shortsword",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D6] piercing damage."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D6] de dany perforant."
 		},
 		{
-			"name": "Shortsword (DEX)",
+			"name": "Espasa Curta (DES)",
 			"realname": "Shortsword",
-			"desc": "_Melee Weapon Attack:_ [DEX ATK] to hit, reach 5 ft., one target. _Hit:_ [DEX 1D6] piercing damage."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [DEX ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [DEX 1D6] de dany perforant."
 		},
 		{
-			"name": "Sickle",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D4] slashing damage."
+			"name": "Falç",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D4] de dany tallant."
 		},
 		{
-			"name": "Sling",
-			"desc": "_Ranged Weapon Attack:_ [DEX ATK] to hit, range 30/120 ft., one target. _Hit:_ [DEX 1D4] bludgeoning damage."
+			"name": "Bassetja",
+			"desc": "_Atac amb Arma a Distància:_ [DEX ATK] per impactar, rang 30/120 ft., un objectiu. _Impacte:_ [DEX 1D4] de dany contundent."
 		},
 		{
-			"name": "Spear",
-			"desc": "_Melee or Ranged Weapon Attack:_ [STR ATK] to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ [STR 1D6] piercing damage, or [STR 1D8] piercing damage if used with two hands to make a melee attack."
+			"name": "Llança Curta",
+			"desc": "_Atac amb Arma de Cos a Cos o a Distància:_ [STR ATK] per impactar, abast 5 ft. o rang 20/60 ft., un objectiu. _Impacte:_ [STR 1D6] de dany perforant, o [STR 1D8] de dany perforant si s'usa amb dues mans per fer un atac de cos a cos."
 		},
 		{
 			"name": "Trident",
-			"desc": "_Melee or Ranged Weapon Attack:_ [STR ATK] to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ [STR 1D6] piercing damage, or [STR 1D8] piercing damage if used with two hands to make a melee attack."
+			"desc": "_Atac amb Arma de Cos a Cos o a Distància:_ [STR ATK] per impactar, abast 5 ft. o rang 20/60 ft., un objectiu. _Impacte:_ [STR 1D6] de dany perforant, o [STR 1D8] de dany perforant si s'usa amb dues mans per fer un atac de cos a cos."
 		},
 		{
-			"name": "Unarmed Strike",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1] bludgeoning damage."
+			"name": "Cop Desarmament",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1] de dany contundent."
 		},
 		{
-			"name": "Warhammer",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D8] bludgeoning damage, or [STR 1D10] bludgeoning damage if used with two hands."
+			"name": "Martell de Guerra",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D8] de dany contundent, o [STR 1D10] de dany contundent si s'usa amb dues mans."
 		},
 		{
-			"name": "War Pick",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 5 ft., one target. _Hit:_ [STR 1D8] piercing damage."
+			"name": "Pica de Guerra",
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 5 ft., un objectiu. _Impacte:_ [STR 1D8] de dany perforant."
 		},
 		{
-			"name": "Whip (STR)",
+			"name": "Fuet (FOR)",
 			"realname": "Whip",
-			"desc": "_Melee Weapon Attack:_ [STR ATK] to hit, reach 10 ft., one target. _Hit:_ [STR 1D4] slashing damage."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [STR ATK] per impactar, abast 10 ft., un objectiu. _Impacte:_ [STR 1D4] de dany tallant."
 		},
 		{
-			"name": "Whip (DEX)",
+			"name": "Fuet (DES)",
 			"realname": "Whip",
-			"desc": "_Melee Weapon Attack:_ [DEX ATK] to hit, reach 10 ft., one target. _Hit:_ [DEX 1D4] slashing damage."
+			"desc": "_Atac amb Arma de Cos a Cos:_ [DEX ATK] per impactar, abast 10 ft., un objectiu. _Impacte:_ [DEX 1D4] de dany tallant."
 		}
 	]
 }
