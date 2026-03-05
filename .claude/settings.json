@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /home/oscarmonkey/Documents/Projects/dnd_tools_cat/dnd/dnd-*.html)",
+      "Bash(du -sh /home/oscarmonkey/Documents/Projects/dnd_tools_cat/*)"
+    ]
+  }
+}
