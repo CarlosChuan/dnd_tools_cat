@@ -218,6 +218,48 @@
     margin: 0 0 20px;
 }
 
+.guns-section {
+    padding: 10px 2px 0;
+}
+
+.guns-section h3 {
+    border-bottom: 2px solid #7A200D;
+    color: #7A200D;
+    font-size: 21px;
+    font-variant: small-caps;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 20px 0 0;
+    padding: 0 0 10px;
+    text-indent: 5px;
+}
+
+.guns-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12.5px;
+    margin-top: 6px;
+}
+
+.guns-table th {
+    color: #7A200D;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    padding: 2px 4px;
+    border-bottom: 1px solid #922610;
+}
+
+.guns-table td {
+    padding: 3px 4px;
+    line-height: 1.4em;
+    color: #222;
+}
+
+.guns-table tbody tr:nth-child(even) td {
+    background: rgba(146, 38, 16, 0.05);
+}
+
 .actions:last-child {
     margin: 0;
 }

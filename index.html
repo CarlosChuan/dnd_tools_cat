@@ -125,6 +125,7 @@
                             <div id="traits-list-right"></div>
                         </div> <!-- actions -->
                     </div> <!-- section right -->
+                    <div id="guns-section" style="display:none; padding: 0 10px;"></div>
                     <hr class="orange-border bottom" />
                 </div>
             </div> <!-- stat block -->
@@ -592,6 +593,14 @@
                     <button type="button" id="add-common-ability-button"
                         onclick="InputFunctions.AddCommonAbilityInput()">Use Preset</button>
                 </div>
+                <br>
+                <b>Armes:</b>
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; margin: 0.4rem 0;">
+                    <label for="gun-name-input">Nom<br><input id="gun-name-input" type="text" style="width: 100%;"></label>
+                    <label for="gun-bonif-input">Bonif. atac<br><input id="gun-bonif-input" type="text" style="width: 100%;"></label>
+                    <label for="gun-damage-input">Dany/tipus<br><input id="gun-damage-input" type="text" style="width: 100%;"></label>
+                </div>
+                <button type="button" onclick="InputFunctions.AddGunInput(); UpdateStatblock();">Afegir Arma</button>
                 <div>
                     <label for="format-helper-checkbox">Show Formatting Help: <input type="checkbox"
                             id="format-helper-checkbox" onclick="FormFunctions.ShowHideFormatHelper()"></label>
@@ -635,6 +644,9 @@
                     </div>
                     <div id="regionals-input-section"><b>Regional Effects:</b><br>
                         <ul id="regionals-input-list" class="statblock-list"></ul>
+                    </div>
+                    <div id="guns-input-section"><b>Armes:</b><br>
+                        <ul id="guns-input-list" class="statblock-list"></ul>
                     </div>
                 </div>
                 <br>

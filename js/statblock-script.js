@@ -55,6 +55,7 @@ var mon = {
     mythics: [],
     lairs: [],
     regionals: [],
+    guns: [],
     sthrows: [],
     skills: [],
     damagetypes: [],
@@ -241,6 +242,14 @@ function UpdateStatblock(moveSeparationPoint) {
             "<h3>Efectes Regionals</h3><div class='property-block'></div>" :
             ["<h3>Efectes Regionals</h3><div class='property-block'>", StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.regionalDescription))), "</div></br><ul>"], false, true);
         traitsHTML.push("</ul>" + StringFunctions.FormatString(ReplaceTags(StringFunctions.RemoveHtmlTags(mon.regionalDescriptionEnd))));
+    }
+
+    // Guns section (always full-width, appended at the bottom of the statblock)
+    if (!mon.guns) mon.guns = [];
+    if (mon.guns.length > 0) {
+        $("#guns-section").html(StringFunctions.MakeGunsTableHTML(mon.guns)).show();
+    } else {
+        $("#guns-section").hide();
     }
 
     // Add traits, taking into account the width of the block (one column or two columns)
@@ -878,6 +887,35 @@ var FormFunctions = {
         $(arrElement).parent()[arr.length == 0 ? "hide" : "show"]();
     },
 
+    MakeGunsDisplayList: function () {
+        let displayArr = [];
+        for (let i = 0; i < mon.guns.length; i++) {
+            let g = mon.guns[i],
+                removeBtn = "<img class='statblock-image' src='images/x-icon.png' alt='Remove' title='Remove' onclick='FormFunctions.RemoveGun(" + i + ")'>",
+                upBtn = "<img class='statblock-image' src='images/up-icon.png' alt='Up' title='Up' onclick='FormFunctions.MoveGun(" + i + ", -1)'>",
+                downBtn = "<img class='statblock-image' src='images/down-icon.png' alt='Down' title='Down' onclick='FormFunctions.MoveGun(" + i + ", 1)'>";
+            displayArr.push("<li>" + removeBtn + " " + upBtn + " " + downBtn + " <b>" + g.name + "</b> — " + (g.bonus || "—") + " | " + (g.damage || "—") + "</li>");
+        }
+        $("#guns-input-list").html(displayArr.join(""));
+        $("#guns-input-section")[mon.guns.length == 0 ? "hide" : "show"]();
+    },
+
+    RemoveGun: function (index) {
+        mon.guns.splice(index, 1);
+        this.MakeGunsDisplayList();
+        UpdateStatblock();
+    },
+
+    MoveGun: function (index, direction) {
+        let newIndex = index + direction;
+        if (newIndex < 0 || newIndex >= mon.guns.length) return;
+        let tmp = mon.guns[index];
+        mon.guns[index] = mon.guns[newIndex];
+        mon.guns[newIndex] = tmp;
+        this.MakeGunsDisplayList();
+        UpdateStatblock();
+    },
+
     // Remove an item from a display list and update it
     RemoveDisplayListItem: function (arrName, index, capitalize, isBlock) {
         let arr;
@@ -997,6 +1035,22 @@ var InputFunctions = {
         mon.customCr = $("#custom-cr-input").val();
         mon.customProf = parseInt($("#custom-prof-input").val());
         FormFunctions.ChangeCRForm();
+    },
+
+    AddGunInput: function () {
+        let gunName = $("#gun-name-input").val().trim(),
+            gunBonus = $("#gun-bonif-input").val().trim(),
+            gunDamage = $("#gun-damage-input").val().trim();
+
+        if (gunName.length == 0)
+            return;
+
+        GetVariablesFunctions.AddGun(gunName, gunBonus, gunDamage);
+        FormFunctions.MakeGunsDisplayList();
+
+        $("#gun-name-input").val("");
+        $("#gun-bonif-input").val("");
+        $("#gun-damage-input").val("");
     },
 
     AddAbilityInput: function (arrName) {
@@ -1539,6 +1593,10 @@ var GetVariablesFunctions = {
 
     // Add abilities, actions, bonus actions, reactions, legendary actions, etc
 
+    AddGun: function (name, bonus, damage) {
+        mon.guns.push({ "name": name, "bonus": bonus, "damage": damage });
+    },
+
     AddAbility: function (arrName, abilityName, abilityDesc) {
         let arr = mon[arrName];
         ArrayFunctions.ArrayInsert(arr, {
@@ -1870,6 +1928,17 @@ var StringFunctions = {
         let htmlClass = firstLine ? "property-line first" : "property-line",
             arr = Array.isArray(property.arr) ? property.arr.join(", ") : property.arr;
         return "<div class=\"" + htmlClass + "\"><div><h4>" + StringFunctions.RemoveHtmlTags(property.name) + "</h4> <p>" + StringFunctions.RemoveHtmlTags(this.FormatString(arr, false)) + "</p></div></div><!-- property line -->"
+    },
+
+    MakeGunsTableHTML: function (guns) {
+        let rows = guns.map(g =>
+            "<tr><td>" + StringFunctions.RemoveHtmlTags(g.name) + "</td><td>" +
+            StringFunctions.RemoveHtmlTags(g.bonus || "—") + "</td><td>" +
+            StringFunctions.RemoveHtmlTags(g.damage || "—") + "</td></tr>"
+        ).join("");
+        return "<div class=\"guns-section\"><h3>Armes</h3>" +
+            "<table class=\"guns-table\"><thead><tr><th>Nom</th><th>Bonif. atac</th><th>Dany/tipus</th></tr></thead>" +
+            "<tbody>" + rows + "</tbody></table></div>";
     },
 
     MakeTraitHTML: function (name, description) {
