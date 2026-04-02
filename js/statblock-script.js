@@ -1047,6 +1047,7 @@ var InputFunctions = {
 
         GetVariablesFunctions.AddGun(gunName, gunBonus, gunDamage);
         FormFunctions.MakeGunsDisplayList();
+        UpdateStatblock();
 
         $("#gun-name-input").val("");
         $("#gun-bonif-input").val("");
