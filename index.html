@@ -159,7 +159,7 @@
                                     <option value="*">Other</option>
                                 </select>
                             </label>
-                            <div><input id="other-size-input" type="text" value=""></div>
+                            <div><input id="other-size-input" type="text" value="" style="display:none"></div>
                         </td>
                         <td>
                             <label for="type-input">Type: <br>
@@ -181,7 +181,7 @@
                                     <option value="*">Other</option>
                                 </select>
                             </label>
-                            <div><input id="other-type-input" type="text" value="swarm of Tiny beasts"></div>
+                            <div><input id="other-type-input" type="text" value="swarm of Tiny beasts" style="display:none"></div>
                         </td>
                         <td>
                             <label for="tag-input">Tag: <br>
@@ -200,7 +200,7 @@
                         <td>
                             <div id="hitdice-input-prompt"><label for="hitdice-input">Hit Dice: <br><input type="number"
                                         id="hitdice-input" min="1" max="99" value="5"></label></div>
-                            <div id="hp-text-input-prompt"><label for="hp-text-input">Hit Points:<br><input
+                            <div id="hp-text-input-prompt" style="display:none"><label for="hp-text-input">Hit Points:<br><input
                                         id="hp-text-input" value="4 (1d8)"></label></div>
                             <div id="custom-hp-box-prompt" class="box-note"><label for="custom-hp-input">(Custom HP:
                                     <input id="custom-hp-input" type="checkbox"
@@ -230,9 +230,9 @@
                                         id="shield-input" type="checkbox">)</label></div>
                         </td>
                         <td colspan="2">
-                            <div id="natarmor-prompt"><label for="natarmor-input">Natural Armor Bonus:<br><input
+                            <div id="natarmor-prompt" style="display:none"><label for="natarmor-input">Natural Armor Bonus:<br><input
                                         type="number" id="natarmor-input" min="1" max="99" value="3"></label></div>
-                            <div id="otherarmor-prompt">
+                            <div id="otherarmor-prompt" style="display:none">
                                 <label for="otherarmor-input">Description: <input id="otherarmor-input" type="text"
                                         value="10 (armor)"></label><br>
                                 <div id="otherarmor-box-note" class="box-note"><i>Use _ to italicize</i></div>
@@ -254,12 +254,12 @@
                             <label for="fly-speed-input">Fly Speed:<br><input type="number" id="fly-speed-input" min="0"
                                     max="995" step="5" value="0" onchange="FormFunctions.ShowHideHoverBox()">
                                 ft.</label>
-                            <div id="hover-box-note" class="box-note"><label for="hover-input">(Hover: <input
+                            <div id="hover-box-note" class="box-note" style="display:none"><label for="hover-input">(Hover: <input
                                         type="checkbox" id="hover-input">)</label></div>
                         </td>
                         <td class="normal-speed-col"><label for="swim-speed-input">Swim Speed:<br><input type="number"
                                     id="swim-speed-input" min="0" max="995" step="5" value="0"> ft.</label></td>
-                        <td colspan="5" class="custom-speed-col">
+                        <td colspan="5" class="custom-speed-col" style="display:none">
                             <label for="custom-speed-prompt" style="width: 100%;">Speed: <input id="custom-speed-prompt"
                                     type="text" value="30 ft."></label><br>
                         </td>
@@ -397,7 +397,7 @@
                                     <option value="*">Other</option>
                                 </select>
                             </label>
-                            <div><input id="other-damage-input" type="text" value=""></div>
+                            <div><input id="other-damage-input" type="text" value="" style="display:none"></div>
                             <div>
                                 <button type="button"
                                     onclick="InputFunctions.AddDamageTypeInput('v')">Vulnerable</button>
@@ -439,7 +439,7 @@
                             <label for="telepathy-input" style="margin-left: .5rem;">Telepathy:<br><input type="number"
                                     id="telepathy-input" min="0" max="995" step="5" value="0"> ft.</label>
                             <div>
-                                <input id="other-language-input" type="text" value="">
+                                <input id="other-language-input" type="text" value="" style="display:none">
                             </div>
                             <div>
                                 <button type="button" onclick="InputFunctions.AddLanguageInput(true)">Speaks</button>
@@ -460,7 +460,7 @@
                             <label for="blindsight-input">Blindsight: <input type="number" id="blindsight-input" min="0"
                                     max="995" step="5" value="0" onchange="FormFunctions.ShowHideBlindBox()">
                                 ft.</label><br>
-                            <div id="blind-box-note" class="box-note"><label for="blindness-input">(Blind beyond: <input
+                            <div id="blind-box-note" class="box-note" style="display:none"><label for="blindness-input">(Blind beyond: <input
                                         type="checkbox" id="blindness-input">)</label></div>
                         </td>
                         <td><label for="darkvision-input">Darkvision: <input type="number" id="darkvision-input" min="0"
@@ -478,7 +478,7 @@
                     </label>
                     <br>
                     <div id="prof-bonus"></div>
-                    <div id="custom-cr">
+                    <div id="custom-cr" style="display:none">
                         <label for="custom-cr-input">CR Text: <input id="custom-cr-input" type="text" value="1 (200 XP)"
                                 placeholder="Leave blank to hide" style="width: 16rem;"></label>
                         <br>
@@ -520,7 +520,7 @@
                     <label for="is-legendary-input"><b>Legendary Creature:</b> <input type="checkbox"
                             id="is-legendary-input" onclick="FormFunctions.ShowHideLegendaryCreature()"></label>
                 </div>
-                <div id="legendary-actions-form">
+                <div id="legendary-actions-form" style="display:none">
                     <br>
                     <label for="is-mythic-input"><b>Mythic:</b> <input type="checkbox" id="is-mythic-input"
                             onclick="FormFunctions.ShowHideMythicCreature()"></label>
@@ -535,7 +535,7 @@
                     <div><button type="button" onclick="InputFunctions.LegendaryDescriptionDefaultInput()">Reset to
                             Default</button></div>
                 </div>
-                <div id="mythic-actions-form">
+                <div id="mythic-actions-form" style="display:none">
                     <br>
                     <b>Mythic Actions Description:</b>
                     <div><label for="mythic-descsection-input" style="width: 100%"><textarea
@@ -543,7 +543,7 @@
                     <div><button type="button" onclick="InputFunctions.MythicDescriptionDefaultInput()">Reset to
                             Default</button></div>
                 </div>
-                <div id="lair-actions-form">
+                <div id="lair-actions-form" style="display:none">
                     <br>
                     <b>Lair Actions Description:</b>
                     <div><label for="lair-descsection-input" style="width: 100%"><textarea id="lair-descsection-input"
@@ -554,7 +554,7 @@
                     <div><button type="button" onclick="InputFunctions.LairDescriptionDefaultInput()">Reset to
                             Default</button></div>
                 </div>
-                <div id="regional-actions-form">
+                <div id="regional-actions-form" style="display:none">
                     <br>
                     <b>Regional Effects Description:</b>
                     <div><label for="regional-descsection-input" style="width: 100%"><textarea
@@ -579,13 +579,13 @@
                         onclick="InputFunctions.AddAbilityInput('bonusActions')">Add Bonus Action</button>
                     <button type="button" id="add-reaction-button"
                         onclick="InputFunctions.AddAbilityInput('reactions')">Add Reaction</button>
-                    <button type="button" id="add-legendary-button"
+                    <button type="button" id="add-legendary-button" style="display:none"
                         onclick="InputFunctions.AddAbilityInput('legendaries')">Add Legendary Action</button>
-                    <button type="button" id="add-mythic-button"
+                    <button type="button" id="add-mythic-button" style="display:none"
                         onclick="InputFunctions.AddAbilityInput('mythics')">Add Mythic Action</button>
-                    <button type="button" id="add-lair-button"
+                    <button type="button" id="add-lair-button" style="display:none"
                         onclick="InputFunctions.AddAbilityInput('lairs')">Add Lair Action</button>
-                    <button type="button" id="add-regional-button"
+                    <button type="button" id="add-regional-button" style="display:none"
                         onclick="InputFunctions.AddAbilityInput('regionals')">Add Regional Effect</button>
                 </div>
                 <div>
@@ -605,7 +605,7 @@
                     <label for="format-helper-checkbox">Show Formatting Help: <input type="checkbox"
                             id="format-helper-checkbox" onclick="FormFunctions.ShowHideFormatHelper()"></label>
                 </div>
-                <div id="format-helper" style="text-align: left; padding: 0 2rem;">
+                <div id="format-helper" style="display:none; text-align: left; padding: 0 2rem;">
                     <br>
                     <div>Use _ to italicize and ** to bold. For Spellcasting lists, use > to reverse-indent.</div>
                     <br>
